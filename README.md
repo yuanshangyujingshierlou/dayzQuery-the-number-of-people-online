@@ -1,5 +1,5 @@
-# dayzQuery-the-number-of-people-online\n
-玩dayz大概半年多，因为各种原因自己开了个服务器，然后有些玩家要求需要播报击杀和查询在线人数，就自己做了个qq机器人，用的是mirai框架，是一位大佬的开源qq登录框架，很感谢大佬的项目
+# dayzQuery-the-number-of-people-online
+玩dayz大概半年多，因为各种原因自己开了个服务器，然后有些玩家要求需要播报击杀和查询在线人数，就自己做了个qq机器人，用的是mirai框架，是一位大佬的开源qq登录框架，很感谢大佬的项目\n
 本项目使用方法：
 1.先打开那个Start.cmd，加载完后输入qrLogin 机器人qq，然后会跳出来一个二维码，扫码登录
 2.用mirai登录好机器人qq后，打开mirai\mirai\config\net.mamoe.mirai-api-http\下的config文件，把http端口改成你要使用的端口，这个端口要记下来，host就填127.0.0.1或者你的局域网ip或者你的公网ip或者localhost
