@@ -55,7 +55,7 @@ def post_verify():
         # 获取认证接口
         api = "verify"
         # 填写verifyKey
-        data = {"verifyKey": configData.data['verifyKey']}
+        data = {"verifyKey": configData.data['verify_key']}
         # 获取认证接口
         obj = json.loads(post(configData.data['server_url'], api, data))
         if obj["code"] == 0:
