@@ -194,24 +194,13 @@ def get_messageFilter(data):
                             posMin = posText[1].split(':')[1]
                             posTime = posHour + '时' + posMin + '分'
                             post_sendMessage(qq_group, '{}\n位置：(x:{},y:{})\n时间：{}'.format(playerName, pos[0], pos[1], posTime), quote=quoteId)
-                    # 判断是否是否包含转换为波西米亚id
-                    elif i['type'] == 'Plain' and i['text'].find('转换为波西米亚id:') != -1:
-                        # 从消息从获取steamid
-                        steamid = i['text'].replace(' 转换为波西米亚id:', '')
-                        # 获取波西米亚id
-                        bosimia_id = testHash.get_bosimia_id(steamid)
-                        if bosimia_id:
-                            # 回复消息
-                            post_sendMessage(qq_group, bosimia_id)
-                        else :
-                            post_sendMessage(qq_group, '获取波西米亚id失败')
                         break
                     elif i['type'] == 'Plain' and i['text'] == ' 如何进服务器':
                         post_sendMessage(qq_group, "进服务器方法http://dayzguide.qiyonghan.icu/", quote=quoteId)
                         break
                     elif i['type'] == 'Plain' and i['text'] == ' 查询命令':
                         # 回复消息
-                        post_sendMessage(qq_group, '1.在线人数\n2.我在哪\n3.如何进服务器\n')
+                        post_sendMessage(qq_group, '1.在线人数\n2.我在哪\n3.如何进服务器\n', quote=quoteId)
                         break
                     else : # 不是任何命令
                         # 回复消息
@@ -220,10 +209,6 @@ def get_messageFilter(data):
                     if i['type'] == 'Plain' and ('进不去' in i['text'] or '连不上' in i['text'] or "ip" in i['text'] or "IP" in i['text']):
                         # 回复消息
                         post_sendMessage(qq_group, '进不去就取消收藏,重新直连一次,或者去社区搜索群名。\n直连IP为dayz.qiyonghan.icu,端口为22302')
-                    # # 判断是否是请求美女视频
-                    # if i['type'] == 'Plain' and "视频" in i['text']:
-                    #     # 上传文件
-                    #     post_uploadGroupFile(qq_group, "", meinv.download_meinv())
     # 新人入群事件
     elif obj['type'] == 'MemberJoinEvent':
         # 判断是否是指定群
