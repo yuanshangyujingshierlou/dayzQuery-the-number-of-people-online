@@ -1,0 +1,13 @@
+accounts: 
+  - # 账号, 现只支持 QQ 数字账号
+    account: 270488994
+    # 账号配置. 可用配置列表 (注意大小写):
+    # "protocol": "ANDROID_WATCH" / "MACOS"
+    # "device": "device.json"
+    # "enable": true
+    # "heartbeatStrategy": "STAT_HB" / "REGISTER" / "NONE"
+    configuration: 
+      protocol: ANDROID_WATCH
+      device: device.json
+      enable: true
+      heartbeatStrategy: STAT_HB

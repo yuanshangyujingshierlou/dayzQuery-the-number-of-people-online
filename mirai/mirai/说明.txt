@@ -1,0 +1,57 @@
+Mirai is powered by Mamoe Technologies.
+https://github.com/mamoe/mirai
+
+**这个包仅适合 64 位的 Windows 系统电脑**
+
+**请在做这一切之前，关闭“隐藏已知文件扩展名”**
+关闭方法: https://www.kafan.cn/A/pvw9om2637.html
+
+一定要把这个压缩包找个地方解压，比如桌面
+一定要把这个压缩包找个地方解压，比如桌面
+一定要把这个压缩包找个地方解压，比如桌面
+一定要把这个压缩包找个地方解压，比如桌面
+一定要把这个压缩包找个地方解压，比如桌面
+一定要把这个压缩包找个地方解压，比如桌面
+
+=================================================
+
+帮助文档 (新): https://wiki.mrxiaom.top/mirai
+帮助文档 (旧): https://mirai-docs.doomteam.fun/
+
+本一键包 Mirai 版本为 2.15.0-M1，支持扫码登录
+扫码登录命令【qrlogin QQ号 协议】，可不填协议，默认手表
+扫码登录要配置自动登录请使用 qrAutoLogin 命令
+更多扫码登录相关帮助，详见 https://mirai.mamoe.net/topic/2134
+
+要运行 mirai，打开【Start.bat】即可，包内已自带 zulu jre 11.0.14 x64 并且我们已经优化好了启动脚本，你不需要担心 java 的问题
+
+Linux 或 MacOS 应自己配java并删除本包的java文件夹，运行【./mirai】或【./Start】，不推荐使用 root 用户运行，权限不足时使用【chmod 777 ./Start】授予权限
+
+如果有疑问可以到群【1047497524】带图询问
+
+打开mirai后，使用命令【login 账号 密码】来登录，注意有空格。尽量不要用新注册的QQ号
+
+登录视频教程: https://www.bilibili.com/video/BV1eb4y1k7uX/
+
+如果你想要自动登录，用 VSCode 之类的文本编辑器打开 config/Console/AutoLogin.yml，里面有详细的注释了，不多解释
+
+=================================================
+
+无法登录的常见原因:
+(格式: 消息 | 可能的原因 | 可能的解决方案)
+当前版本过低 | 密码错误 | 检查密码或修改密码到 16 位以内
+当前上网环境异常 | 设备锁 | 开启或关闭设备锁 (登录保护)
+禁止登录 | 需要处理滑块验证码 | https://github.com/project-mirai/mirai-login-solver-selenium
+密码错误 | 密码错误或过长 | 手机协议最大支持 16 位密码. 在官方 PC 客户端登录后修改密码
+
+常见问题解答: https://mirai.mamoe.net/topic/71
+
+无法登录的临时解决方案: https://mirai.mamoe.net/topic/223
+
+论坛插件发布板块: https://mirai.mamoe.net/category/11
+
+一般来说下载的插件都可以复制到 plugins 文件夹来使用
+
+=================================================
+
+人间工作P 整合于 2023年4月10日

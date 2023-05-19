@@ -1,0 +1,1387 @@
+2023-04-13 11:47:00 I/main: Starting mirai-console...
+2023-04-13 11:47:00 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 11:47:00 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 11:47:00 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 11:47:00 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 11:47:01 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 11:47:01 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 11:47:01 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 11:47:01 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:47:01 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 11:47:01 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 11:47:01 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 11:47:01 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:47:01 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 11:47:01 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 11:47:01 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 11:47:02 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 11:47:02 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 11:47:02 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 11:47:02 I/Bot.3390756109: Login successful.
+2023-04-13 11:47:03 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 11:47:03 I/Bot.3390756109: Bot login successful.
+2023-04-13 11:47:03 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@141aba65
+2023-04-13 11:47:03 I/main: 2 plugin(s) enabled.
+2023-04-13 11:47:03 I/main: mirai-console started successfully.
+2023-04-13 11:47:07 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 11:47:12 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 11:47:13 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 11:47:13 I/Bot.3390756109: Bot is closed manually
+2023-04-13 11:47:13 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 11:47:57 I/main: Starting mirai-console...
+2023-04-13 11:47:57 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 11:47:57 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 11:47:57 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 11:47:57 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 11:47:58 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 11:48:01 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 11:48:02 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 11:48:02 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:48:02 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 11:48:02 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 11:48:02 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 11:48:02 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:48:02 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 11:48:02 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 11:48:02 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 11:48:02 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 11:48:03 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 11:48:03 I/Bot.3390756109: Login successful.
+2023-04-13 11:48:03 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 11:48:03 I/Bot.3390756109: Bot login successful.
+2023-04-13 11:48:03 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@61d2f267
+2023-04-13 11:48:03 I/main: 2 plugin(s) enabled.
+2023-04-13 11:48:03 I/main: mirai-console started successfully.
+2023-04-13 11:48:12 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-13 11:48:16 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-13 11:48:19 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-13 11:48:19 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@62ba604e, Dispatchers.Default]
+2023-04-13 11:50:40 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 11:53:09 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 11:53:09 I/Bot.3390756109: Bot is closed manually
+2023-04-13 11:53:09 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 11:53:53 I/main: Starting mirai-console...
+2023-04-13 11:53:53 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 11:53:53 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 11:53:53 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 11:53:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 11:53:54 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 11:53:54 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 11:53:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 11:53:54 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:53:54 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 11:53:54 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 11:53:55 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 11:53:55 I/Mirai HTTP API: ********************************************************
+2023-04-13 11:53:55 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 11:53:55 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 11:53:55 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 11:53:55 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 11:53:55 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 11:53:55 I/Bot.3390756109: Login successful.
+2023-04-13 11:53:56 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 11:53:56 I/Bot.3390756109: Bot login successful.
+2023-04-13 11:53:56 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@23afc725
+2023-04-13 11:53:56 I/main: 2 plugin(s) enabled.
+2023-04-13 11:53:56 I/main: mirai-console started successfully.
+2023-04-13 11:54:05 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-13 11:54:05 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-13 11:54:05 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@79557279, Dispatchers.Default]
+2023-04-13 12:12:08 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 12:23:00 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 12:23:00 I/Bot.3390756109: Bot is closed manually
+2023-04-13 12:23:00 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 12:41:03 I/main: Starting mirai-console...
+2023-04-13 12:41:03 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 12:41:05 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 12:41:05 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 12:41:05 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 12:41:06 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 12:41:06 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 12:41:06 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 12:41:06 I/Mirai HTTP API: ********************************************************
+2023-04-13 12:41:06 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 12:41:06 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 12:41:06 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 12:41:06 I/Mirai HTTP API: ********************************************************
+2023-04-13 12:41:06 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 12:41:07 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 12:41:07 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 12:41:07 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 12:41:07 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 12:41:07 I/Bot.3390756109: Login successful.
+2023-04-13 12:41:08 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 12:41:08 I/Bot.3390756109: Bot login successful.
+2023-04-13 12:41:08 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@376af784
+2023-04-13 12:41:08 I/main: 2 plugin(s) enabled.
+2023-04-13 12:41:08 I/main: mirai-console started successfully.
+2023-04-13 12:41:08 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:15 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:22 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:28 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:35 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:42 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:48 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:41:55 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:02 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:08 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:15 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:22 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:28 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:35 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:42 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:48 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:42:55 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:02 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:08 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:15 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:22 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:28 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:35 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:42 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:48 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:43:55 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:44:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:45:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:46:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:47:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:50:12 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 12:50:12 I/Bot.3390756109: Bot is closed manually
+2023-04-13 12:50:24 I/main: Starting mirai-console...
+2023-04-13 12:50:24 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 12:50:24 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 12:50:24 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 12:50:24 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 12:50:24 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 12:50:27 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 12:50:28 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 12:50:28 I/Mirai HTTP API: ********************************************************
+2023-04-13 12:50:28 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 12:50:28 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 12:50:28 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 12:50:28 I/Mirai HTTP API: ********************************************************
+2023-04-13 12:50:28 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 12:50:28 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 12:50:28 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 12:50:28 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 12:50:29 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 12:50:29 I/Bot.3390756109: Login successful.
+2023-04-13 12:50:29 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 12:50:29 I/Bot.3390756109: Bot login successful.
+2023-04-13 12:50:29 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@bd4ee01
+2023-04-13 12:50:29 I/main: 2 plugin(s) enabled.
+2023-04-13 12:50:29 I/main: mirai-console started successfully.
+2023-04-13 12:50:30 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:50:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:50:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:50:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:51:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:52:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:53 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:53:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:13 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:33 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:53 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:54:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:13 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:55:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:56:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:57:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:05 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:26 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:45 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:58:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:05 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:25 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 12:59:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:25 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:00:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:05 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:25 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:45 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:52 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:01:59 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:02:05 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:02:12 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:02:16 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 13:02:16 I/Bot.3390756109: Bot is closed manually
+2023-04-13 13:02:16 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 13:02:28 I/main: Starting mirai-console...
+2023-04-13 13:02:28 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 13:02:28 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 13:02:28 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 13:02:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 13:02:30 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 13:02:30 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 13:02:30 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 13:02:30 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:02:30 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 13:02:30 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 13:02:30 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 13:02:30 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:02:30 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 13:02:30 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 13:02:30 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 13:02:31 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 13:02:31 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 13:02:31 I/Bot.3390756109: Login successful.
+2023-04-13 13:02:31 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 13:02:31 I/Bot.3390756109: Bot login successful.
+2023-04-13 13:02:31 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@46b5f061
+2023-04-13 13:02:32 I/main: 2 plugin(s) enabled.
+2023-04-13 13:02:32 I/main: mirai-console started successfully.
+2023-04-13 13:02:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:02:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 13:02:48 W/console: 未知指令: /., 输入 ? 获取帮助
+2023-04-13 13:04:21 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 13:04:24 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11317], internalIds=[827479648], from friend 2502510147 to 3390756109 at 1681362261], content=你好]你好！有什么我可以帮助你的吗？
+2023-04-13 13:07:08 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 13:07:11 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11318], internalIds=[2122561600], from friend 2502510147 to 3390756109 at 1681362428], content=你好]你好！有什么我可以帮助你的吗？
+2023-04-13 13:07:21 V/Bot.3390756109: <LTR>(2502510147) -> 切换AI bing-c
+2023-04-13 13:07:22 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11319], internalIds=[-513868908], from friend 2502510147 to 3390756109 at 1681362442], content=切换AI bing-c]已切换至 bing-c AI，现在开始和我聊天吧！
+2023-04-13 13:07:25 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 13:07:33 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11320], internalIds=[17263764], from friend 2502510147 to 3390756109 at 1681362446], content=你好]你好，这里是必应。我可以用中文和你交流。😊\n\n剩余回复数：1 / 20 
+2023-04-13 13:23:41 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 13:23:41 I/Bot.3390756109: Bot is closed manually
+2023-04-13 13:23:41 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 13:23:52 I/main: Starting mirai-console...
+2023-04-13 13:23:52 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 13:23:52 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 13:23:52 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 13:23:52 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 13:23:53 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 13:23:53 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 13:23:53 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 13:23:53 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:23:53 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 13:23:53 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 13:23:53 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 13:23:53 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:23:53 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 13:23:53 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 13:23:53 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 13:23:54 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 13:23:54 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 13:23:54 I/Bot.3390756109: Login successful.
+2023-04-13 13:23:55 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 13:23:55 I/Bot.3390756109: Bot login successful.
+2023-04-13 13:23:55 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@6d815fb7
+2023-04-13 13:23:55 I/main: 2 plugin(s) enabled.
+2023-04-13 13:23:55 I/main: mirai-console started successfully.
+2023-04-13 13:24:08 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 13:24:20 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11327], internalIds=[-1356315582], from friend 2502510147 to 3390756109 at 1681363449], content=你好]你好，你想聊些什么呢？\n\n剩余回复数：2 / 20 
+2023-04-13 13:25:11 W/console: 未知指令: /restart, 输入 ? 获取帮助
+2023-04-13 13:25:28 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 13:25:28 I/Bot.3390756109: Bot is closed manually
+2023-04-13 13:25:28 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 13:25:35 I/main: Starting mirai-console...
+2023-04-13 13:25:35 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 13:25:35 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 13:25:35 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 13:25:35 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 13:25:36 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 13:25:36 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 13:25:36 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 13:25:36 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:25:36 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 13:25:36 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 13:25:36 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-13 13:25:36 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:25:36 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 13:25:37 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 13:25:37 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 13:25:37 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 13:25:37 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 13:25:37 I/Bot.3390756109: Login successful.
+2023-04-13 13:25:38 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 13:25:38 I/Bot.3390756109: Bot login successful.
+2023-04-13 13:25:38 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@203765b2
+2023-04-13 13:25:38 I/main: 2 plugin(s) enabled.
+2023-04-13 13:25:38 I/main: mirai-console started successfully.
+2023-04-13 13:28:28 W/console: 未知指令: / stop, 输入 ? 获取帮助
+2023-04-13 13:28:34 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 13:28:34 I/Bot.3390756109: Bot is closed manually
+2023-04-13 13:28:34 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 13:28:42 I/main: Starting mirai-console...
+2023-04-13 13:28:42 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 13:28:42 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 13:28:42 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 13:28:42 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 13:28:43 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 13:28:43 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 13:28:43 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 13:28:43 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:28:44 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 13:28:44 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 13:28:44 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 13:28:44 I/MahKtorAdapter[http]: Application started in 0.175 seconds.
+2023-04-13 13:28:44 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-04-13 13:28:44 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-04-13 13:28:44 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 13:28:44 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 13:28:44 I/Mirai HTTP API: ********************************************************
+2023-04-13 13:28:44 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 13:28:45 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 13:28:45 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 13:28:45 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 13:28:45 I/Bot.3390756109: Login successful.
+2023-04-13 13:28:46 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 13:28:46 I/Bot.3390756109: Bot login successful.
+2023-04-13 13:28:46 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@49889154
+2023-04-13 13:28:46 I/main: 2 plugin(s) enabled.
+2023-04-13 13:28:46 I/main: mirai-console started successfully.
+2023-04-13 13:28:58 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 13:29:10 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11328], internalIds=[2021279480], from friend 2502510147 to 3390756109 at 1681363738], content=你好]你好，你是不是有点无聊呢？😅\n\n剩余回复数：3 / 20 
+2023-04-13 13:43:58 E/MAH Access: kotlinx.serialization.MissingFieldException: Field 'target' is required for type with serial name 'net.mamoe.mirai.api.http.adapter.internal.dto.parameter.LongTargetDTO', but it was missing
+kotlinx.serialization.MissingFieldException: Field 'target' is required for type with serial name 'net.mamoe.mirai.api.http.adapter.internal.dto.parameter.LongTargetDTO', but it was missing
+	at kotlinx.serialization.internal.PluginExceptionsKt.throwMissingFieldException(PluginExceptions.kt:20)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.parameter.LongTargetDTO.<init>(common.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.parameter.LongTargetDTO$$serializer.deserialize(common.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.parameter.LongTargetDTO$$serializer.deserialize(common.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$6$1.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$6$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$6$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-13 14:07:30 V/Bot.3390756109: <LTR>(2502510147) -> 切换AI chatgpt-web
+2023-04-13 14:07:30 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11329], internalIds=[-1286813224], from friend 2502510147 to 3390756109 at 1681366050], content=切换AI chatgpt-web]已切换至 chatgpt-web AI，现在开始和我聊天吧！
+2023-04-13 14:07:42 V/Bot.3390756109: <LTR>(2502510147) -> 麻烦你帮我写一段js的post请求代码
+2023-04-13 14:08:02 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11330], internalIds=[-1291920454], from friend 2502510147 to 3390756109 at 1681366063], content=麻烦你帮我写一段js的post请求代码]当然可以，以下是一个使用JavaScript发送POST请求的例子：[mirai:image:{5A624FE6-6646-FBAD-CA30-EE1A56454873}.png, width=1000, height=1208, size=194710, type=PNG, isEmoji=false]
+2023-04-13 14:08:07 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11330], internalIds=[-1291920454], from friend 2502510147 to 3390756109 at 1681366063], content=麻烦你帮我写一段js的post请求代码][mirai:image:{464F6B91-F648-948A-9778-C5FE08FBB851}.png, width=1000, height=596, size=79762, type=PNG, isEmoji=false]请注意，这只是一个基本的例子，你可能需要根据你的具体需求进行修改。
+2023-04-13 14:19:08 V/Bot.3390756109: <LTR>(2502510147) -> 这种不好用 换一种方式
+2023-04-13 14:19:30 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11331], internalIds=[-221066603], from friend 2502510147 to 3390756109 at 1681366749], content=这种不好用 换一种方式]除了Fetch API，还有其他发送POST请求的方式，比如使用XMLHttpRequest对象。以下是一个使用XMLHttpRequest对象发送POST请求的例子：[mirai:image:{6ABB0DF9-E0BE-E881-8B5B-B0CB2B82D6DF}.png, width=1000, height=1322, size=195298, type=PNG, isEmoji=false]
+2023-04-13 14:19:37 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11331], internalIds=[-221066603], from friend 2502510147 to 3390756109 at 1681366749], content=这种不好用 换一种方式][mirai:image:{037960E0-8996-CDF0-700F-93ED216B46F0}.png, width=1000, height=716, size=123900, type=PNG, isEmoji=false]请注意，这只是另一种发送POST请求的方式，它也可以根据你的需求进行修改。
+2023-04-13 15:38:01 V/Bot.3390756109: Event: BotInvitedJoinGroupRequestEvent(bot=Bot(3390756109), eventId=1681371481782321, invitorId=2502510147, groupId=697785664, groupName=Public Dayz[no mods | OfficialIm, invitorNick=‭)
+2023-04-13 15:39:52 W/console: 未知指令: /0, 输入 ? 获取帮助
+2023-04-13 15:40:07 V/Bot.3390756109: Event: OtherClientOnlineEvent(client=OtherClient(bot=3390756109,deviceName=iPhone11,2,platform=MOBILE), kind=null)
+2023-04-13 15:40:15 V/Bot.3390756109: Event: BotJoinGroupEvent.Active(group=Group(697785664))
+2023-04-13 15:40:23 V/Bot.3390756109: Event: OtherClientOfflineEvent(client=OtherClient(bot=3390756109,deviceName=iPhone11,2,platform=MOBILE))
+2023-04-13 15:40:31 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:image:{C06B4F28-6C09-887F-A807-43F4703A500C}.jpg, width=958, height=664, size=60314, type=JPG, isEmoji=true]
+2023-04-13 15:40:43 V/Bot.3390756109: Event: BotGroupPermissionChangeEvent(group=Group(697785664), origin=MEMBER, new=ADMINISTRATOR)
+2023-04-13 15:41:02 V/Bot.3390756109: Event: MemberCardChangeEvent(origin=, new=机器人, member=NormalMember(3390756109))
+2023-04-13 15:41:04 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:2502510147] 怎么现在才进群啊
+2023-04-13 15:41:24 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 我小号 再搞机器人
+2023-04-13 15:41:38 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 不是要接个查询在线人数吗
+2023-04-13 15:41:47 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 好了会说的
+2023-04-13 15:41:53 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 行
+2023-04-13 15:42:20 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:596945718] 还有车吗？
+2023-04-13 15:42:27 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 要
+2023-04-13 15:46:47 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:3390756109] 你好
+2023-04-13 15:46:51 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29606], internalIds=[-1251558351], from group 2502510147 to 697785664 at 1681372007], content=[mirai:at:3390756109] 你好]你好！有什么我可以帮助你的吗？
+2023-04-13 15:47:13 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 好你
+2023-04-13 15:47:21 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29608], internalIds=[859709361], from group 1065913433 to 697785664 at 1681372034], content=[mirai:at:3390756109] 好你]抱歉，我不太明白你的意思，请问你需要什么样的帮助？
+2023-04-13 15:47:39 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 在线人数
+2023-04-13 15:47:44 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 没弄好呢
+2023-04-13 15:48:06 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 小王(2983870951) -> 等弄好了天天隔哪查
+2023-04-13 15:48:14 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 现在就是一个chatgpt聊天 在线人数我还没接进去
+2023-04-13 15:51:09 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 俄乌战争你怎么看
+2023-04-13 15:51:22 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29614], internalIds=[32380720], from group 1065913433 to 697785664 at 1681372270], content=[mirai:at:3390756109] 俄乌战争你怎么看]作为一个人工智能语言模型，我的任务是提供客观、中立的回答，而不是表达个人观点。根据报道，俄乌战争的情况非常复杂，牵涉到历史、政治、地缘战略等多个方面。因此，任何评价都应该基于充分的事实和分析，而不是主观的偏见。
+2023-04-13 15:53:27 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:3390756109] 切换AI bing-c
+2023-04-13 15:53:28 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29616], internalIds=[-1807560765], from group 2502510147 to 697785664 at 1681372408], content=[mirai:at:3390756109] 切换AI bing-c]已切换至 bing-c AI，现在开始和我聊天吧！
+2023-04-13 15:53:34 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> @机器人 来点色图
+2023-04-13 15:54:42 V/Bot.3390756109: <LTR>(2502510147) -> 切换AI bing-c
+2023-04-13 15:54:42 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11332], internalIds=[1336918230], from friend 2502510147 to 3390756109 at 1681372483], content=切换AI bing-c]已切换至 bing-c AI，现在开始和我聊天吧！
+2023-04-13 15:54:45 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 15:54:53 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11333], internalIds=[1373860976], from friend 2502510147 to 3390756109 at 1681372486], content=你好]I'm sorry but I prefer not to continue this conversation. I'm still learning so I appreciate your understanding and patience.🙏\n\n剩余回复数：4 / 20 
+2023-04-13 15:55:03 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 15:55:05 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11334], internalIds=[925099375], from friend 2502510147 to 3390756109 at 1681372504], content=你好]Bing 已结束本次会话。继续发送消息将重新开启一个新会话。
+2023-04-13 15:55:13 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 15:55:25 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11335], internalIds=[731931620], from friend 2502510147 to 3390756109 at 1681372513], content=你好]你好，这里是必应。我可以用中文和你交流。😊\n\n剩余回复数：1 / 20 
+2023-04-13 15:55:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 小王(2983870951) -> 666
+2023-04-13 15:56:57 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] salvation—Carol(1772880278) -> 你这AI保智能吗？
+2023-04-13 15:56:59 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] salvation—Carol(1772880278) -> [mirai:image:{D1F20F66-3B56-D989-5C57-EE88EAC6E15A}.gif, width=296, height=270, size=76767, type=GIF, isEmoji=true]
+2023-04-13 15:57:23 V/Bot.3390756109: <LTR>(2502510147) -> 切换AI chatgpt-web
+2023-04-13 15:57:23 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11336], internalIds=[1601465094], from friend 2502510147 to 3390756109 at 1681372643], content=切换AI chatgpt-web]已切换至 chatgpt-web AI，现在开始和我聊天吧！
+2023-04-13 15:57:48 V/Bot.3390756109: <LTR>(2502510147) -> 从现在开始，我会给你一个指令，当我跟你说指令的时候，你就做一件事情
+2023-04-13 15:57:53 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11337], internalIds=[2037686961], from friend 2502510147 to 3390756109 at 1681372669], content=从现在开始，我会给你一个指令，当我跟你说指令的时候，你就做一件事情]好的，我会尽力满足你的需求。请告诉我你需要我做什么。
+2023-04-13 15:58:13 V/Bot.3390756109: <LTR>(2502510147) -> 我的指令是查询在线人数，做什么待会告诉你
+2023-04-13 15:58:17 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11338], internalIds=[-2021509183], from friend 2502510147 to 3390756109 at 1681372694], content=我的指令是查询在线人数，做什么待会告诉你]好的，查询在线人数是您的指令。请告诉我您需要我做什么。
+2023-04-13 15:59:33 V/Bot.3390756109: <LTR>(2502510147) -> 当我说出指令后，你需要去get请求https://www.battlemetrics.com/servers/dayz/19265029这个网址，并且用一段正则表达式帮我获取到我需要的内容，正则表达式会待会给你
+2023-04-13 15:59:46 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11339], internalIds=[1836428851], from friend 2502510147 to 3390756109 at 1681372774], content=当我说出指令后，你需要去get请求https://www.battlemetrics.com/servers/dayz/19265029这个网址，并且用一段正则表达式帮我获取到我需要的内容，正则表达式会待会给你][mirai:image:{ACD9A938-EB38-32EC-5124-6E9BE3F4CCC6}.png, width=1000, height=596, size=85178, type=PNG, isEmoji=false]
+2023-04-13 16:00:12 V/Bot.3390756109: <LTR>(2502510147) -> 正则表达式是r"Players:\s(\d+)/(\d+)"
+2023-04-13 16:00:37 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11340], internalIds=[1526161938], from friend 2502510147 to 3390756109 at 1681372813], content=正则表达式是r"Players:\s(\d+)/(\d+)"][mirai:image:{A73FAED8-1642-8DC8-2747-1AA42D62C712}.png, width=1000, height=1190, size=156231, type=PNG, isEmoji=false]
+2023-04-13 16:00:52 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11340], internalIds=[1526161938], from friend 2502510147 to 3390756109 at 1681372813], content=正则表达式是r"Players:\s(\d+)/(\d+)"][mirai:image:{0F303903-3AEA-B839-1D31-C4355A76DBEB}.png, width=1000, height=980, size=161125, type=PNG, isEmoji=false]请注意，这只是一个基本的示例，您可能需要根据您的具体需求进行修改。
+2023-04-13 16:01:02 V/Bot.3390756109: <LTR>(2502510147) -> 不，我需要你帮我拿到我最后需要的值，而不是你教我怎么写代码
+2023-04-13 16:01:07 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11341], internalIds=[-2097055922], from friend 2502510147 to 3390756109 at 1681372862], content=不，我需要你帮我拿到我最后需要的值，而不是你教我怎么写代码]非常抱歉，我误解了您的需求。请告诉我您最终需要获取的值是什么。
+2023-04-13 16:01:15 V/Bot.3390756109: <LTR>(2502510147) -> 在线人数
+2023-04-13 16:01:27 V/Bot.3390756109: <LTR>(2502510147) -> 询在线人数
+2023-04-13 16:01:29 V/Bot.3390756109: Event: FriendRecall(bot=Bot(3390756109), messageIds=[11343], messageInternalIds=[456472543], messageTime=1681372888, operatorId=2502510147, operator=Friend(2502510147))
+2023-04-13 16:01:38 V/Bot.3390756109: <LTR>(2502510147) -> 查询在线人数
+2023-04-13 16:01:42 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11342], internalIds=[1812296595], from friend 2502510147 to 3390756109 at 1681372875], content=在线人数]好的，我明白了，您需要查询https://www.battlemetrics.com/servers/dayz/19265029这个网站的在线人数。[mirai:image:{EEDD5336-53D3-0CE8-27B2-2E9EA8EF81DF}.png, width=1000, height=1268, size=166299, type=PNG, isEmoji=false]
+2023-04-13 16:01:49 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11342], internalIds=[1812296595], from friend 2502510147 to 3390756109 at 1681372875], content=在线人数][mirai:image:{A98FD496-8538-3B65-6AAC-95CCC1577E12}.png, width=1000, height=644, size=91619, type=PNG, isEmoji=false]请注意，这只是一个基本的示例，您可能需要对代码进行修改以满足您的具体需求。
+2023-04-13 16:02:11 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11343], internalIds=[456472543], from friend 2502510147 to 3390756109 at 1681372888], content=询在线人数]好的，您可以使用以下Python代码查询 https://www.battlemetrics.com/servers/dayz/19265029 的在线人数：[mirai:image:{74630F85-049B-B395-1D39-1FF3D4C316AE}.png, width=1000, height=971, size=107448, type=PNG, isEmoji=false]
+2023-04-13 16:04:55 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null), reconnect=true)
+2023-04-13 16:04:10 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 很明显
+2023-04-13 16:06:50 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null))
+2023-04-13 16:06:50 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 不只能
+2023-04-13 16:06:50 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 不智能
+2023-04-13 16:06:50 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 小王(2983870951) -> 以后报击杀嘎嘎拉仇恨
+2023-04-13 16:06:50 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 你玩原神吗
+2023-04-13 16:06:50 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 不会报击杀的 只会给一个查询在线人数的功能
+2023-04-13 16:06:50 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:06:50 I/Bot.3390756109: Login successful.
+2023-04-13 16:06:50 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:06:50 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:06:50 I/Bot.3390756109: Reconnected successfully in 0.19s.
+2023-04-13 16:06:53 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11343], internalIds=[456472543], from friend 2502510147 to 3390756109 at 1681372888], content=询在线人数][mirai:image:{7F04E2FD-84AB-F0B9-A99E-1A215080F503}.png, width=1000, height=548, size=78632, type=PNG, isEmoji=false]
+2023-04-13 16:06:53 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11343], internalIds=[456472543], from friend 2502510147 to 3390756109 at 1681372888], content=询在线人数]出现故障！如果这个问题持续出现，请和我说“重置会话” 来开启一段新的会话，或者发送 “回滚会话” 来回溯到上一条对话，你上一条说的我就当作没看见。\n
+2023-04-13 16:07:04 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29626], internalIds=[1577953003], from group 1065913433 to 697785664 at 1681373164], content=[mirai:at:3390756109] 你玩原神吗]你好，这里是必应。我不玩原神，但我知道它是一款开放世界的角色扮演游戏，由米哈游开发和发行。\n\n剩余回复数：1 / 20 
+2023-04-13 16:07:15 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11344], internalIds=[-2127489122], from friend 2502510147 to 3390756109 at 1681372898], content=查询在线人数]好的，以下是使用JavaScript查询 https://www.battlemetrics.com/servers/dayz/19265029 的在线人数的示例代码：[mirai:image:{74043F0D-6510-2FE5-5D2C-8609D805E009}.png, width=1000, height=1091, size=129500, type=PNG, isEmoji=false]
+2023-04-13 16:07:24 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11344], internalIds=[-2127489122], from friend 2502510147 to 3390756109 at 1681372898], content=查询在线人数][mirai:image:{9C600290-723A-75B2-8C64-F940D0BC12DE}.png, width=1000, height=644, size=91922, type=PNG, isEmoji=false]请注意，这只是一个基本的示例，您可能需要对代码进行修改以满足您的具体需求。
+2023-04-13 16:07:29 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] salvation—Carol(1772880278) -> 你说得对，但是（
+2023-04-13 16:07:30 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 小王(2983870951) -> [mirai:quote:[mirai:source:ids=[29627], internalIds=[781296241], from 2502510147 to 697785664 at 1681373196], content=<not yet initialized>][mirai:at:2502510147] 那不好玩了
+2023-04-13 16:07:41 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 你说得对，但是（
+2023-04-13 16:09:20 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 把虚拟角色强奸了犯法吗?
+2023-04-13 16:09:55 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null), reconnect=true)
+2023-04-13 16:11:00 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null))
+2023-04-13 16:11:00 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 办黑扫QiDian(2281730699) -> [mirai:at:3390756109] 你有头绪吗
+2023-04-13 16:11:00 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:11:00 I/Bot.3390756109: Login successful.
+2023-04-13 16:11:00 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:11:00 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:11:00 I/Bot.3390756109: Reconnected successfully in 0.254s.
+2023-04-13 16:11:08 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 重置会话
+2023-04-13 16:11:13 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29635], internalIds=[2120881681], from group 2281730699 to 697785664 at 1681373444], content=[mirai:at:3390756109] 你有头绪吗]我不太明白你的意思。你想聊聊什么呢？\n\n剩余回复数：3 / 20 
+2023-04-13 16:11:14 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29636], internalIds=[4040251], from group 1065913433 to 697785664 at 1681373469], content=[mirai:at:3390756109] 重置会话]会话已重置。
+2023-04-13 16:11:24 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] Chen(1063626122) -> 玩坏了
+2023-04-13 16:12:05 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 16:12:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] salvation—Carol(1772880278) -> 这机器人已经成为你的形状了[mirai:at:1065913433] 
+2023-04-13 16:12:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:image:{8BC74BA1-D7DA-6181-9721-816EDF540583}.jpg, width=720, height=686, size=33178, type=JPG, isEmoji=true]
+2023-04-13 16:12:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:3390756109] 把虚拟角色强奸了犯法吗?
+2023-04-13 16:12:56 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 16:12:56 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:12:56 I/Bot.3390756109: Login successful.
+2023-04-13 16:12:56 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:12:56 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:12:56 I/Bot.3390756109: Reconnected successfully in 0.18s.
+2023-04-13 16:13:04 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29642], internalIds=[1976358021], from group 1065913433 to 697785664 at 1681373561], content=[mirai:at:3390756109] 把虚拟角色强奸了犯法吗?]Hmm…let’s try a different topic. Sorry about that. What else is on your mind?\n剩余回复数：1 / 20 
+2023-04-13 16:13:51 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> [mirai:at:3390756109] 来张自拍
+2023-04-13 16:14:01 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29644], internalIds=[312959084], from group 86887878 to 697785664 at 1681373632], content=[mirai:at:3390756109] 来张自拍]Sorry, I can't send you a selfie. I'm just a chat mode of Microsoft Bing search. I don't have a physical appearance.😅\n\n剩余回复数：2 / 20 
+2023-04-13 16:15:28 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 有人要去大机场吗
+2023-04-13 16:15:32 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 专车接送
+2023-04-13 16:15:53 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] S_RobertoTH(173445004) -> 在线人数
+2023-04-13 16:15:59 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] S_RobertoTH(173445004) -> [mirai:at:3390756109] 在线人数
+2023-04-13 16:16:09 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 我要去
+2023-04-13 16:16:20 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29649], internalIds=[336836505], from group 173445004 to 697785664 at 1681373760], content=[mirai:at:3390756109] 在线人数]在线人数是指在某一时刻正在使用某一平台或服务的用户数量。不同的平台或服务有不同的统计方法和数据来源，所以在线人数并不一定准确或可靠。根据我搜索到的信息，以下是一些平台或服务的在线人数数据：\n
+2023-04-13 16:16:40 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29649], internalIds=[336836505], from group 173445004 to 697785664 at 1681373760], content=[mirai:at:3390756109] 在线人数][mirai:image:{C6BE0A41-5CB2-2FC6-E112-CA0135D5FD73}.png, width=1000, height=668, size=93751, type=PNG, isEmoji=false]- dota2国服在线人数的具体数据是多少？[3]：根据一个知乎用户的估算，目前国服的在线人数大约是15万人左右。\n
+2023-04-13 16:16:53 V/Bot.3390756109: Group(697785664) <- [mirai:quote:[mirai:source:ids=[29649], internalIds=[336836505], from group 173445004 to 697785664 at 1681373760], content=[mirai:at:3390756109] 在线人数]- Steam Charts - Tracking What's Played[5]：根据这个网站的统计，Steam平台上最近48小时内的平均在线人数为1,057,000。\n希望这些信息对你有帮助。😊\n\n剩余回复数：3 / 20 
+2023-04-13 16:17:04 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 还没接这个功能
+2023-04-13 16:17:39 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 我拉进来是测试能不能收到群消息的 老是掉线
+2023-04-13 16:18:16 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[29650], internalIds=[1117594214], from 86887878 to 697785664 at 1681373770], content=<not yet initialized>][mirai:at:86887878] 在哪呢
+2023-04-13 16:23:05 V/Bot.3390756109: <LTR>(2502510147) -> python的post请求 需要请求头和传参
+2023-04-13 16:23:25 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11346], internalIds=[2147079393], from friend 2502510147 to 3390756109 at 1681374185], content=python的post请求 需要请求头和传参]好的，以下是一个Python的POST请求的示例，其中包含请求头和参数：[mirai:image:{52C27CA5-A3D4-76D9-BC27-E76209FBB2DA}.png, width=1000, height=1178, size=144467, type=PNG, isEmoji=false]
+2023-04-13 16:23:29 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11346], internalIds=[2147079393], from friend 2502510147 to 3390756109 at 1681374185], content=python的post请求 需要请求头和传参][mirai:image:{32FB7A37-9EE3-5F78-204F-64B60523F7DC}.png, width=1000, height=596, size=87326, type=PNG, isEmoji=false]
+2023-04-13 16:24:46 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 我就说一下，我在猎人小屋摸衣服
+2023-04-13 16:24:58 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 衣服都烂完了
+2023-04-13 16:25:04 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 备几套新的
+2023-04-13 16:25:24 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:image:{6D446834-270B-E05E-FFFD-8B1152A64ED9}.gif, width=88, height=88, size=9848, type=GIF, isEmoji=true]
+2023-04-13 16:25:45 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 我诚心你又不诚意
+2023-04-13 16:26:06 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> 伤心了
+2023-04-13 16:36:23 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] John wick(193233174) -> 。。。。
+2023-04-13 16:39:45 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 16:39:45 I/Bot.3390756109: Bot is closed manually
+2023-04-13 16:39:45 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 16:39:53 I/main: Starting mirai-console...
+2023-04-13 16:39:53 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 16:39:53 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 16:39:53 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 16:39:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 16:39:53 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 16:39:53 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 16:39:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 16:39:54 I/Mirai HTTP API: ********************************************************
+2023-04-13 16:39:54 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 16:39:54 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 16:39:54 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 16:39:54 I/MahKtorAdapter[http]: Application started in 0.221 seconds.
+2023-04-13 16:39:54 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-13 16:39:54 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 16:39:54 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-13 16:39:54 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 16:39:54 I/Mirai HTTP API: ********************************************************
+2023-04-13 16:39:54 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 16:39:54 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 16:39:55 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 16:39:55 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:39:55 I/Bot.3390756109: Login successful.
+2023-04-13 16:39:55 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:39:55 I/Bot.3390756109: Bot login successful.
+2023-04-13 16:39:55 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@45571cfc
+2023-04-13 16:39:55 I/main: 2 plugin(s) enabled.
+2023-04-13 16:39:55 I/main: mirai-console started successfully.
+2023-04-13 16:47:05 V/Bot.3390756109: <LTR>(2502510147) -> requests.post()
+2023-04-13 16:48:01 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 16:48:35 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 16:48:38 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-3390756109-16813757186920845671610269576.png
+2023-04-13 16:48:38 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 16:48:58 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 16:49:04 I/QRLoginSolver: 已确认登录
+2023-04-13 16:49:04 I/Bot.3390756109: Login successful
+2023-04-13 16:49:04 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:49:04 I/Bot.3390756109: Login successful.
+2023-04-13 16:49:04 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:49:04 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:49:04 I/Bot.3390756109: Reconnected successfully in 28.843s.
+2023-04-13 16:49:23 V/Bot.3390756109: <LTR>(2502510147) -> 重置会话
+2023-04-13 16:49:25 V/Bot.3390756109: <LTR>(2502510147) -> 重置会话
+2023-04-13 16:50:18 V/Bot.3390756109: <LTR>(2502510147) -> 切换AI chatgpt-api
+2023-04-13 16:52:20 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:quote:[mirai:source:ids=[29653], internalIds=[1443405854], from 3390756109 to 697785664 at 1681373814], content=<not yet initialized>][mirai:at:3390756109] 来点色图
+2023-04-13 16:52:42 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> [mirai:at:3390756109] 来点色图
+2023-04-13 16:52:43 W/stderr: Exception in thread "DefaultDispatcher-worker-4" java.io.EOFException
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okio.RealBufferedSource.require(RealBufferedSource.kt:199)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okio.RealBufferedSource.readByte(RealBufferedSource.kt:209)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.ws.WebSocketReader.readHeader(WebSocketReader.kt:119)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.ws.WebSocketReader.processNextFrame(WebSocketReader.kt:102)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.ws.RealWebSocket.loopReader(RealWebSocket.kt:293)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.ws.RealWebSocket$connect$1.onResponse(RealWebSocket.kt:195)
+2023-04-13 16:52:43 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+2023-04-13 16:52:43 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-13 16:52:43 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-13 16:52:43 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-13 16:52:43 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@15f3c483, Dispatchers.Default]
+2023-04-13 16:52:52 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 来点色图
+2023-04-13 16:52:57 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 我不认可
+2023-04-13 16:53:02 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> [mirai:image:{C73C26CC-2762-C88D-E98B-86869BFD5646}.jpg, width=236, height=236, size=13643, type=JPG, isEmoji=true]
+2023-04-13 16:53:15 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 16:53:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 不是很智能
+2023-04-13 16:54:06 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:image:{1B62DAAE-C840-6BB2-7DBE-246FAACB7C54}.jpg, width=87, height=87, size=2217, type=JPG, isEmoji=false]
+2023-04-13 16:54:38 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 16:54:45 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:at:2502510147] 
+2023-04-13 16:54:58 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 速速写个爬虫让机器人爬到p站数据库
+2023-04-13 16:55:02 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [疑问]
+2023-04-13 16:55:07 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 我需要新鲜的色图
+2023-04-13 16:55:23 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 支持
+2023-04-13 16:55:56 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> [mirai:image:{103A6554-435C-C7A0-C5C0-D116417BE0C5}.jpg, width=720, height=725, size=37799, type=JPG, isEmoji=false]
+2023-04-13 16:56:09 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 16:56:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 像这种
+2023-04-13 16:56:25 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 16:56:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 还能搞关键词的
+2023-04-13 16:56:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:at:3390756109] 你看看人家
+2023-04-13 16:56:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> 速速
+2023-04-13 16:56:26 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:56:26 I/Bot.3390756109: Login successful.
+2023-04-13 16:56:26 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:56:26 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:56:26 I/Bot.3390756109: Reconnected successfully in 0.188s.
+2023-04-13 16:56:29 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 16:56:29 I/Bot.3390756109: Bot is closed manually
+2023-04-13 16:56:29 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 16:57:15 I/main: Starting mirai-console...
+2023-04-13 16:57:15 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 16:57:15 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 16:57:15 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 16:57:15 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 16:57:16 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 16:57:16 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 16:57:16 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 16:57:16 I/Mirai HTTP API: ********************************************************
+2023-04-13 16:57:16 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 16:57:16 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 16:57:17 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 16:57:17 I/MahKtorAdapter[http]: Application started in 0.21 seconds.
+2023-04-13 16:57:17 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-13 16:57:17 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-13 16:57:17 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 16:57:17 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 16:57:17 I/Mirai HTTP API: ********************************************************
+2023-04-13 16:57:17 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 16:57:17 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 16:57:17 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 16:57:17 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:57:18 I/Bot.3390756109: Login successful.
+2023-04-13 16:57:18 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:57:18 I/Bot.3390756109: Bot login successful.
+2023-04-13 16:57:18 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@4fad51a3
+2023-04-13 16:57:18 I/main: 2 plugin(s) enabled.
+2023-04-13 16:57:18 I/main: mirai-console started successfully.
+2023-04-13 16:57:18 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 16:58:23 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 16:57:35 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 没有色图我不是很认可
+2023-04-13 16:58:25 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 16:58:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:image:{1B62DAAE-C840-6BB2-7DBE-246FAACB7C54}.jpg, width=87, height=87, size=2217, type=JPG, isEmoji=false]
+2023-04-13 16:58:25 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] luo_han(3321105266) -> [mirai:image:{21E72D83-4FA6-D137-3DB2-9BAB926CA55D}.jpg, width=87, height=68, size=1705, type=JPG, isEmoji=true]
+2023-04-13 16:58:25 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 16:58:25 I/Bot.3390756109: Login successful.
+2023-04-13 16:58:25 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 16:58:25 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 16:58:25 I/Bot.3390756109: Reconnected successfully in 0.163s.
+2023-04-13 16:58:32 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 16:58:38 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 16:59:10 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 16:59:15 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11354], internalIds=[987425751], from friend 2502510147 to 3390756109 at 1681376350], content=你好]你好！有什么我可以帮你解答的问题吗？
+2023-04-13 17:00:35 V/Bot.3390756109: <LTR>(2502510147) -> requests.post()
+2023-04-13 17:00:59 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11355], internalIds=[786494997], from friend 2502510147 to 3390756109 at 1681376435], content=requests.post()][mirai:image:{E108D4BF-73B6-D362-3CA7-BC1F628F7EF6}.png, width=1000, height=452, size=33171, type=PNG, isEmoji=false]基本语法如下：[mirai:image:{58AF09E6-C2EB-5746-0B23-173902C205AA}.png, width=1000, height=638, size=73623, type=PNG, isEmoji=false]示例代码：[mirai:image:{5AC1DD11-3CC8-492B-B024-A7B9475B6756}.png, width=1000, height=851, size=70292, type=PNG, isEmoji=false]
+2023-04-13 17:01:02 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11355], internalIds=[786494997], from friend 2502510147 to 3390756109 at 1681376435], content=requests.post()][mirai:image:{91ACD743-AB46-368D-E11A-87E9CB9E7472}.png, width=1000, height=666, size=85982, type=PNG, isEmoji=false]
+2023-04-13 17:01:26 V/Bot.3390756109: <LTR>(2502510147) -> 其他参数有哪些
+2023-04-13 17:01:45 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 小王(2983870951) -> 等会群封了，在座的各位都有责任
+2023-04-13 17:01:46 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11356], internalIds=[626977972], from friend 2502510147 to 3390756109 at 1681376487], content=其他参数有哪些][mirai:image:{AE91651D-265F-C8CF-9A8E-C60E55A88B37}.png, width=1000, height=1196, size=152509, type=PNG, isEmoji=false]
+2023-04-13 17:02:04 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[11356], internalIds=[626977972], from friend 2502510147 to 3390756109 at 1681376487], content=其他参数有哪些][mirai:image:{37F73D96-80CB-A9B7-BC23-A6726F7E2A71}.png, width=1000, height=596, size=54704, type=PNG, isEmoji=false]示例代码：[mirai:image:{666ECD13-FD0C-80FA-D410-F506BE361149}.png, width=1000, height=1280, size=127190, type=PNG, isEmoji=false]
+2023-04-13 17:02:13 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> 放心，只要不建政封不了
+2023-04-13 17:12:34 V/Bot.3390756109: Event: MemberPermissionChangeEvent(member=NormalMember(2983870951), origin=MEMBER, new=ADMINISTRATOR)
+2023-04-13 17:24:03 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:2502510147] 什么时候开死斗
+2023-04-13 17:26:32 V/Bot.3390756109: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 不知道啊 过两天吧
+2023-04-13 17:35:42 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 17:36:45 V/Bot.3390756109: Event: BotLeaveEvent.Kick(group=697785664,operator=2502510147)
+2023-04-13 17:36:59 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 17:36:59 I/Bot.3390756109: Bot is closed manually
+2023-04-13 17:36:59 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 17:37:19 I/main: Starting mirai-console...
+2023-04-13 17:37:19 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 17:37:19 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 17:37:19 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 17:37:19 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 17:37:20 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 17:37:20 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 17:37:20 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 17:37:20 I/Mirai HTTP API: ********************************************************
+2023-04-13 17:37:20 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 17:37:20 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 17:37:20 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 17:37:21 I/MahKtorAdapter[http]: Application started in 0.169 seconds.
+2023-04-13 17:37:21 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-13 17:37:21 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-13 17:37:21 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 17:37:21 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 17:37:21 I/Mirai HTTP API: ********************************************************
+2023-04-13 17:37:21 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 17:37:21 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 17:37:21 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 17:37:22 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 17:37:22 I/Bot.3390756109: Login successful.
+2023-04-13 17:37:22 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 17:37:22 I/Bot.3390756109: Bot login successful.
+2023-04-13 17:37:22 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@45d7495e
+2023-04-13 17:37:22 I/main: 2 plugin(s) enabled.
+2023-04-13 17:37:22 I/main: mirai-console started successfully.
+2023-04-13 17:37:35 I/Bot.2502510147: Bot cancelled: Bot closed
+2023-04-13 17:37:35 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2502510147), code=45, title=禁止登录, message=登录失败，建议升级最新版本后重试，或通过问题反馈与我们联系。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:450)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(2502510147), code=45, title=禁止登录, message=登录失败，建议升级最新版本后重试，或通过问题反馈与我们联系。, errorInfo=)]
+
+2023-04-13 17:37:47 W/console: 未知指令: /qrloging 2502510147, 输入 ? 获取帮助
+2023-04-13 17:38:05 W/console: 未知指令: /qrLoging 2502510147, 输入 ? 获取帮助
+2023-04-13 17:38:22 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-168137870212428826886673603339.png
+2023-04-13 17:38:22 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 17:38:32 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 17:38:37 I/QRLoginSolver: 已确认登录
+2023-04-13 17:38:37 I/Bot.2502510147: Login successful
+2023-04-13 17:38:37 I/Bot.2502510147: Saved account secrets to local cache for fast login.
+2023-04-13 17:38:37 I/Bot.2502510147: Login successful.
+2023-04-13 17:38:37 V/Bot.2502510147: Event: OtherClientOfflineEvent(client=OtherClient(bot=2502510147,deviceName=QIYONGHAN,platform=WINDOWS))
+2023-04-13 17:38:47 V/Bot.2502510147: Event: BotOnlineEvent(bot=Bot(2502510147))
+2023-04-13 17:38:48 I/Bot.2502510147: Bot login successful.
+2023-04-13 17:38:58 V/Bot.2502510147: [ChatGPT for Bot 交流群(612306346)] 滑稽桑(1051621911) -> 就不动了属于是
+2023-04-13 17:39:02 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> kotlin 的 Deprecated 比 java 的更强大，可以指定调用就编译错误
+2023-04-13 17:39:20 V/Bot.2502510147: Fool(2983870951) -> 咋删了呀
+2023-04-13 17:39:24 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> [mirai:image:{C480EF0F-87A9-5544-ACF9-4DDDDB744FA8}.jpg, width=1920, height=1920, size=257210, type=JPG, isEmoji=true]
+2023-04-13 17:39:35 V/Bot.2502510147: Event: BotOfflineEvent.Force(bot=Bot(2502510147), title='下线通知', message='你的QQ号于17:39在另一台设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。', reconnect=true)
+2023-04-13 17:39:37 W/Bot.2502510147: Connection occupied by another android device. Will try to resume connection. (你的QQ号于17:39在另一台设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+2023-04-13 17:39:37 W/Bot.2502510147: Connection occupied by another android device. Will try to resume connection. (你的QQ号于17:39在另一台设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。)
+2023-04-13 17:39:38 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-168137877810959712871941674410.png
+2023-04-13 17:39:38 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 17:39:42 I/QRLoginSolver: 用户主动取消登录
+2023-04-13 17:39:42 I/Bot.2502510147: Bot cancelled: Bot closed
+2023-04-13 17:39:48 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-16813787889158621408544175096.png
+2023-04-13 17:39:48 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 17:39:58 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 17:40:03 I/QRLoginSolver: 已确认登录
+2023-04-13 17:40:04 I/Bot.2502510147: Login successful
+2023-04-13 17:40:04 I/Bot.2502510147: Saved account secrets to local cache for fast login.
+2023-04-13 17:40:04 I/Bot.2502510147: Login successful.
+2023-04-13 17:40:14 V/Bot.2502510147: Event: BotOnlineEvent(bot=Bot(2502510147))
+2023-04-13 17:40:15 I/Bot.2502510147: Bot login successful.
+2023-04-13 17:40:22 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> java有什么规范好像
+2023-04-13 17:40:34 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> 对于编译期的处理
+2023-04-13 17:40:44 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- nihao
+2023-04-13 17:41:28 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 17:41:19 V/Bot.2502510147: Event: BotOfflineEvent.Dropped(bot=Bot(2502510147), cause=HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 17:40:44 V/Bot.3390756109: <LTR>(2502510147) -> nihao
+2023-04-13 17:41:48 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:41:48 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:41:48 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 你是谁
+2023-04-13 17:41:48 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:41:48 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:41:48 I/Bot.3390756109: Reconnected successfully in 0.013s.
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 机器人？
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 那个机器人不行
+2023-04-13 17:41:48 I/Bot.2502510147: Reconnected successfully in 0.004s.
+2023-04-13 17:41:48 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> jsr 269
+2023-04-13 17:41:48 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> 应该和这个有关系
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 因为已经被用作于chatgpt和bing了
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 所以我再单独接功能
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 因为已经被用作于chatgpt和bing了
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 会导致两个都不能用
+2023-04-13 17:41:48 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> [mirai:quote:[mirai:source:ids=[250087], internalIds=[-529377666], from 2431208142 to 1047497524 at 1681378743], content=<not yet initialized>][mirai:at:2431208142] 康康文章
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 所以我准备换一个号
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 所以我再单独接功能
+2023-04-13 17:41:48 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 重置会话
+2023-04-13 17:41:48 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 会导致两个都不能用
+2023-04-13 17:41:48 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 你是谁
+2023-04-13 17:41:48 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 17:41:48 I/Bot.3390756109: Login successful.
+2023-04-13 17:41:48 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 17:41:48 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 17:41:48 I/Bot.3390756109: Reconnected successfully in 0.158s.
+2023-04-13 17:41:51 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-16813789119170579909653331507.png
+2023-04-13 17:42:16 I/QRLoginSolver: 已确认登录
+2023-04-13 17:42:16 I/Bot.2502510147: Login successful
+2023-04-13 17:42:16 I/Bot.2502510147: Saved account secrets to local cache for fast login.
+2023-04-13 17:42:16 I/Bot.2502510147: Login successful.
+2023-04-13 17:42:16 V/Bot.2502510147: Event: BotOnlineEvent(bot=Bot(2502510147))
+2023-04-13 17:42:16 V/Bot.2502510147: Event: BotReloginEvent(bot=Bot(2502510147), cause=null)
+2023-04-13 17:42:16 I/Bot.2502510147: Reconnected successfully in 28.818s.
+2023-04-13 17:42:40 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 重置会话
+2023-04-13 17:42:40 V/Bot.3390756109: <LTR>(2502510147) -> 你是谁
+2023-04-13 17:42:40 V/Bot.3390756109: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19934], internalIds=[-602306190], from 2502510147 to 3390756109 at 1681378845], content=nihao]出现故障！如果这个问题持续出现，请和我说“重置会话” 来开启一段新的会话，或者发送 “回滚会话” 来回溯到上一条对话，你上一条说的我就当作没看见。\n('网络异常: 无头客户端处发生错误, 你应该检查其输出的错误日志.', {'code': 500, 'msg': 'Timed out waiting for 5000 ms'})
+2023-04-13 17:42:40 V/Bot.3390756109: <LTR>(2502510147) -> 重置会话
+2023-04-13 17:42:40 V/Bot.3390756109: <LTR>(2502510147) -> 你是谁
+2023-04-13 17:42:40 V/Bot.3390756109: <LTR>(2502510147) -> 重置会话
+2023-04-13 17:42:41 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 你是谁
+2023-04-13 17:42:41 V/Bot.3390756109: <LTR>(2502510147) -> 你是谁
+2023-04-13 17:42:42 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19946], internalIds=[536468889], from friend 2502510147 to 3390756109 at 1681378962], content=你是谁]消息已收到！当前我还有4条消息要回复，请您稍等。
+2023-04-13 17:42:42 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19946], internalIds=[536468889], from 2502510147 to 3390756109 at 1681378962], content=<not yet initialized>]消息已收到！当前我还有4条消息要回复，请您稍等。
+2023-04-13 17:42:48 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 重置会话
+2023-04-13 17:42:50 V/Bot.2502510147: 愿上玉京十二楼(3390756109)[SYNC] <- 你是谁
+2023-04-13 17:42:51 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19935], internalIds=[-402872274], from friend 2502510147 to 3390756109 at 1681378858], content=你是谁]我是ChatGPT，一个大型语言模型，由OpenAI基于GPT-3.5架构训练而成。我可以回答各种问题，包括但不限于计算机科学、自然语言处理、人工智能、数学、物理学、化学、生物学、历史、地理等多个领域。
+2023-04-13 17:42:51 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19935], internalIds=[-402872274], from 2502510147 to 3390756109 at 1681378858], content=<not yet initialized>]我是ChatGPT，一个大型语言模型，由OpenAI基于GPT-3.5架构训练而成。我可以回答各种问题，包括但不限于计算机科学、自然语言处理、人工智能、数学、物理学、化学、生物学、历史、地理等多个领域。
+2023-04-13 17:43:03 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19943], internalIds=[1286189817], from friend 2502510147 to 3390756109 at 1681378907], content=你是谁]我是一个基于人工智能技术的虚拟助手，可以回答各种问题，提供帮助和建议。我的名字是 ChatGPT，由 OpenAI 公司开发和维护。我基于 GPT-3.5 架构进行训练，能够使用自然语言理解和生成技术与人进行交互。如果您有任何问题或需要帮助，可以随时向我提问。
+2023-04-13 17:43:04 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19943], internalIds=[1286189817], from 2502510147 to 3390756109 at 1681378907], content=<not yet initialized>]我是一个基于人工智能技术的虚拟助手，可以回答各种问题，提供帮助和建议。我的名字是 ChatGPT，由 OpenAI 公司开发和维护。我基于 GPT-3.5 架构进行训练，能够使用自然语言理解和生成技术与人进行交互。如果您有任何问题或需要帮助，可以随时向我提问。
+2023-04-13 17:43:04 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> [mirai:quote:[mirai:source:ids=[250096], internalIds=[588277503], from 2556608754 to 1047497524 at 1681378899], content=<not yet initialized>]百度搜一下 kotlin Deprecated 有一堆
+2023-04-13 17:43:05 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19945], internalIds=[-623462706], from friend 2502510147 to 3390756109 at 1681378960], content=重置会话]会话已重置。
+2023-04-13 17:43:05 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19945], internalIds=[-623462706], from 2502510147 to 3390756109 at 1681378960], content=<not yet initialized>]会话已重置。
+2023-04-13 17:43:05 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19942], internalIds=[749805035], from friend 2502510147 to 3390756109 at 1681378905], content=重置会话]会话已重置。
+2023-04-13 17:43:05 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19942], internalIds=[749805035], from 2502510147 to 3390756109 at 1681378905], content=<not yet initialized>]会话已重置。
+2023-04-13 17:43:12 V/Bot.3390756109: Friend(2502510147) <- [mirai:quote:[mirai:source:ids=[19946], internalIds=[536468889], from friend 2502510147 to 3390756109 at 1681378962], content=你是谁]我是 ChatGPT，一种基于 GPT-3.5 架构的大型语言模型，由 OpenAI 训练。我可以回答各种问题，提供帮助和建议。
+2023-04-13 17:43:12 V/Bot.2502510147: 愿上玉京十二楼(3390756109) -> [mirai:quote:[mirai:source:ids=[19946], internalIds=[536468889], from 2502510147 to 3390756109 at 1681378962], content=<not yet initialized>]我是 ChatGPT，一种基于 GPT-3.5 架构的大型语言模型，由 OpenAI 训练。我可以回答各种问题，提供帮助和建议。
+2023-04-13 17:43:23 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> [mirai:image:{E7CD6143-26DA-C157-24A5-ED0676EA9CB3}.jpg, width=168, height=300, size=12112, type=JPG, isEmoji=true]
+2023-04-13 17:43:42 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 绪山真寻(485184047) -> lombok好强/酸Q
+2023-04-13 17:44:04 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 绪山真寻(485184047) -> 找个时间重构一下代码/酸Q
+2023-04-13 17:44:34 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> 快去研究 jsr269
+2023-04-13 17:44:35 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> [mirai:image:{F9EEF1DC-DA2D-6E67-DB8E-4CFA8A74C897}.png, width=283, height=63, size=5135, type=PNG, isEmoji=false]\n《大约杨先生的确死了》\n2022年1月最后提交
+2023-04-13 17:44:39 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> 期待你的成果
+2023-04-13 17:44:46 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> [mirai:marketface:209668,[挠下巴]]
+2023-04-13 17:46:22 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 17:46:22 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-13 17:46:23 V/Bot.2502510147: Event: BotOfflineEvent.Active(bot=Bot(2502510147), cause=null, reconnect=false)
+2023-04-13 17:46:23 I/Bot.2502510147: Bot is closed manually
+2023-04-13 17:46:23 I/Bot.2502510147: Bot cancelled: Job was cancelled
+2023-04-13 17:46:31 I/main: Starting mirai-console...
+2023-04-13 17:46:31 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 17:46:31 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 17:46:31 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 17:46:31 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 17:46:32 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 17:46:32 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 17:46:32 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 17:46:32 I/Mirai HTTP API: ********************************************************
+2023-04-13 17:46:32 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 17:46:32 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 17:46:32 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 17:46:32 I/MahKtorAdapter[http]: Application started in 0.22 seconds.
+2023-04-13 17:46:32 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-13 17:46:32 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-13 17:46:32 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 17:46:32 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 17:46:32 I/Mirai HTTP API: ********************************************************
+2023-04-13 17:46:32 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 17:46:32 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 17:46:33 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-13 17:46:33 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 17:46:33 I/Bot.3390756109: Login successful.
+2023-04-13 17:46:34 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 17:46:34 I/Bot.3390756109: Bot login successful.
+2023-04-13 17:46:34 I/QRLogin: Auto-login 2502510147, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-13 17:46:34 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@71f0806b
+2023-04-13 17:46:34 I/Bot.2502510147: Loaded account secrets from local cache.
+2023-04-13 17:46:34 I/Bot.2502510147: Saved account secrets to local cache for fast login.
+2023-04-13 17:46:34 I/Bot.2502510147: Login successful.
+2023-04-13 17:46:44 V/Bot.2502510147: Event: BotOnlineEvent(bot=Bot(2502510147))
+2023-04-13 17:46:44 I/Bot.2502510147: Bot login successful.
+2023-04-13 17:46:44 V/Bot.2502510147: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@49889154
+2023-04-13 17:46:44 I/main: 2 plugin(s) enabled.
+2023-04-13 17:46:44 I/main: mirai-console started successfully.
+2023-04-13 17:47:39 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> [mirai:app:{"app":"com.tencent.mannounce","config":{"ctime":1681379260,"forward":0,"token":"b28110c714ef12cff8c1b5e7ac992d1c"},"desc":"群公告","extra":{"app_type":1,"appid":1101236949,"uin":2983870951},"meta":{"mannounce":{"cr":1,"encode":1,"fid":"405d972900000000bccf376469db0500","gc":"697785664","pic":[{"height":865,"url":"92X5ic1ziamrzLaXNu6jARFAajks1d1RFAQAialic1oBLSY","width":990}],"sign":"5ed0fcb852778442572e870d593bd1e6","text":"5ZGo5LqU5pma5LiK5pyN5Yqh5Zmo56ys5LiA5qyh5aSn5Z6L6LWb6L2m5rS75Yqo5Li+5Yqe77yM6ZyA6KaB5Y+C5Yqg55qE5om+5oiR5oql5ZCNKOWPgui1m+iAheavj+S6uuaPkOS+m0cy5LiA6L6G77yM5rS75Yqo57uT5p2f5ZCO5pS25ZueKeavlOi1m+mAlOS4reS4jeWFgeiuuOacieWHu+adgOS6uueJqeetie+8jOWPkeeOsOWQjuS4peaDqe+8jCAo5LuOY+WfjuWPs+i+ueWIsOayieiIueWNs+WPr+WujOaIkCkgKOWPguWKoOa0u+WKqOiAhe+8jOeuoeeQhuS8mue7n+S4gOS4gOi1t+aLiei/h+adpe+8jOavlOi1m+e7k+adn+WQjuW5tumAgeWbnuWOn+S9jSkK5rS75Yqo5aWW5YqxCuWPguS4juWlljrmr4/kurrku7vpgInkuKTmiormnqrmorDliqDlkIQyMDDlj5HlrZDlvLkK56ys5LiA5ZCNOuS7u+mAieS7u+aEj+i9pui+hisxMOebkumSieWtkCvlu7rlrrblt6XlhbfkuIDlpZcr5Lu75oSP5p6q5qKw5a2Q5by5MTAwMOWPkQrnrKzkuozlkI06MTDnm5LpkonlrZAr5Lu75oSP5p6q5qKw5LiA5oqK77yM5a2Q5by5NzAw5Y+RCuesrOS4ieWQjTrmprTlvLnngq4rMjDlj5Hpq5jniIblvLnlj4oxMOWPkeaJi+mbtwrmtLvliqjml7bpl7TvvJrlkajkupTmmZrkuIo454K5Cu+8iOacieavlOi+g+WlveeahOa0u+WKqOW7uuiurueahO+8jOasoui/juaKleeov++8iQ==","title":"576k5YWs5ZGK","tw":0,"uin":"2983870951"}},"prompt":"[群公告]周五晚上服务器第一次大型赛车活动举办，需要参加的找我报名(参赛者每人提供G2一辆，活动结束后收回)比赛途中不允许有击杀人物等，发现后严惩， (从c城右边到沉船即可完成) (参加活动者，管理会统一一起拉…","ver":"1.0.0.43","view":"main"}]
+2023-04-13 17:47:49 V/Bot.2502510147: Event: BotOfflineEvent.Dropped(bot=Bot(2502510147), cause=HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{6BB5878A-A267-A9B6-4ABC-5A996E2408E4}.png, width=982, height=163, size=10930, type=PNG, isEmoji=false][mirai:image:{C5D011DD-6E70-E016-A8DD-AE5E2E112059}.png, width=844, height=304, size=20923, type=PNG, isEmoji=false]
+2023-04-13 17:50:36 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 大佬 为什么一直都是0啊
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 是个人我直接吃(1005748997) -> 有的大佬是1
+2023-04-13 17:50:36 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 要怎么样才能接收到消息 有监听事件什么的吗
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{980C8880-0FE0-2FDE-0C2D-26FD68B5FF60}.jpg, width=438, height=433, size=32992, type=JPG, isEmoji=true]
+2023-04-13 17:50:36 I/Bot.2502510147: Reconnected successfully in 0.015s.
+2023-04-13 17:50:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 可能你的公告和其他公告冲突了
+2023-04-13 17:50:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] cssxsh 接mirai插件定制(1438159989) -> [mirai:quote:[mirai:source:ids=[250109], internalIds=[-1192674567], from 2502510147 to 1047497524 at 1681379304], content=<not yet initialized>]首先你得先确认有账号在登录中
+2023-04-13 17:50:36 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> [mirai:app:{"app":"com.tencent.mannounce","config":{"ctime":1681379431,"forward":0,"token":"eb4fd14832c58f2fa5984f738a8a2470"},"desc":"群公告","extra":{"app_type":1,"appid":1101236949,"uin":2983870951},"meta":{"mannounce":{"cr":1,"encode":1,"fid":"405d97290000000066d03764de270f00","gc":"697785664","pic":[{"height":865,"url":"92X5ic1ziamrzR0RsFqvR0LW8GvWRdgQeemMJxTiaJNzGg","width":990}],"sign":"7017e35978fac864926b9b0287975dee","text":"5ZGo5LqU5pma5LiK5pyN5Yqh5Zmo56ys5LiA5qyh5aSn5Z6L6LWb6L2m5rS75Yqo5Li+5Yqe77yM6ZyA6KaB5Y+C5Yqg55qE5om+5oiR5oql5ZCNKOWPgui1m+iAheavj+S6uuaPkOS+m0cy5LiA6L6G77yM5rS75Yqo57uT5p2f5ZCO5pS25ZueKeavlOi1m+mAlOS4reS4jeWFgeiuuOacieWHu+adgOS6uueJqeetie+8jOWPkeeOsOWQjuS4peaDqe+8jCjku45j5Z+O5Y+z6L655Yiw5rKJ6Ii55Y2z5Y+v5a6M5oiQKSjlj4LliqDmtLvliqjogIXvvIznrqHnkIbkvJrnu5/otbfmi4nov4fmnaXvvIzmr5TotZvnu5PmnZ/lkI7lubbpgIHlm57ljp/kvY0p5rS75Yqo5aWW5YqxCuWPguS4juWlljrmr4/kurrku7vpgInkuKTmiormnqrmorDliqDlkIQyMDDlj5HlrZDlvLnnrKzkuIDlkI065Lu76YCJ5Lu75oSP6L2m6L6GKzEw55uS6ZKJ5a2QK+W7uuWutuW3peWFt+S4gOWllyvku7vmhI/mnqrmorDlrZDlvLkxMDAw5Y+R56ys5LqM5ZCNOjEw55uS6ZKJ5a2QK+S7u+aEj+aequaisOS4gOaKiu+8jOWtkOW8uTcwMOWPkeesrOS4ieWQjTrmprTlvLnngq4rMjDlj5Hpq5jniIblvLnlj4oxMOWPkeaJi+mbt+a0u+WKqOaXtumXtDrlkajkupTmmZrkuIo454K5CijmnInmr5TovoPlpb3nmoTmtLvliqjlu7rorq7nmoTvvIzmrKLov47mipXnqL8p","title":"576k5YWs5ZGK","tw":0,"uin":"2983870951"}},"prompt":"[群公告]周五晚上服务器第一次大型赛车活动举办，需要参加的找我报名(参赛者每人提供G2一辆，活动结束后收回)比赛途中不允许有击杀人物等，发现后严惩，(从c城右边到沉船即可完成)(参加活动者，管理会统起拉过来，比…","ver":"1.0.0.43","view":"main"}]
+2023-04-13 17:50:39 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-16813794393185671456476749679.png
+2023-04-13 17:50:39 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 17:50:54 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 17:51:05 I/QRLoginSolver: 已确认登录
+2023-04-13 17:51:05 I/Bot.2502510147: Login successful
+2023-04-13 17:51:05 I/Bot.2502510147: Saved account secrets to local cache for fast login.
+2023-04-13 17:51:05 I/Bot.2502510147: Login successful.
+2023-04-13 17:51:05 V/Bot.2502510147: Event: BotOnlineEvent(bot=Bot(2502510147))
+2023-04-13 17:51:05 V/Bot.2502510147: Event: BotReloginEvent(bot=Bot(2502510147), cause=null)
+2023-04-13 17:51:05 I/Bot.2502510147: Reconnected successfully in 28.91s.
+2023-04-13 17:51:15 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{49ECD76F-7077-FB47-DCC3-66D15EB6BD48}.png, width=942, height=338, size=33169, type=PNG, isEmoji=false]
+2023-04-13 17:51:22 V/Bot.2502510147: Fool(2983870951) -> 出鬼了
+2023-04-13 17:51:22 V/Bot.2502510147: Fool(2983870951) -> 又被删除了
+2023-04-13 17:51:22 V/Bot.2502510147: <LTR>(2502510147) -> 可能你的公告和其他公告冲突了
+2023-04-13 17:51:22 V/Bot.2502510147: Fool(2983870951) -> 我不理解了
+2023-04-13 17:51:22 V/Bot.2502510147: Fool(2983870951) -> 就是被删
+2023-04-13 17:51:30 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 这样是登录上了吧
+2023-04-13 17:52:25 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 是个人我直接吃(1005748997) -> [mirai:image:{32465127-0E52-5890-4F5E-A1F003E15339}.jpg, width=230, height=194, size=9578, type=JPG, isEmoji=true]是
+2023-04-13 17:52:28 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 大佬 咋解决呀
+2023-04-13 17:52:29 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 黄焖鸡米饭(437177683) -> 《Login Successful》
+2023-04-13 17:53:25 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] cssxsh 接mirai插件定制(1438159989) -> [mirai:quote:[mirai:source:ids=[250112], internalIds=[-2018101261], from 2502510147 to 1047497524 at 1681379476], content=<not yet initialized>]然后发消息\n看日志里有没有显示收到消息
+2023-04-13 17:53:44 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{9A09B182-7F2E-1C1F-D95D-838FE24CE052}.png, width=988, height=527, size=73992, type=PNG, isEmoji=false]
+2023-04-13 17:53:49 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> [mirai:app:{"app":"com.tencent.mannounce","config":{"ctime":1681379629,"forward":0,"token":"4b88073e440a497d23b99a18666c521e"},"desc":"群公告","extra":{"app_type":1,"appid":1101236949,"uin":2983870951},"meta":{"mannounce":{"cr":1,"encode":1,"fid":"405d9729000000002dd137649c6c0d00","gc":"697785664","sign":"dbe3b85c0502fb27eb0694e5ba7a7a1a","text":"5ZGo5LqU5pma5LiKOOeCuei1m+i9pua0u+WKqA==","title":"576k5YWs5ZGK","tw":0,"uin":"2983870951"}},"prompt":"[群公告]周五晚上8点赛车活动","ver":"1.0.0.43","view":"main"}]
+2023-04-13 17:54:16 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> [mirai:app:{"app":"com.tencent.mannounce","config":{"ctime":1681379657,"forward":0,"token":"2c243ce830e436b96f1e5f385a21366c"},"desc":"群公告","extra":{"app_type":1,"appid":1101236949,"uin":2983870951},"meta":{"mannounce":{"cr":1,"encode":1,"fid":"405d97290000000049d1376452b40000","gc":"697785664","pic":[{"height":1920,"url":"92X5ic1ziamrx4MpEvicM2fwBBNCz15o0iczRKUgWrtuexU","width":1080}],"sign":"8e21dc38133273024e72bc785c318773","text":"5ZGo5LqU5pma5LiKOOeCuei1m+i9pua0u+WKqA==","title":"576k5YWs5ZGK","tw":0,"uin":"2983870951"}},"prompt":"[群公告]周五晚上8点赛车活动","ver":"1.0.0.43","view":"main"}]
+2023-04-13 17:56:45 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> [mirai:quote:[mirai:source:ids=[250040], internalIds=[-545799786], from 2431208142 to 1047497524 at 1681377526], content=<not yet initialized>][mirai:image:{5F4F2C54-2B2C-5352-C203-FAC2A6E2BBAA}.png, width=1177, height=547, size=65740, type=PNG, isEmoji=false]
+2023-04-13 17:57:28 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> 《比我入坑 mirai 都早》
+2023-04-13 17:57:51 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> /汪汪
+2023-04-13 17:58:09 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 子墨(2556608754) -> mirai早期貌似是java开发的
+2023-04-13 17:58:20 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 大佬 这个接口显示data：0是什么情况啊
+2023-04-13 17:58:38 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{072228F7-567A-B739-75F4-26B4D559C7DD}.png, width=297, height=48, size=2973, type=PNG, isEmoji=false][mirai:image:{B2D672F1-1CA0-78ED-CEFA-6E2B33D98476}.png, width=398, height=166, size=13140, type=PNG, isEmoji=false]
+2023-04-13 18:01:23 V/Bot.2502510147: Event: MemberJoinRequestEvent(bot=Bot(2502510147), eventId=1681380084000019, message=, fromId=182400711, groupId=697785664, groupName=697785664, fromNick=June, invitorId=null)
+2023-04-13 18:01:35 V/Bot.2502510147: Event: MemberJoinEvent.Active(member=182400711)
+2023-04-13 18:01:36 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] Q群管家(2854196310) -> [mirai:at:182400711] 必须看公告 有进入方法和群规，白名单去找管理员 katarina审核\n——来自群管理员（2502510147）的编辑
+2023-04-13 18:01:46 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> [mirai:image:{303BDDBD-755C-B0F8-39E5-7A599D376E7C}.jpg, width=55, height=55, size=1699, type=JPG, isEmoji=true]
+2023-04-13 18:02:21 V/Bot.2502510147: Event: MemberJoinEvent.Active(member=198315980)
+2023-04-13 18:03:10 V/Bot.2502510147: Event: BotOfflineEvent.Dropped(bot=Bot(2502510147), cause=HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-13 18:05:36 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 18:05:36 W/Bot.2502510147: Connection lost, reconnecting... (HeartbeatFailedException: 2502510147.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=2502510147.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-13 18:05:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] Q群管家(2854196310) -> [mirai:at:198315980] 注意看！\n【235/45版本过低】【237网络不稳定】【238扫码登录】等问题解决方法如图。[mirai:image:{F7434272-B4AF-BF2A-AC8B-4C3A73FEAB81}.jpg, width=1000, height=667, size=142004, type=JPG, isEmoji=false]\n——来自群管理员（2431208142）的编辑
+2023-04-13 18:05:36 V/Bot.2502510147: [ChatGPT for Bot 交流群(612306346)] 澪 出租服务器托管bot(1099834705) -> 设置额度不行吗
+2023-04-13 18:05:36 V/Bot.2502510147: [ChatGPT for Bot 交流群(612306346)] 有偿 代搭建托管 代注册(1349640007) -> 有没有可能群主的关了
+2023-04-13 18:05:36 V/Bot.2502510147: [ChatGPT for Bot 交流群(612306346)] ァ(1066318598) -> 这个网络问题，是不是得换机场啊[晕]
+2023-04-13 18:05:36 I/Bot.2502510147: Reconnected successfully in 0.004s.
+2023-04-13 18:05:36 V/Bot.2502510147: Event: MemberCardChangeEvent(origin=June, new=, member=NormalMember(182400711))
+2023-04-13 18:05:36 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] June(182400711) -> 有直连吗
+2023-04-13 18:05:36 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)] 小王（活动策划）(2983870951) -> 有
+2023-04-13 18:05:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] 猫猫猫猫猫猫猫猫猫(2431208142) -> [mirai:quote:[mirai:source:ids=[250122], internalIds=[792529111], from 2556608754 to 1047497524 at 1681379890], content=<not yet initialized>]确实是这样\n[mirai:image:{B4494E25-CA20-26A9-C0A4-5B12498B0E55}.png, width=413, height=327, size=21813, type=PNG, isEmoji=false]
+2023-04-13 18:05:36 V/Bot.2502510147: [Public Dayz[no mods | OfficialIm(697785664)][SYNC] <- 看公告
+2023-04-13 18:05:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)] cssxsh 接mirai插件定制(1438159989) -> [mirai:quote:[mirai:source:ids=[250124], internalIds=[-1209541251], from 2502510147 to 1047497524 at 1681379919], content=<not yet initialized>]确认绑定操作没问题
+2023-04-13 18:05:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- 确定了
+2023-04-13 18:05:36 V/Bot.2502510147: [猫猫摸鱼开发BT音乐编程歌姬单推交流群(1047497524)][SYNC] <- [mirai:image:{23571DC7-2D8D-204C-F482-9A46FA00605B}.png, width=264, height=57, size=2313, type=PNG, isEmoji=false]
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 还没回家呢
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 这个比机器人
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 还没回家呢
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 代码收不到消息
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 这个比机器人
+2023-04-13 18:05:36 V/Bot.2502510147: Fool(2983870951)[SYNC] <- 代码收不到消息
+2023-04-13 18:05:39 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-2502510147-168138033917542745356457824009.png
+2023-04-13 18:05:39 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 18:05:50 I/QRLoginSolver: 用户主动取消登录
+2023-04-13 18:05:50 I/Bot.2502510147: Bot cancelled: Bot closed
+2023-04-13 18:08:45 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-13 18:09:09 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.StatHeartbeat Scheduler: Timeout receiving action response, cause=null), reconnect=true)
+2023-04-13 20:49:21 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.StatHeartbeat Scheduler: Timeout receiving action response, cause=null))
+2023-04-13 20:49:21 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 20:49:21 I/Bot.3390756109: Login successful.
+2023-04-13 20:49:21 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 20:49:21 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-13 20:49:21 I/Bot.3390756109: Reconnected successfully in 0.218s.
+2023-04-13 20:49:21 E/reverse-ws adapter: [reverse-ws] SocketException occurred: Connection reset
+2023-04-13 20:49:21 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 20:50:05 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 20:50:05 I/Bot.3390756109: Bot is closed manually
+2023-04-13 23:52:54 I/main: Starting mirai-console...
+2023-04-13 23:52:54 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-13 23:52:54 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-13 23:52:54 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-13 23:52:54 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-13 23:52:55 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-13 23:52:55 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-13 23:52:55 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-13 23:52:55 I/Mirai HTTP API: ********************************************************
+2023-04-13 23:52:55 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-13 23:52:55 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-13 23:52:56 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-13 23:52:56 I/MahKtorAdapter[http]: Application started in 0.203 seconds.
+2023-04-13 23:52:56 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-13 23:52:56 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-13 23:52:56 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-13 23:52:56 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-13 23:52:56 I/Mirai HTTP API: ********************************************************
+2023-04-13 23:52:56 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-13 23:52:56 I/main: 2 plugin(s) enabled.
+2023-04-13 23:52:56 I/main: mirai-console started successfully.
+2023-04-13 23:52:57 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:04 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:07 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-3390756109-16814011874164403592669300428.png
+2023-04-13 23:53:07 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 23:53:11 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:17 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 23:53:17 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:22 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-13 23:53:22 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.InconsistentBotIdException: trying to logging in a bot whose id is different from the one provided to BotFactory.newBot, expected=3390756109, actual=2502510147.
+		at net.mamoe.mirai.internal.network.protocol.packet.login.WtLogin$TransEmp.decode(WtLogin.kt:869)
+		at net.mamoe.mirai.internal.network.components.PacketCodecImpl.processBody(PacketCodec.kt:520)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:158)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+		at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+		at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+		at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+		at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+		at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.InconsistentBotIdException: trying to logging in a bot whose id is different from the one provided to BotFactory.newBot, expected=3390756109, actual=2502510147.]
+
+2023-04-13 23:53:24 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:31 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:37 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:46 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:49 I/QRLoginSolver: 用户主动取消登录
+2023-04-13 23:53:51 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-3390756109-1681401231762113699659900207.png
+2023-04-13 23:53:51 I/QRLoginSolver: 等待扫描二维码中
+2023-04-13 23:53:53 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:53:56 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-13 23:54:00 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:54:01 I/QRLoginSolver: 已确认登录
+2023-04-13 23:54:01 I/Bot.3390756109: Login successful
+2023-04-13 23:54:01 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-13 23:54:01 I/Bot.3390756109: Login successful.
+2023-04-13 23:54:02 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-13 23:54:02 I/Bot.3390756109: Bot login successful.
+2023-04-13 23:54:06 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:54:13 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:54:20 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-13 23:54:20 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-13 23:54:20 I/Bot.3390756109: Bot is closed manually
+2023-04-13 23:54:20 I/Bot.3390756109: Bot cancelled: Job was cancelled

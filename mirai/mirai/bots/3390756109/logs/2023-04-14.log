@@ -1,0 +1,72 @@
+[0m2023-04-14 10:14:40 V/Net 3390756109: Invalidate caches because hash file not available.[0m
+[0m2023-04-14 10:14:40 V/Net 3390756109: No server list cached.[0m
+[96m2023-04-14 10:14:40 D/Net 3390756109: CAS: JustInitialized -> CreatingProducer: true[0m
+[96m2023-04-14 10:14:40 D/Net 3390756109: CAS: CreatingProducer -> ProducerReady: true[0m
+[96m2023-04-14 10:14:40 D/Net 3390756109: CAS: ProducerReady -> Producing(deferred.completed=false): true[0m
+[0m2023-04-14 10:14:40 V/Net 3390756109: [AuthControl/auth] Authorization started[0m
+[92m2023-04-14 10:14:40 I/Net 3390756109: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[96m2023-04-14 10:14:40 D/Net 3390756109: CAS: Producing(deferred.completed=false) -> Consuming(value=null): true[0m
+[92m2023-04-14 10:14:41 I/Net 3390756109: Successfully fetched ecdh public key from server.[0m
+[0m2023-04-14 10:14:41 V/Net 3390756109: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-04-14 10:14:41 D/Net 3390756109: CAS: Consuming(value=QRCode) -> Consumed(LatchImpl(CompletableDeferredImpl{Active}@75045a3d)): true[0m
+[96m2023-04-14 10:14:41 D/Net 3390756109: [AuthControl/acquire] Authorization responded: QRCode[0m
+[96m2023-04-14 10:14:41 D/Net 3390756109: requesting qrcode.[0m
+[0m2023-04-14 10:14:41 V/Net 3390756109: Send: wtlogin.trans_emp[0m
+[0m2023-04-14 10:14:41 V/Net 3390756109: Recv: wtlogin.trans_emp[0m
+[96m2023-04-14 10:14:41 D/Net 3390756109: querying qrcode state.[0m
+[0m2023-04-14 10:14:41 V/Net 3390756109: Send: wtlogin.trans_emp[0m
+[0m2023-04-14 10:14:41 V/Net 3390756109: Recv: wtlogin.trans_emp[0m
+[96m2023-04-14 10:14:41 D/Net 3390756109: qrcode state changed: WAITING_FOR_SCAN[0m
+[0m2023-04-14 10:14:44 V/Net 3390756109: [AuthControl/auth] Authorization cancelled[0m
+[93m2023-04-14 10:14:44 W/Net 3390756109: Failed with auth method: QRCode
+StateSwitchingException(old=StateConnecting, new=StateClosed, cause=top.mrxiaom.qrlogin.UserCancelledLoginException: 用户主动取消登录)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:119)
+	at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:115)
+	at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:97)
+	at mirai-console-dev-qrlogin-0.1.3.jar//top.mrxiaom.qrlogin.SwingQRLoginListener$1$1.windowClosed(SwingQRLoginListener.kt:34)
+	at java.desktop/java.awt.Window.processWindowEvent(Unknown Source)
+	at java.desktop/javax.swing.JFrame.processWindowEvent(Unknown Source)
+	at java.desktop/java.awt.Window.processEvent(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.Component.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$5.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: top.mrxiaom.qrlogin.UserCancelledLoginException: 用户主动取消登录
+	... 25 more
+[0m
+[0m2023-04-14 10:14:44 V/Net 3390756109: [AuthControl/resume] Fire auth failed with cause: StateSwitchingException(old=StateConnecting, new=StateClosed, cause=top.mrxiaom.qrlogin.UserCancelledLoginException: 用户主动取消登录)[0m
+[96m2023-04-14 10:14:44 D/Net 3390756109: CAS: Consumed(LatchImpl(CompletableDeferredImpl{Cancelled}@75045a3d)) -> ProducerReady: true[0m
+[93m2023-04-14 10:14:44 W/Net 3390756109: Exception in resumeConnection.
+java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@75045a3d) was already resumed
+	at net.mamoe.mirai.internal.network.auth.LatchImpl.resumeWith(Latch.kt:46)
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.expectMore(CoroutineOnDemandValueScope.kt:189)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.actMethodFailed(AuthControl.kt:109)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:254)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[93m2023-04-14 10:14:44 W/Net 3390756109: Network selector received exception, closing bot. (java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@75045a3d) was already resumed)[0m

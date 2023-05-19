@@ -1,0 +1,560 @@
+2023-04-14 10:14:38 I/main: Starting mirai-console...
+2023-04-14 10:14:38 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-14 10:14:38 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-14 10:14:38 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-14 10:14:38 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-14 10:14:39 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-14 10:14:39 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-14 10:14:39 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-14 10:14:40 I/Mirai HTTP API: ********************************************************
+2023-04-14 10:14:40 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-14 10:14:40 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-14 10:14:40 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-14 10:14:40 I/MahKtorAdapter[http]: Application started in 0.219 seconds.
+2023-04-14 10:14:40 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-14 10:14:40 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-14 10:14:40 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-14 10:14:40 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-14 10:14:40 I/Mirai HTTP API: ********************************************************
+2023-04-14 10:14:40 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-14 10:14:40 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-14 10:14:41 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-3390756109-168143848114147359943091037885.png
+2023-04-14 10:14:41 I/QRLoginSolver: 等待扫描二维码中
+2023-04-14 10:14:44 I/QRLoginSolver: 用户主动取消登录
+2023-04-14 10:14:44 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-14 10:14:44 E/QRLogin: java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@75045a3d) was already resumed
+java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@75045a3d) was already resumed
+	at net.mamoe.mirai.internal.network.auth.LatchImpl.resumeWith(Latch.kt:46)
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.expectMore(CoroutineOnDemandValueScope.kt:189)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.actMethodFailed(AuthControl.kt:109)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:254)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-14 10:14:44 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Failure@13fe5bb7
+2023-04-14 10:14:44 I/main: 2 plugin(s) enabled.
+2023-04-14 10:14:44 I/main: mirai-console started successfully.
+2023-04-14 10:15:30 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-270488994-16814385305972085298573293647.png
+2023-04-14 10:15:30 I/QRLoginSolver: 等待扫描二维码中
+2023-04-14 10:17:31 I/QRLoginSolver: 扫描超时，将会重新获取二维码
+2023-04-14 10:17:31 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-270488994-16814385305972085298573293647.png
+2023-04-14 10:17:32 I/QRLoginSolver: 等待扫描二维码中
+2023-04-14 10:19:18 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-14 10:19:23 I/QRLoginSolver: 已确认登录
+2023-04-14 10:19:23 I/Bot.270488994: Login successful
+2023-04-14 10:19:23 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 10:19:23 I/Bot.270488994: Login successful.
+2023-04-14 10:19:33 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 10:19:33 I/Bot.270488994: Bot login successful.
+2023-04-14 10:19:55 V/Bot.270488994: <LTR>(2502510147) -> 1
+2023-04-14 10:38:57 V/Bot.270488994: <LTR>(2502510147) -> 1
+2023-04-14 11:08:46 V/Bot.270488994: <LTR>(2502510147) -> 1111111
+2023-04-14 11:09:30 V/Bot.270488994: Event: OtherClientOfflineEvent(client=OtherClient(bot=270488994,deviceName=🌝🌝🌝🌔🌓🌗,platform=MOBILE))
+2023-04-14 11:39:40 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-14 13:14:23 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-14 13:14:23 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 13:14:23 I/Bot.270488994: Login successful.
+2023-04-14 13:14:23 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 13:14:23 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-14 13:14:23 I/Bot.270488994: Reconnected successfully in 0.179s.
+2023-04-14 13:23:31 V/Bot.270488994: <LTR>(2502510147) -> 1111111111
+2023-04-14 13:23:31 V/Bot.270488994: <LTR>(2502510147) -> 1111111
+2023-04-14 13:24:49 V/Bot.270488994: <LTR>(2502510147) -> 这是第一句
+2023-04-14 13:24:54 V/Bot.270488994: <LTR>(2502510147) -> 这是第二句
+2023-04-14 13:25:02 V/Bot.270488994: <LTR>(2502510147) -> 这是第三局
+2023-04-14 13:25:25 V/Bot.270488994: <LTR>(2502510147) -> 这是第四句
+2023-04-14 13:26:16 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 第一句
+2023-04-14 13:28:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 13:58:35 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 你好
+2023-04-14 13:58:39 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 在线人数
+2023-04-14 13:58:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 111
+2023-04-14 14:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线消息
+2023-04-14 14:01:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:02:25 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 你好
+2023-04-14 14:02:33 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> 在线人数
+2023-04-14 14:02:45 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 你好
+2023-04-14 14:02:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:04:05 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:04:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:08:18 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:19:23 V/Bot.270488994: <LTR>(2502510147) -> 在线人数
+2023-04-14 14:19:36 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 14:19:37 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 15:33:57 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2324293526))
+2023-04-14 16:10:54 V/Bot.270488994: Event: MemberLeaveEvent.Kick(member=3390756109, operator=2502510147)
+2023-04-14 16:39:31 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-14 16:39:31 I/Bot.270488994: Bot is closed manually
+2023-04-14 16:39:31 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-14 16:40:16 I/main: Starting mirai-console...
+2023-04-14 16:40:16 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-14 16:40:16 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-14 16:40:16 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-14 16:40:16 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-14 16:40:17 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-14 16:40:17 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-14 16:40:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-14 16:40:17 I/Mirai HTTP API: ********************************************************
+2023-04-14 16:40:17 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-14 16:40:18 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-14 16:40:18 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-14 16:40:18 I/MahKtorAdapter[http]: Application started in 0.197 seconds.
+2023-04-14 16:40:18 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-14 16:40:18 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-14 16:40:18 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-14 16:40:18 I/Mirai HTTP API: adaptors: [reverse-ws,http]
+2023-04-14 16:40:18 I/Mirai HTTP API: ********************************************************
+2023-04-14 16:40:18 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-14 16:40:18 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-14 16:40:18 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-14 16:40:19 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 16:40:19 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:19 I/Bot.270488994: Login successful.
+2023-04-14 16:40:24 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:29 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 16:40:30 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:33 I/Bot.270488994: Bot login successful.
+2023-04-14 16:40:33 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@1d77746b
+2023-04-14 16:40:34 I/main: 2 plugin(s) enabled.
+2023-04-14 16:40:34 I/main: mirai-console started successfully.
+2023-04-14 16:40:39 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:45 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:50 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:40:56 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:41:02 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:41:08 W/reverse-ws adapter: [reverse-ws] Connection to 107.172.155.65:18854/ interrupted. Trying reconnect in 5000 ms.
+2023-04-14 16:41:10 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-14 16:41:10 I/Bot.270488994: Bot is closed manually
+2023-04-14 16:41:10 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-14 16:41:20 I/main: Starting mirai-console...
+2023-04-14 16:41:20 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-14 16:41:20 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-14 16:41:20 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-14 16:41:20 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-14 16:41:21 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-14 16:41:21 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-14 16:41:21 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-14 16:41:21 I/Mirai HTTP API: ********************************************************
+2023-04-14 16:41:21 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-14 16:41:21 I/MahKtorAdapter[http]: Application started in 0.118 seconds.
+2023-04-14 16:41:21 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-14 16:41:21 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-14 16:41:21 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-14 16:41:21 I/Mirai HTTP API: adaptors: [http]
+2023-04-14 16:41:21 I/Mirai HTTP API: ********************************************************
+2023-04-14 16:41:21 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-14 16:41:21 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-14 16:41:21 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-14 16:41:22 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 16:41:22 I/Bot.270488994: Login successful.
+2023-04-14 16:41:32 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 16:41:32 I/Bot.270488994: Bot login successful.
+2023-04-14 16:41:32 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@6f07d414
+2023-04-14 16:41:32 I/main: 2 plugin(s) enabled.
+2023-04-14 16:41:32 I/main: mirai-console started successfully.
+2023-04-14 16:43:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:43:59 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:44:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:44:52 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:49:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:49:51 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:50:08 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> @<LTR> 在线人数
+2023-04-14 16:50:20 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:50:21 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:50:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:50:57 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:53:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:53:45 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：3/60
+2023-04-14 16:55:43 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:55:44 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：1/60
+2023-04-14 16:56:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:56:56 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：1/60
+2023-04-14 16:57:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:57:08 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：1/60
+2023-04-14 16:57:26 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:57:27 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：1/60
+2023-04-14 16:59:18 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:59:21 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：2/60
+2023-04-14 16:59:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 16:59:44 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：1/60
+2023-04-14 17:00:39 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dasdsa
+2023-04-14 17:00:39 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:40 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:41 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:42 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:43 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:43 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:43 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> ad
+2023-04-14 17:00:43 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:44 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:45 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:45 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:45 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:45 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:46 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:47 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:48 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:48 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:48 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:48 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:49 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:49 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:49 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> ds
+2023-04-14 17:00:49 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:49 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> fsa
+2023-04-14 17:00:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> f
+2023-04-14 17:00:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> saf
+2023-04-14 17:00:50 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:51 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:51 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:51 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:51 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:51 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:52 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sd
+2023-04-14 17:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:53 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:54 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:54 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:54 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:54 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:54 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:56 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:57 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:58 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:58 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:58 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:00:58 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:00:59 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> asd
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> saf
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:01:00 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:01 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:01 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:01:02 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:02 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sad
+2023-04-14 17:01:02 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:02 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:01:02 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:03 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:04 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:04 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:05 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:05 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:05 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> f
+2023-04-14 17:01:06 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:06 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:06 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:01:06 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> d
+2023-04-14 17:01:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> dsa
+2023-04-14 17:01:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> as
+2023-04-14 17:01:07 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> sa
+2023-04-14 17:01:09 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> das
+2023-04-14 17:01:11 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> \nimport { _decorator, Component, Node, v3, view, UITransform, ScrollView, Layout, Widget, Vec2, v2, tween, SpriteFrame, Sprite, Label } from 'cc';\nimport { BasePanel } from '../../Framework/Base/BasePanel';\nimport { BundleCfg } from '../../Framework/BundleDefine/BundleCfg';\nimport { PlayerData } from '../../Framework/DataCenter/PlayerData';\nimport { LanguagerMgr } from '../../Framework/Manager/LanguagerMgr';\nimport { UIMgr } from '../../Framework/Manager/UIMgr';\nimport { SeverApiRequest } from '../../Framework/Network/SeverApiRequest';\nimport { Tool } from '../../Framework/Tool/Tool';\nimport { NodeHelper } from '../../Common/NodeHelper';\nimport { HttpRequest } from '../../Framework/Network/HttpRequest';\nconst { ccclass, property } = _decorator;\n\n@ccclass('GameHallPanel')\nexport class GameHallPanel extends BasePanel {\n\n    @property({ type: Node, displayName: "左侧用户信息页面"})\n    public LeftUserInfoNode: Node = null;\n\n    @property({ type: Node, displayName: "中间活动按钮节点"})\n    public centerActivityNode: Node = null;\n\n    @property({ type: Node, displayName: "头像"})\n    public headImg: Node = null;\n\n    @property({ type: Node, displayName: "用户名"})\n    public userName: Node = null;\n\n    @property({ type: Node, displayName: "购买按钮"})\n    public buyBtn: Node = null;\n\n    Init() {\n        super.Init();\n    }\n\n    Show(args) {\n        super.Show();\n        this.initUIByHallData(args);\n    }\n\n    clickBtn() {\n        LanguagerMgr.instance.changeLanguage("zh");\n    }\n\n    clickBtn1() {\n        LanguagerMgr.instance.changeLanguage("en");\n    }\n\n    // 点击左侧用户信息页的关闭按钮\n    clickLeftUserInfoCloseBtn() {\n        // 界面向左滑动\n        let widgetCom = this.LeftUserInfoNode.getComponent(Widget);\n        tween(widgetCom).to(0.5, { left: - this.LeftUserInfoNode.getComponent(UITransform).width}).start();\n    }\n\n    // 点击修改用户名按钮\n    clickChangeUserNameBtn() {\n\n    }\n\n    // 点击头像\n    clickHeadImg() {\n        // 界面向右滑动\n        let widgetCom = this.LeftUserInfoNode.getComponent(Widget);\n        tween(widgetCom).to(0.5, { left: 0 }).start();\n    }\n\n    /**点击跳转进赢取奖励界面 */\n    clickEnterGameBtn() {\n        this.Hide();\n        UIMgr.instance.showPanel(BundleCfg.GAME_PANELS.GameWinAPrizePanel);\n    }\n\n    /**点击跳转进入挑战界面 */\n    clickEnterChallengeBtn() {\n        this.Hide();\n        UIMgr.instance.showPanel(BundleCfg.GAME_PANELS.GameChallengePanel);\n    }\n\n    /**点击跳转购买界面 */\n    clickEnterBuyBtn() {\n        this.Hide();\n        UIMgr.instance.showPanel(BundleCfg.GAME_PANELS.GameShoppingPanel);\n    }\n\n    registerEvent(): void {\n        super.registerEvent();\n        NodeHelper.addClick(this.buyBtn, this.clickEnterBuyBtn, this);\n    }\n\n    /**根据大厅数据进行ui初始化 */\n    initUIByHallData(data) {\n        // 加载头像\n        SeverApiRequest.instance.downloadHeadImg(data.txUrl, (spriteFrame:SpriteFrame)=>{\n            this.headImg.getComponent(Sprite).spriteFrame = spriteFrame;\n        });\n        // 加载用户名\n        this.userName.getComponent(Label).string = data.name;\n        // 加载用户id\n        PlayerData.instance.userId = data.id;\n    }\n}
+2023-04-14 17:05:10 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1948576374))
+2023-04-14 17:05:37 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-14 17:49:02 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-14 17:49:02 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1948576374))
+2023-04-14 17:49:06 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-270488994-168146574612918269289999728583.png
+2023-04-14 17:49:06 I/QRLoginSolver: 等待扫描二维码中
+2023-04-14 17:49:34 I/QRLoginSolver: 用户主动取消登录
+2023-04-14 17:49:34 I/Bot.270488994: Bot cancelled: Bot closed
+2023-04-14 17:49:48 I/main: Starting mirai-console...
+2023-04-14 17:49:48 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-14 17:49:48 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-14 17:49:48 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-14 17:49:48 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-14 17:49:49 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-14 17:49:49 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-14 17:49:49 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-14 17:49:49 I/Mirai HTTP API: ********************************************************
+2023-04-14 17:49:49 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-14 17:49:49 I/MahKtorAdapter[http]: Application started in 0.13 seconds.
+2023-04-14 17:49:49 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-14 17:49:49 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-14 17:49:49 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-14 17:49:49 I/Mirai HTTP API: adaptors: [http]
+2023-04-14 17:49:49 I/Mirai HTTP API: ********************************************************
+2023-04-14 17:49:49 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-14 17:49:49 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-14 17:49:50 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-14 17:49:50 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 17:49:50 I/Bot.270488994: Login successful.
+2023-04-14 17:50:00 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 17:50:06 I/Bot.270488994: Bot login successful.
+2023-04-14 17:50:06 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@6c9bf3b5
+2023-04-14 17:50:06 I/main: 2 plugin(s) enabled.
+2023-04-14 17:50:06 I/main: mirai-console started successfully.
+2023-04-14 18:28:25 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 18:29:55 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 18:29:58 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：2/60
+2023-04-14 18:42:06 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 18:42:10 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：2/60
+2023-04-14 20:23:57 V/Bot.270488994: Event: OtherClientOnlineEvent(client=OtherClient(bot=270488994,deviceName=🌝🌝🌝🌔🌓🌗,platform=MOBILE), kind=null)
+2023-04-14 20:24:38 V/Bot.270488994: Event: OtherClientOfflineEvent(client=OtherClient(bot=270488994,deviceName=🌝🌝🌝🌔🌓🌗,platform=MOBILE))
+2023-04-14 20:54:35 V/Bot.270488994: [测试bot(572933068)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 20:54:37 V/Bot.270488994: Group(572933068) <- 服务器状态：online,当前在线人数：5/60
+2023-04-14 20:54:58 V/Bot.270488994: Event: BotInvitedJoinGroupRequestEvent(bot=Bot(270488994), eventId=1681476900491299, invitorId=2502510147, groupId=697785664, groupName=Public Dayz[no mods | OfficialIm, invitorNick=‭)
+2023-04-14 20:55:10 V/Bot.270488994: Event: BotLeaveEvent.Disband(group=572933068)
+2023-04-14 20:55:34 V/Bot.270488994: Event: OtherClientOnlineEvent(client=OtherClient(bot=270488994,deviceName=🌝🌝🌝🌔🌓🌗,platform=MOBILE), kind=null)
+2023-04-14 20:55:41 V/Bot.270488994: Event: BotJoinGroupEvent.Active(group=Group(697785664))
+2023-04-14 20:56:27 V/Bot.270488994: Event: BotGroupPermissionChangeEvent(group=Group(697785664), origin=MEMBER, new=ADMINISTRATOR)
+2023-04-14 20:58:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Q群管家(2854196310) -> [mirai:at:270488994] 必须看公告 有进入方法和群规，白名单去找管理员 katarina审核\n——来自群管理员（2502510147）的编辑
+2023-04-14 20:59:05 V/Bot.270488994: Event: MemberCardChangeEvent(origin=, new=机器人, member=NormalMember(270488994))
+2023-04-14 20:59:10 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 20:59:11 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：6/60
+2023-04-14 21:00:55 V/Bot.270488994: Event: OtherClientOfflineEvent(client=OtherClient(bot=270488994,deviceName=🌝🌝🌝🌔🌓🌗,platform=MOBILE))
+2023-04-14 21:13:15 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] 扫办黑fkall(2859802096) -> [mirai:at:270488994] 来点色图
+2023-04-14 21:14:34 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 没有哦
+2023-04-14 21:15:25 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 只有在线人数 后面会把击杀加上
+2023-04-14 21:16:00 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:16:01 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：6/60
+2023-04-14 21:25:20 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:25:21 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：6/60
+2023-04-14 21:30:21 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:30:22 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：6/60
+2023-04-14 21:31:08 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:image:{6C869BA6-93E0-F1F4-C4B1-371B1E3196C3}.png, width=326, height=221, size=5734, type=PNG, isEmoji=false]
+2023-04-14 21:31:19 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 打扰了
+2023-04-14 21:31:23 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 有点问题
+2023-04-14 21:34:53 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> @机器人 在线人数
+2023-04-14 21:35:59 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] ☁(1065913433) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:36:23 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-14 21:36:23 I/Bot.270488994: Bot is closed manually
+2023-04-14 21:36:40 I/main: Starting mirai-console...
+2023-04-14 21:36:40 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-14 21:36:40 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-14 21:36:40 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-14 21:36:40 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-14 21:36:41 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-14 21:36:41 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-14 21:36:41 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-14 21:36:41 I/Mirai HTTP API: ********************************************************
+2023-04-14 21:36:41 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-14 21:36:42 I/MahKtorAdapter[http]: Application started in 0.138 seconds.
+2023-04-14 21:36:42 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-14 21:36:42 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-14 21:36:42 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-14 21:36:42 I/Mirai HTTP API: adaptors: [http]
+2023-04-14 21:36:42 I/Mirai HTTP API: ********************************************************
+2023-04-14 21:36:42 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-14 21:36:42 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-14 21:36:42 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-14 21:36:43 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-14 21:36:43 I/Bot.270488994: Login successful.
+2023-04-14 21:36:53 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-14 21:37:07 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 只认六个人
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 没有
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 下午写完就上传了
+2023-04-14 21:37:48 I/Bot.270488994: Bot login successful.
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 后面bug我改掉了
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 然后忘记上传了
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 现在好了
+2023-04-14 21:37:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> @机器人 在线人数
+2023-04-14 21:37:48 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@4a6a6a69
+2023-04-14 21:37:48 I/main: 2 plugin(s) enabled.
+2023-04-14 21:37:48 I/main: mirai-console started successfully.
+2023-04-14 21:38:01 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:38:03 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：10/60
+2023-04-14 21:38:18 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 不错，不算上咱们三拨人，已经独狼小队到十人了
+2023-04-14 21:38:25 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 三拨人再加进去可以三十
+2023-04-14 21:38:27 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> [mirai:image:{6E25BAC7-FA8B-017A-DF01-481216C82759}.jpg, width=641, height=641, size=43248, type=JPG, isEmoji=true]
+2023-04-14 21:39:25 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:image:{8DD2D52B-7577-BBBD-B16D-ABCB431A4429}.jpg, width=1080, height=1074, size=155426, type=JPG, isEmoji=true]
+2023-04-14 21:39:41 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:image:{4F40762F-5FFF-370A-72B0-4A5AEE66DE8D}.jpg, width=198, height=180, size=5446, type=JPG, isEmoji=true]
+2023-04-14 21:53:08 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:53:29 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 这小子不理人
+2023-04-14 21:53:55 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:54:02 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 草
+2023-04-14 21:54:04 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 什么情况
+2023-04-14 21:54:50 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 罢工了
+2023-04-14 21:54:59 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：8/60
+2023-04-14 21:54:59 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 是不是腐竹不给他发工资
+2023-04-14 21:55:11 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 进程老是卡死
+2023-04-14 21:55:24 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 我还是找个linux搞吧
+2023-04-14 21:55:45 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 21:55:47 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：9/60
+2023-04-14 22:02:04 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 在线人数
+2023-04-14 22:02:09 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> [mirai:at:270488994] 在线人数
+2023-04-14 22:02:11 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：9/60
+2023-04-14 22:02:17 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 怎么一直是9
+2023-04-14 22:07:31 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 说明就是9
+2023-04-14 22:07:47 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 22:07:49 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：8/60
+2023-04-14 22:09:23 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Chen(1063626122) -> 拆木门得多少发子弹啊
+2023-04-14 22:10:36 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 300
+2023-04-14 22:13:02 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 实时的吗
+2023-04-14 22:13:30 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> [mirai:at:1063626122] 看你用啥子弹喽
+2023-04-14 22:13:46 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 7.62x54五十多就一扇门
+2023-04-14 22:30:05 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 22:30:08 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：7/60
+2023-04-14 22:36:22 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681482985056899, message=大家好，我是-。摩羯座男一枚~, fromId=274501356, groupId=697785664, groupName=Public Dayz[no mods | OfficialIm, fromNick=-, invitorId=null)
+2023-04-14 22:39:48 V/Bot.270488994: Event: MemberJoinEvent.Active(member=274501356)
+2023-04-14 22:39:48 V/Bot.270488994: Event: MemberCardChangeEvent(origin=-, new=, member=NormalMember(274501356))
+2023-04-14 22:39:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] -(274501356) -> 大家好，我是-。摩羯座男一枚~
+2023-04-14 22:39:48 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Q群管家(2854196310) -> [mirai:at:274501356] 必须看公告 有进入方法和群规，白名单去找管理员 katarina审核\n——来自群管理员（2502510147）的编辑
+2023-04-14 22:43:11 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 妈的
+2023-04-14 22:43:19 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 机场到底谁再摸
+2023-04-14 22:43:30 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 每次过去一发子弹不剩
+2023-04-14 22:43:40 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 弹匣都是清空的
+2023-04-14 22:44:15 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> [mirai:image:{B81B9F3C-B425-E236-FF4A-1C33DD844891}.jpg, width=300, height=286, size=7083, type=JPG, isEmoji=true]
+2023-04-14 22:44:33 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 弹夹清空是什么意思
+2023-04-14 22:45:07 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 弹匣里面都是空的
+2023-04-14 22:45:20 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 有人过去摸了之后清空然后丢掉
+2023-04-14 22:45:53 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 这么狠
+2023-04-14 22:48:49 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 话说腐竹多久刷新一次物资服务器设置的
+2023-04-14 22:48:54 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 我要卡点去摸
+2023-04-14 22:49:01 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 服务器重启就刷了
+2023-04-14 22:49:04 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 官服一样的
+2023-04-14 22:49:07 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> 没改过
+2023-04-14 22:49:11 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 这样
+2023-04-14 22:49:14 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] aka大牛逼牛逼爆了(86887878) -> 好
+2023-04-14 22:53:32 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Nigen(3195472056) -> [mirai:at:2502510147] 能不能设置一下服务器木材堆刷新
+2023-04-14 22:53:49 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Nigen(3195472056) -> 已经没有了木材堆了
+2023-04-14 22:53:55 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Nigen(3195472056) -> 没事干了
+2023-04-14 23:02:17 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Chen(1063626122) -> @机器人 在线人数
+2023-04-14 23:05:02 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[30100], internalIds=[1564746803], from 3195472056 to 697785664 at 1681484031], content=<not yet initialized>][mirai:at:3195472056] 不会搞 不知道咋弄
+2023-04-14 23:05:11 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-14 23:05:14 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：4/60
+2023-04-14 23:05:14 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Nigen(3195472056) -> 好吧
+2023-04-14 23:27:33 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Chen(1063626122) -> @机器人 在线人数
+2023-04-14 23:27:51 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] Chen(1063626122) -> [mirai:at:270488994] 在线人数
+2023-04-14 23:27:53 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：5/60
+2023-04-14 23:44:02 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(571754852))
+2023-04-14 23:58:36 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 在线人数[mirai:at:270488994] 
+2023-04-14 23:58:42 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> [mirai:at:270488994] 在线人数
+2023-04-14 23:58:44 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：7/60
+2023-04-14 23:58:51 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> 这玩意挺好玩
+2023-04-14 23:58:53 V/Bot.270488994: [Public Dayz[no mods | OfficialIm(697785664)] AKA (1780801526) -> /斜眼笑

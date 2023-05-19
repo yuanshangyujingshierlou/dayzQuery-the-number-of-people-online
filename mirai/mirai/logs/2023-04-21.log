@@ -1,0 +1,624 @@
+2023-04-21 14:44:18 I/main: Starting mirai-console...
+2023-04-21 14:44:19 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 14:44:19 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 14:44:19 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 14:44:19 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 14:44:20 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 14:44:20 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 14:44:20 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 14:44:20 I/Mirai HTTP API: ********************************************************
+2023-04-21 14:44:20 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 14:44:21 I/MahKtorAdapter[http]: Application started in 0.2 seconds.
+2023-04-21 14:44:35 I/main: Starting mirai-console...
+2023-04-21 14:44:35 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 14:44:35 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 14:44:35 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 14:44:35 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 14:44:36 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 14:44:36 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 14:44:36 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 14:44:36 I/Mirai HTTP API: ********************************************************
+2023-04-21 14:44:36 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 14:44:37 I/MahKtorAdapter[http]: Application started in 0.117 seconds.
+2023-04-21 14:44:37 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-21 14:44:37 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-21 14:44:37 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-21 14:44:37 I/Mirai HTTP API: adaptors: [http]
+2023-04-21 14:44:37 I/Mirai HTTP API: ********************************************************
+2023-04-21 14:44:37 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-21 14:44:37 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-21 14:44:37 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-21 14:44:38 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 14:44:38 I/Bot.270488994: Login successful.
+2023-04-21 14:44:38 I/Bot.270488994: Bot login successful.
+2023-04-21 14:44:38 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@283a8ad6
+2023-04-21 14:47:09 I/main: Starting mirai-console...
+2023-04-21 14:47:09 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 14:47:09 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 14:47:09 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 14:47:09 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 14:47:09 I/main: Starting mirai-console...
+2023-04-21 14:47:09 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 14:47:09 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 14:47:09 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 14:47:09 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 14:47:10 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 14:47:10 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 14:47:41 I/main: Starting mirai-console...
+2023-04-21 14:47:41 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 14:47:41 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 14:47:41 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 14:47:41 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 14:47:42 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 14:48:09 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 14:48:09 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 14:48:09 I/Mirai HTTP API: ********************************************************
+2023-04-21 14:48:09 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 14:48:09 I/MahKtorAdapter[http]: Application started in 0.135 seconds.
+2023-04-21 14:48:09 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-21 14:48:09 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-21 14:48:09 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-21 14:48:09 I/Mirai HTTP API: adaptors: [http]
+2023-04-21 14:48:09 I/Mirai HTTP API: ********************************************************
+2023-04-21 14:48:09 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-21 14:48:10 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-21 14:48:10 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-21 14:48:10 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 14:48:10 I/Bot.270488994: Login successful.
+2023-04-21 14:48:20 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 14:48:20 I/Bot.270488994: Bot login successful.
+2023-04-21 14:48:20 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@53f7a906
+2023-04-21 14:48:20 I/main: 2 plugin(s) enabled.
+2023-04-21 14:48:20 I/main: mirai-console started successfully.
+2023-04-21 14:49:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 14:49:57 E/MAH Access: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+2023-04-21 14:50:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 14:50:16 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:86887878] 
+2023-04-21 14:50:16 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 你家都有啥呀~
+2023-04-21 14:50:18 V/Bot.270488994: Group(697785664) <- 距离上次请求时间不足5分钟，请稍后再试！
+2023-04-21 14:50:22 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{90549E4F-8929-C010-48A6-037A3F11ADFE}.gif, width=175, height=158, size=468819, type=GIF, isEmoji=true]
+2023-04-21 14:50:39 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 啥都没有
+2023-04-21 14:50:41 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 有钉子
+2023-04-21 14:51:17 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{DC6A6230-C0CA-D6CA-BF4F-910A06AD2028}.gif, width=300, height=300, size=38144, type=GIF, isEmoji=false]
+2023-04-21 14:51:19 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 人很多
+2023-04-21 14:51:25 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{C4A700B2-0BFC-41CC-CCE7-412FBDE65B6A}.jpg, width=4624, height=3472, size=9127926, type=JPG, isEmoji=false]
+2023-04-21 14:51:27 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 这个点那么多人啊
+2023-04-21 14:51:42 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-21 14:51:44 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我上号
+2023-04-21 14:51:45 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 别打我
+2023-04-21 14:51:53 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{FAE95975-C2DF-8281-10AF-E427A0F2BE5D}.gif, width=80, height=80, size=107606, type=GIF, isEmoji=true]
+2023-04-21 14:52:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 这b机器人老是崩
+2023-04-21 14:52:11 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 什么时候出linux服务器啊
+2023-04-21 14:52:19 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 你跟xiongjie一起的吗
+2023-04-21 14:53:49 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 系的
+2023-04-21 14:55:01 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 门口等我下
+2023-04-21 14:55:05 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我上号了
+2023-04-21 14:55:19 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 白名单怎么添加呀
+2023-04-21 14:55:25 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 艾特群主
+2023-04-21 14:55:39 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> [mirai:at:2502510147]
+2023-04-21 14:56:11 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 76561198740646763
+2023-04-21 14:57:00 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 群主
+2023-04-21 14:57:54 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 好
+2023-04-21 14:58:06 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我看下steam生涯
+2023-04-21 14:58:28 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 怎么看呀
+2023-04-21 14:59:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 截图看下时长和封禁就行了
+2023-04-21 14:59:38 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 在哪里看的呀
+2023-04-21 15:00:25 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{0FF62E11-1D51-BE97-31E7-34F87E500587}.png, width=1010, height=600, size=573698, type=PNG, isEmoji=false]
+2023-04-21 15:55:43 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{1B760A2A-0A4B-142B-F121-BE9277D46B2A}.png, width=1010, height=600, size=386284, type=PNG, isEmoji=false]
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你游戏昵称发我一下
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 自由建造模组是干嘛的啊[mirai:at:2502510147] 
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> wuyu
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> http://dayzguide.qiyonghan.icu/ 进服务器教程看这个 ip和端口在这里
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> [mirai:image:{DA946460-EDF4-A986-0D82-AC7594A6E93C}.png, width=984, height=582, size=118291, type=PNG, isEmoji=false]
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[34873], internalIds=[360073457], from 1021383533 to 697785664 at 1682060524], content=<not yet initialized>][mirai:at:1021383533] 加上了
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 我已经进了刚才要白名单
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[34872], internalIds=[1771270514], from 2934576547 to 697785664 at 1682060520], content=<not yet initialized>][mirai:at:2934576547] 很多地图自带的东西
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 会挡住地基的拜访
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 哦哦懂了
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 比如纸箱 或者一点点小东西都会挡住地基摆放
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 自由建造就是可以在不是很过分的情况下把地基放下去
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 然后油桶有东西也可以抱起来
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 哦哦
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 这里还可以看被封的情况吗
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 这个生涯
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> steamid能看到
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 哦
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 绝对绿色玩家
+2023-04-21 15:55:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没事 看下公告
+2023-04-21 15:55:43 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 15:55:44 I/Bot.270488994: Login successful.
+2023-04-21 15:55:44 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 15:55:44 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-21 15:55:44 I/Bot.270488994: Reconnected successfully in 0.176s.
+2023-04-21 15:59:39 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 服里人多么
+2023-04-21 15:59:49 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-21 16:50:43 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> [mirai:image:{62AB57BF-6FB5-F8A3-4C5D-1901FD954A8C}.gif, width=480, height=480, size=1140935, type=GIF, isEmoji=true]
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 在线人数
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没啥人吧 现在
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 哟吼16个
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 我来了
+2023-04-21 16:50:43 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 我要偷人
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{08E84DC6-A3B2-ED2D-319C-54C36E7014B0}.jpg, width=300, height=291, size=9097, type=JPG, isEmoji=true]
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 怎么感觉最近这游戏玩的人多起来了
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 真的
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 因为要放假了
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 可能只是我拉人比较努力
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 建议五一活动手撕腐竹
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:image:{3A5AFD69-89D2-829B-CDD6-CCED3A36DEDA}.jpg, width=1080, height=1049, size=78320, type=JPG, isEmoji=true]
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 为什么大伙不愿意帮我在贴吧宣传一下
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{6C5B9F7F-F6B6-E9B6-F011-68CD61A37A2B}.png, width=38, height=37, size=2850, type=PNG, isEmoji=true]
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 我前两天贴吧在找队友下面说了句话  这两天四五个人加我组队
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 人比之前多了感觉
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 建议都拉过来 大乱斗
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 都才认识  感觉都是玩原官服的
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 我加咱群还没进服玩过呢
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我也感觉 没见过你头像
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 主要我看人一直不多  就没进去玩
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> [mirai:image:{C0516CAA-0D84-B67E-ED30-E316FED86E4E}.jpg, width=287, height=296, size=8605, type=JPG, isEmoji=true]
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 加油拉人
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 辅助
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] “(2958361318) -> 腐竹
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 对加油
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 所以大伙都是这么想的 所以才会没人
+2023-04-21 16:50:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 麻了
+2023-04-21 16:50:47 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-270488994-16820670477667176605623063049.png
+2023-04-21 16:50:47 I/QRLoginSolver: 等待扫描二维码中
+2023-04-21 16:51:43 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-21 16:51:48 I/QRLoginSolver: 已确认登录
+2023-04-21 16:51:48 I/Bot.270488994: Login successful
+2023-04-21 16:51:48 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 16:51:48 I/Bot.270488994: Login successful.
+2023-04-21 16:51:48 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 16:51:48 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-21 16:51:48 I/Bot.270488994: Reconnected successfully in 1min 4.462s.
+2023-04-21 16:56:38 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> ………服务器关了吗   为什么我进不去
+2023-04-21 16:57:40 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[34940], internalIds=[-1753351793], from 2502510147 to 697785664 at 1682067029], content=<not yet initialized>]看这个
+2023-04-21 16:57:42 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> ip换了
+2023-04-21 16:57:50 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 哦哦
+2023-04-21 16:59:01 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 不对呀
+2023-04-21 16:59:11 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 我输的就是这个域名
+2023-04-21 17:01:50 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你把之前收藏的服务器给取消掉
+2023-04-21 17:01:59 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 然后大退一下
+2023-04-21 17:02:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 重新上
+2023-04-21 17:02:15 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 看看最近的服务器那个ip是不是和之前不一样了
+2023-04-21 17:09:35 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2184049899))
+2023-04-21 17:10:13 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> [mirai:image:{8207FEAE-9103-CCBB-E2E9-3893BFEE7F8C}.jpg, width=1807, height=1080, size=763952, type=JPG, isEmoji=false]
+2023-04-21 17:10:15 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 这个ip是吗
+2023-04-21 17:10:20 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 是的
+2023-04-21 17:11:19 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 是不是可以了
+2023-04-21 17:11:29 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2184049899))
+2023-04-21 17:12:54 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> [mirai:image:{446ECB05-2C95-16F9-AE28-F6622A8E4B28}.jpg, width=1807, height=1080, size=920953, type=JPG, isEmoji=false]
+2023-04-21 17:13:03 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你有远程吗
+2023-04-21 17:13:04 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我来搞吧
+2023-04-21 17:13:10 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> /沧桑/沧桑/沧桑你是不是把我从白名单里踹出去了
+2023-04-21 17:13:20 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没有
+2023-04-21 17:13:27 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 白名单报错不是这个
+2023-04-21 17:13:33 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 我上个电脑QQ
+2023-04-21 17:14:39 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 加你好友了
+2023-04-21 17:19:11 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 有一起玩得吗
+2023-04-21 17:21:45 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 应该大抵是有的
+2023-04-21 17:22:12 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> [尴尬]
+2023-04-21 17:39:39 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 谁的车
+2023-04-21 17:39:54 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 在北城
+2023-04-21 19:35:49 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 绿色的4*4
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 里面还塞了汽车帐篷
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:270488994] 在线人数
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 在加功能呢
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 快搞完了
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 好滴
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> 来新人了了
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 欢迎你
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 新人
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 希望你在这里体会到家庭的温暖
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> 你会不会进服务器啊
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 请问你在海边的哪里
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{FD6E861B-08E0-DBAE-F46E-B21C5A77B6A9}.jpg, width=1024, height=734, size=120568, type=JPG, isEmoji=true]
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 我为你准备了丰富的5.56子弹
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [mirai:at:2502510147] 腐竹，我的Jk服什么时候给安排一下/吃瓜
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 暖不了
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[34984], internalIds=[569339888], from 1448959116 to 697785664 at 1682070602], content=<not yet initialized>][mirai:at:1448959116] 对 白名单
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> 你来YY吧
+2023-04-21 19:35:49 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> 我语音教你
+2023-04-21 19:35:49 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 19:35:51 I/Bot.270488994: Login successful.
+2023-04-21 19:35:51 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 19:35:51 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-21 19:35:51 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=net.mamoe.mirai.internal.network.auth.IllegalProducerStateException: Consuming(value=null), reconnect=false)
+2023-04-21 19:35:51 I/Bot.270488994: Bot is closed manually with exception: net.mamoe.mirai.internal.network.auth.IllegalProducerStateException: Consuming(value=null)
+net.mamoe.mirai.internal.network.auth.IllegalProducerStateException: Consuming(value=null)
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.expectMore(CoroutineOnDemandValueScope.kt:184)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.<init>(AuthControl.kt:90)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login$initAuthControl(SsoProcessor.kt:163)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:198)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:415)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:352)
+		at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 8 more
+	Caused by: PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+		at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+		... 12 more
+	Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+		at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+		at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+		at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+		at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+		at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+		at java.base/java.lang.Thread.run(Unknown Source)
+
+2023-04-21 19:35:51 I/Bot.270488994: Bot cancelled: Bot closed
+2023-04-21 19:36:34 I/main: Starting mirai-console...
+2023-04-21 19:36:36 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 19:36:36 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 19:36:36 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 19:36:36 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 19:36:37 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 19:36:37 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 19:36:37 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 19:36:37 I/Mirai HTTP API: ********************************************************
+2023-04-21 19:36:37 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 19:36:37 I/MahKtorAdapter[http]: Application started in 0.164 seconds.
+2023-04-21 19:36:37 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-21 19:36:37 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-21 19:36:37 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-21 19:36:37 I/Mirai HTTP API: adaptors: [http]
+2023-04-21 19:36:37 I/Mirai HTTP API: ********************************************************
+2023-04-21 19:36:37 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-21 19:36:37 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-21 19:36:38 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-21 19:36:38 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 19:36:38 I/Bot.270488994: Login successful.
+2023-04-21 19:36:48 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 19:36:48 I/Bot.270488994: Bot login successful.
+2023-04-21 19:36:48 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@4586a8aa
+2023-04-21 19:36:48 I/main: 2 plugin(s) enabled.
+2023-04-21 19:36:48 I/main: mirai-console started successfully.
+2023-04-21 19:39:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 19:39:17 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，19点34分在线人数：8
+2023-04-21 19:39:28 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 19:40:04 V/Bot.270488994: Group(697785664) <- 距离上次请求时间不足5分钟，请稍后再试！
+2023-04-21 19:41:31 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682077292696501, message=111, fromId=840388246, groupId=697785664, groupName=Public Dayz, fromNick=., invitorId=null)
+2023-04-21 19:41:32 V/Bot.270488994: Event: MemberJoinEvent.Active(member=840388246)
+2023-04-21 19:41:33 V/Bot.270488994: Group(697785664) <- [mirai:at:840388246] 欢迎.入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-21 19:52:19 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 在线人数
+2023-04-21 19:52:34 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-21 19:52:36 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，19点34分在线人数：8
+2023-04-21 19:52:42 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> [mirai:at:270488994] 在线人数
+2023-04-21 19:52:43 V/Bot.270488994: Group(697785664) <- 距离上次请求时间不足5分钟，请稍后再试！
+2023-04-21 20:36:05 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:07 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:08 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:09 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:11 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:12 V/Bot.270488994: Group(697785664) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:36:13 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-21 20:36:13 I/Bot.270488994: Bot is closed manually
+2023-04-21 20:36:13 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-21 20:40:30 I/main: Starting mirai-console...
+2023-04-21 20:40:30 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 20:40:30 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 20:40:30 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 20:40:30 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 20:40:31 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 20:40:31 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 20:40:31 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 20:40:31 I/Mirai HTTP API: ********************************************************
+2023-04-21 20:40:31 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 20:40:31 I/MahKtorAdapter[http]: Application started in 0.153 seconds.
+2023-04-21 20:40:31 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-21 20:40:31 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-21 20:40:31 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-21 20:40:31 I/Mirai HTTP API: adaptors: [http]
+2023-04-21 20:40:31 I/Mirai HTTP API: ********************************************************
+2023-04-21 20:40:31 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-21 20:40:32 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-21 20:40:32 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-21 20:40:32 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 20:40:32 I/Bot.270488994: Login successful.
+2023-04-21 20:40:42 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 20:40:42 I/Bot.270488994: Bot login successful.
+2023-04-21 20:40:42 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@46b6701e
+2023-04-21 20:40:42 I/main: 2 plugin(s) enabled.
+2023-04-21 20:40:42 I/main: mirai-console started successfully.
+2023-04-21 20:41:06 V/Bot.270488994: [Public Dayz(697785664)] 阿翔(840388246) -> [mirai:at:270488994] 转换为波西米亚id:76561199106394604
+2023-04-21 20:42:12 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:13 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:15 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:16 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:18 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:19 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:20 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:22 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:23 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:25 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:26 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:28 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:29 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:30 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:32 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:33 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:35 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:36 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:38 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:39 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:40 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:42 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:43 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:44 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:46 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 20:42:46 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-21 20:42:46 I/Bot.270488994: Bot is closed manually
+2023-04-21 20:42:46 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-21 20:43:08 I/main: Starting mirai-console...
+2023-04-21 20:43:08 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-21 20:43:08 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-21 20:43:08 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-21 20:43:08 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-21 20:43:09 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-21 20:43:09 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-21 20:43:10 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-21 20:43:10 I/Mirai HTTP API: ********************************************************
+2023-04-21 20:43:10 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-21 20:43:10 I/MahKtorAdapter[http]: Application started in 0.154 seconds.
+2023-04-21 20:43:10 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-21 20:43:10 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-21 20:43:10 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-21 20:43:10 I/Mirai HTTP API: adaptors: [http]
+2023-04-21 20:43:10 I/Mirai HTTP API: ********************************************************
+2023-04-21 20:43:10 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-21 20:43:10 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-21 20:43:11 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-21 20:43:11 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-21 20:43:11 I/Bot.270488994: Login successful.
+2023-04-21 20:43:21 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-21 20:43:21 I/Bot.270488994: Bot login successful.
+2023-04-21 20:43:21 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@1b3bec6c
+2023-04-21 20:43:21 I/main: 2 plugin(s) enabled.
+2023-04-21 20:43:21 I/main: mirai-console started successfully.
+2023-04-21 20:49:54 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 转换为波西米亚id:76561199106394604
+2023-04-21 20:49:54 V/Bot.270488994: Group(697785664) <- J1aAc3IgYRE6Qa1jpP0U9u6WVzjX9sQPUCvDr-Bxh8s=
+2023-04-21 20:57:30 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682081851046667, message=大家好，我是風。天秤座男一枚~, fromId=1471176723, groupId=697785664, groupName=Public Dayz, fromNick=風, invitorId=null)
+2023-04-21 20:59:10 V/Bot.270488994: Event: MemberJoinEvent.Active(member=1471176723)
+2023-04-21 20:59:10 V/Bot.270488994: Event: MemberCardChangeEvent(origin=風, new=, member=NormalMember(1471176723))
+2023-04-21 20:59:10 V/Bot.270488994: [Public Dayz(697785664)] 風(1471176723) -> 大家好，我是風。天秤座男一枚~
+2023-04-21 21:01:57 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 等会儿就来dayz
+2023-04-21 21:10:00 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-21 21:10:46 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，21点08分在线人数：13
+2023-04-21 21:23:03 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> [mirai:at:270488994] 在线人数
+2023-04-21 21:23:28 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 机器人为什么不鸟我
+2023-04-21 21:23:31 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> [mirai:image:{5366AC34-07D9-C4BC-EB3A-FC1CBDB13244}.gif, width=150, height=150, size=52592, type=GIF, isEmoji=true]
+2023-04-21 21:24:45 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我关掉了
+2023-04-21 21:24:50 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我在加击杀通知
+2023-04-21 21:24:54 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 沿海有人吗
+2023-04-21 21:24:59 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我来散财了
+2023-04-21 21:25:04 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 身上东西太多了
+2023-04-21 21:25:10 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 沿海晃一圈跑跑刷车点
+2023-04-21 21:25:22 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [mirai:quote:[mirai:source:ids=[35077], internalIds=[-1182588865], from 2502510147 to 697785664 at 1682083491], content=<not yet initialized>][mirai:at:2502510147] 你调刷车点了吗
+2023-04-21 21:25:38 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 是默认的还是都有的刷呀
+2023-04-21 21:25:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 默认
+2023-04-21 21:25:45 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我没改
+2023-04-21 21:26:02 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你找不到车就是被仓鼠屯着了
+2023-04-21 21:26:14 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 全服几辆
+2023-04-21 21:26:17 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [惊吓]请使用最新版手机QQ体验新功能
+2023-04-21 21:26:17 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，21点24分在线人数：15
+2023-04-21 21:26:18 V/Bot.270488994: Group(365899064) <- 在21:09:00这个平平无奇的时间，"Rookie"选择了自杀
+2023-04-21 21:26:45 V/Bot.270488994: Group(365899064) <- 在21:26:44这个平平无奇的时间，'qiyonghan'选择了自杀
+2023-04-21 21:27:23 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 这
+2023-04-21 21:27:36 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 这也能回答上的吗
+2023-04-21 21:27:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[35087], internalIds=[0], from 2639224478 to 697785664 at 1682083575], content=<not yet initialized>][mirai:at:2639224478] 官服
+2023-04-21 21:28:20 V/Bot.270488994: Group(365899064) <- 在21:28:19这个平平无奇的时间，'qiyonghan'选择了自杀
+2023-04-21 21:28:26 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我以为你限制了总数
+2023-04-21 21:28:30 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> /崇拜/崇拜/崇拜
+2023-04-21 21:28:42 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [mirai:quote:[mirai:source:ids=[35091], internalIds=[707339701], from 2502510147 to 697785664 at 1682083657], content=<not yet initialized>][mirai:at:2502510147] 哈哈
+2023-04-21 21:35:19 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 沿海没人啊？
+2023-04-21 21:35:22 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 来玩啊
+2023-04-21 21:38:51 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你在哪呢
+2023-04-21 21:39:03 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 卡门卡
+2023-04-21 21:39:07 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> /崇拜/崇拜
+2023-04-21 21:39:10 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 钓鱼呢
+2023-04-21 21:39:23 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [mirai:image:{08A60879-64D3-7C0E-7E63-E4FCAD13CE0C}.jpg, width=1080, height=2400, size=1656256, type=JPG, isEmoji=false]
+2023-04-21 21:45:07 V/Bot.270488994: [Public Dayz(697785664)] 嗯(1448959116) -> [mirai:image:{5104E87B-F514-D3A2-C2B7-C994705738B7}.jpg, width=1124, height=2436, size=274257, type=JPG, isEmoji=false]
+2023-04-21 21:52:04 V/Bot.270488994: [Public Dayz(697785664)] 嗯(1448959116) -> [mirai:image:{E2A5C779-A299-3222-B0EB-498A31E60358}.jpg, width=1124, height=2436, size=378765, type=JPG, isEmoji=false]
+2023-04-21 21:55:21 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [mirai:quote:[mirai:source:ids=[35104], internalIds=[717244726], from 1448959116 to 697785664 at 1682085125], content=<not yet initialized>]3公里到k镇[mirai:at:1448959116] 
+2023-04-21 21:55:36 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 你在地图右下角
+2023-04-21 21:55:40 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我在左下角
+2023-04-21 21:56:49 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我往东走了
+2023-04-21 21:57:00 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 路上有老乡夹道欢迎一下吗
+2023-04-21 22:04:13 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682085854523226, message=, fromId=371743228, groupId=697785664, groupName=Public Dayz, fromNick=大王饶命, invitorId=null)
+2023-04-21 22:06:01 V/Bot.270488994: Event: MemberJoinEvent.Active(member=371743228)
+2023-04-21 22:06:03 V/Bot.270488994: Group(697785664) <- [mirai:at:371743228] 欢迎大王饶命入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-21 22:06:26 V/Bot.270488994: Group(697785664) <- 在22:06:26这个平平无奇的时间，'qiyonghan'选择了自杀
+2023-04-21 22:06:39 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> ok
+2023-04-21 22:06:42 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 搞定了
+2023-04-21 22:06:51 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我真牛比
+2023-04-21 22:12:40 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [鼓掌][鼓掌][鼓掌]
+2023-04-21 22:12:44 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 腐竹牛逼
+2023-04-21 22:12:45 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 哈哈
+2023-04-21 22:13:06 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 能不能把JK服也给我安排上，我真的好想暖/吃瓜
+2023-04-21 22:15:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 之后再搞
+2023-04-21 22:15:23 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 现在要搞得东西太多了
+2023-04-21 22:16:13 V/Bot.270488994: Group(697785664) <- 在22:16:11这个平平无奇的时间，"Aaron"被"Ray"用KA-74击中Head(0)，距离1.8465米，致死
+2023-04-21 22:16:37 V/Bot.270488994: [Public Dayz(697785664)] Aar(1512833231) -> 有狗
+2023-04-21 22:17:04 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 你的QQ暂不支持查看视频短片，请期待后续版本。
+2023-04-21 22:17:25 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 你的QQ暂不支持查看视频短片，请期待后续版本。
+2023-04-21 22:17:55 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 感谢测试，我都不用跑路去杀腐竹测试了
+2023-04-21 22:18:03 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> OK要的
+2023-04-21 22:18:09 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 还鞭尸一下他
+2023-04-21 22:18:17 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我被僵尸挠死了
+2023-04-21 22:18:22 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> /干杯/干杯
+2023-04-21 22:24:19 V/Bot.270488994: [Public Dayz(697785664)] 嗯(1448959116) -> [mirai:image:{96CDC019-E677-6855-3CC5-1CFB79B9056B}.jpg, width=2436, height=1125, size=442518, type=JPG, isEmoji=false]
+2023-04-21 22:26:50 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 我死了怎么没播报呢
+2023-04-21 22:27:24 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你怎么死的
+2023-04-21 22:27:30 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 目前就加了被击杀和自杀
+2023-04-21 22:27:34 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 一次自杀
+2023-04-21 22:28:02 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 一次是被雷炸死还是被别人杀了不知道
+2023-04-21 22:34:07 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682087648439588, message=~, fromId=2302986704, groupId=697785664, groupName=Public Dayz, fromNick=yellow, invitorId=null)
+2023-04-21 22:37:03 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682087823590025, message=亲~ 通过下呗, fromId=2302986704, groupId=697785664, groupName=Public Dayz, fromNick=yellow, invitorId=null)
+2023-04-21 22:43:06 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> [mirai:at:270488994] 在线人数
+2023-04-21 22:43:07 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，22点02分在线人数：13
+2023-04-21 22:43:28 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 哇 为什么会是四十分钟之前的日志数据
+2023-04-21 22:44:05 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 说明你还是没整成功呀
+2023-04-21 22:47:03 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> [mirai:at:270488994] 在线人数
+2023-04-21 22:47:04 V/Bot.270488994: Group(697785664) <- 距离上次请求时间不足5分钟，请稍后再试！
+2023-04-21 22:47:34 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 可能有bug吧
+2023-04-21 22:49:07 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682088548661092, message=~, fromId=980498479, groupId=697785664, groupName=Public Dayz, fromNick=Emmmmm, invitorId=null)
+2023-04-21 22:49:08 V/Bot.270488994: Event: MemberJoinEvent.Active(member=980498479)
+2023-04-21 22:49:08 V/Bot.270488994: Event: MemberCardChangeEvent(origin=Emmmmm, new=, member=NormalMember(980498479))
+2023-04-21 22:49:08 V/Bot.270488994: [Public Dayz(697785664)] Emmmmm(980498479) -> ~
+2023-04-21 22:49:09 V/Bot.270488994: Group(697785664) <- [mirai:at:980498479] 欢迎Emmmmm入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-21 22:49:52 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:980498479] 举朵小花欢迎你！
+2023-04-21 22:51:25 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2242864718))
+2023-04-21 22:55:17 V/Bot.270488994: Event: FriendNickChangedEvent(friend=Friend(2242864718), from=白衣, to=緖)
+2023-04-21 23:07:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 23:07:17 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，22点02分在线人数：12
+2023-04-21 23:07:28 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 还是有问题
+2023-04-21 23:09:46 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 你们都在0哪里0哟人都看不到
+2023-04-21 23:15:56 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没什么人了暂时 等清档吧
+2023-04-21 23:18:00 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-21 23:18:01 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，23点09分在线人数：10
+2023-04-21 23:18:26 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 现在应该正常了 之前没有清除缓存日志
+2023-04-21 23:23:34 V/Bot.270488994: Group(697785664) <- 在23:23:32这个平平无奇的时间，'qiyonghan'选择了自杀
+2023-04-21 23:24:12 V/Bot.270488994: Group(697785664) <- 在23:24:12这个平平无奇的时间，'qiyonghan'选择了自杀
+2023-04-21 23:26:56 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 这个好
+2023-04-21 23:27:00 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我每天刷复活
+2023-04-21 23:28:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 那我还是关掉自杀吧
+2023-04-21 23:28:24 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 感觉自杀不需要显示
+2023-04-21 23:28:34 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 而且现在是实时显示，不是延时
+2023-04-21 23:29:59 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{EBF4E59D-6C87-62B7-67DE-48B58C654EB1}.jpg, width=700, height=756, size=61550, type=JPG, isEmoji=true]
+2023-04-21 23:31:13 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 有人帮我看看测试服什么情况吗
+2023-04-21 23:31:36 V/Bot.270488994: [Public Dayz(697785664)] 无语(1021383533) -> 整个地图吧

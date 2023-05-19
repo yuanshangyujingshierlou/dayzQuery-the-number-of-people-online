@@ -1,0 +1,714 @@
+2023-04-18 23:35:53 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 那我家也不用砍树了
+2023-04-18 23:36:11 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-19 00:11:06 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.StatHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.StatHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 重开
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{66D4E59D-66DB-8B19-8E80-E9DAEFB95A05}.jpg, width=940, height=940, size=74034, type=JPG, isEmoji=false]
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 那我辛辛苦苦搜的8箱子弹和和3箱雷怎么办
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:775481796] 
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 这几天来北城
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我们打一架
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 还有我哪几辆车
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> /泪奔/泪奔
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 来北城团建
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 你确定吗？
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 确定
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 五道金属门
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 应该够你打
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 打完我们就能团建了
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{89286F33-2EAE-5476-F2CF-825D3CD38170}.gif, width=200, height=200, size=281492, type=GIF, isEmoji=false]
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 现在人数
+2023-04-19 00:11:06 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:11:06 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-19 00:11:06 I/Bot.270488994: Login successful.
+2023-04-19 00:11:06 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-19 00:11:06 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-19 00:11:06 I/Bot.270488994: Reconnected successfully in 0.266s.
+2023-04-19 00:21:30 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:21:31 V/Bot.270488994: Group(697785664) <- 查询太频繁了，每五分钟之内只能查询一次
+2023-04-19 00:25:32 V/Bot.270488994: [Public Dayz(697785664)] 办黑扫QiDian(2281730699) -> 叛逆の的蒸汽机器人
+2023-04-19 00:25:39 V/Bot.270488994: [Public Dayz(697785664)] 办黑扫QiDian(2281730699) -> 叛逆の蒸汽机器人
+2023-04-19 00:34:08 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:34:08 V/Bot.270488994: Group(697785664) <- 查询太频繁了，每五分钟之内只能查询一次
+2023-04-19 00:34:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 在修复bug
+2023-04-19 00:34:50 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:image:{BEF17EE2-7E4A-42AA-9595-8D593617E678}.jpg, width=246, height=246, size=11139, type=JPG, isEmoji=true]
+2023-04-19 00:34:50 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2197918923))
+2023-04-19 00:45:39 V/Bot.270488994: Event: FriendNickChangedEvent(friend=Friend(275117613), from=缘浅終訂, to=卿，梦依旧)
+2023-04-19 00:56:53 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:56:54 V/Bot.270488994: Group(697785664) <- 查询太频繁了，每五分钟之内只能查询一次
+2023-04-19 00:57:18 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:57:20 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：1/60
+2023-04-19 00:57:28 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-19 00:57:29 V/Bot.270488994: Group(697785664) <- 距离上次请求时间不足5分钟，请稍后再试！
+2023-04-19 01:01:23 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> [mirai:quote:[mirai:source:ids=[33202], internalIds=[1782872218], from 775481796 to 697785664 at 1681832423], content=<not yet initialized>][mirai:at:775481796] 搞不好重开人更少
+2023-04-19 01:01:26 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> /捂脸
+2023-04-19 01:06:57 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 人少就人少 从头再来咯
+2023-04-19 01:07:18 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 已经在谷底了
+2023-04-19 01:11:13 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{B49414B8-3D78-8EE9-3643-46643C35CAEA}.jpg, width=960, height=960, size=70930, type=JPG, isEmoji=false]
+2023-04-19 06:55:59 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681858560080456, message=大家好，我是ʕ ᵔᴥᵔ ʔ。处女座女一枚~, fromId=335035551, groupId=697785664, groupName=Public Dayz, fromNick=ʕ ᵔᴥᵔ ʔ, invitorId=null)
+2023-04-19 07:34:57 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 清档什么时候清呢，要是这2天的话就不搜了/元宝
+2023-04-19 07:58:12 V/Bot.270488994: Event: MemberJoinEvent.Active(member=335035551)
+2023-04-19 07:58:12 V/Bot.270488994: Event: MemberCardChangeEvent(origin=ʕ ᵔᴥᵔ ʔ, new=, member=NormalMember(335035551))
+2023-04-19 07:58:12 V/Bot.270488994: [Public Dayz(697785664)] ʕ ᵔᴥᵔ ʔ(335035551) -> 大家好，我是ʕ ᵔᴥᵔ ʔ。处女座女一枚~
+2023-04-19 07:58:12 V/Bot.270488994: Group(697785664) <- [mirai:at:335035551] 欢迎ʕ ᵔᴥᵔ ʔ入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 08:52:18 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[33242], internalIds=[1383522272], from 2423251354 to 697785664 at 1681860898], content=<not yet initialized>][mirai:at:2423251354] 这物资不得消化消化
+2023-04-19 09:18:34 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 09:28:47 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 不行就送了
+2023-04-19 09:29:23 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 送两把带夜视镜的枪
+2023-04-19 09:29:33 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 晚上来干一架
+2023-04-19 09:29:38 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 来打架
+2023-04-19 09:29:38 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 你得先问问什么时候清档阿
+2023-04-19 09:29:40 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我已经全副武装了
+2023-04-19 09:30:14 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 铁道那边大仓库呀
+2023-04-19 09:30:21 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 大仓库里面
+2023-04-19 09:30:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 09:30:36 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 那个卡车塞了啥东西
+2023-04-19 09:31:11 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 09:32:17 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 啊？要清档啊
+2023-04-19 09:33:13 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 09:37:29 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:at:270488994] 在线人数
+2023-04-19 09:37:32 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：3/60
+2023-04-19 09:41:44 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 什么时候清啊
+2023-04-19 09:44:00 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{12ED4B23-63FB-8823-3302-94B11866DEAC}.png, width=594, height=476, size=50910, type=PNG, isEmoji=false]
+2023-04-19 09:44:22 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 你是讲究人
+2023-04-19 09:44:25 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> [mirai:at:2502510147] 
+2023-04-19 09:45:59 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> [mirai:image:{3798C2DD-430D-1BA2-318E-3EEEB8C9E6AC}.jpg, width=69, height=70, size=1743, type=JPG, isEmoji=true]
+2023-04-19 09:46:08 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 6
+2023-04-19 09:47:08 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 反正肯定是五一前
+2023-04-19 09:47:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你们知道exp模组吗
+2023-04-19 09:47:45 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> exp ai？
+2023-04-19 09:48:53 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:at:270488994] 在线人数
+2023-04-19 09:48:54 V/Bot.270488994: Group(697785664) <- 服务器状态：online,当前在线人数：3/60
+2023-04-19 09:49:06 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 这机器人，虚假情报阿
+2023-04-19 09:50:56 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 下个版本不是会加AI吗，你还自己去加AI干嘛
+2023-04-19 09:52:11 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 下版本加ai？、
+2023-04-19 09:52:20 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 波黑说的？
+2023-04-19 09:52:29 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 4.15号的版本更新说的阿
+2023-04-19 09:52:40 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:image:{F8508B0E-46C3-99FF-F2E7-56B68070D15D}.jpg, width=1920, height=1440, size=246572, type=JPG, isEmoji=false]
+2023-04-19 09:53:38 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> steam dayz讨论区置顶那有阿，你自己去看看就知道了
+2023-04-19 12:58:33 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[33256], internalIds=[1114627513], from 86887878 to 697785664 at 1681867837], content=<not yet initialized>][mirai:at:86887878] 没东西
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 没怎么看
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 但是
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 加了我只能说
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 测试服好像说有弩箭了
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 好活
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你们玩过弩箭吗
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 老版本玩过弓箭
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 绳子加长根组合
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 弩箭都是模组
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 估计波黑也注意到官服人太少了吧
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 弩箭那个也就是人家看见那个图片说说的把
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 哈哈哈哈
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:image:{AAAB0E02-9391-190E-DB36-6A714EF88EE7}.jpg, width=50, height=50, size=4398, type=JPG, isEmoji=true] 他还说会添加一些新的化妆品，衣服及背包
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 哈哈哈哈
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 可以的其实
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 如果的话
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 什么时候有排泄系统
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[33297], internalIds=[1735587448], from 1584793211 to 697785664 at 1681869540], content=<not yet initialized>][mirai:at:1584793211] 感觉加上这个没什么差别
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 嗯呢
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 拉屎
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 施肥
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 然后吃蔬菜
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 继续拉屎施肥
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 良性循环
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:image:{5ED77579-2688-1B90-E2FD-DC91390BC11E}.jpg, width=300, height=288, size=15167, type=JPG, isEmoji=true]
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> 角色化妆品将在今年的每次更新中发挥巨大作用。我们希望通过增加各种各样的战利品来增加已经庞大的收藏，并提供更多令人惊叹的衣服。不要指望我们会像其他流行游戏一样拥有大量的粉红色皮肤。想想以DayZ品牌为代表的背包、生存主题和服装。
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 我认为
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 波黑等什么把dnmd角色建模搞得人样再说吧
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] xD(2059997947) -> 太几把丑了
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 12:58:33 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[33304], internalIds=[215145084], from 86887878 to 697785664 at 1681869767], content=<not yet initialized>][mirai:at:86887878] 直接吃
+2023-04-19 12:58:33 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-19 12:58:33 I/Bot.270488994: Login successful.
+2023-04-19 12:58:33 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-19 12:58:33 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-19 12:58:33 I/Bot.270488994: Reconnected successfully in 0.185s.
+2023-04-19 13:48:24 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 2
+2023-04-19 13:50:01 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:at:270488994] 在线人数
+2023-04-19 13:50:03 V/Bot.270488994: Group(697785664) <- 今日罢工,自行通过服务器右键复制服务器信息查询
+2023-04-19 13:50:15 V/Bot.270488994: [Public Dayz(697785664)] NaiDi(2423251354) -> [mirai:marketface:201360,]
+2023-04-19 13:58:21 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 换一种方式了 之前是通过一个网页查询的，老是会被验证码，而且那个数据有延迟
+2023-04-19 13:58:31 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 准备去本地查日志算人数了
+2023-04-19 14:37:57 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{C2EA1B58-ABA2-E130-7B09-8F16D2FAA3A7}.jpg, width=1045, height=1045, size=55781, type=JPG, isEmoji=true]
+2023-04-19 15:13:18 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=310058943)
+2023-04-19 15:14:59 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681888500508813, message=, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 15:15:04 V/Bot.270488994: Event: MemberJoinEvent.Active(member=310058943)
+2023-04-19 15:15:04 V/Bot.270488994: Group(697785664) <- [mirai:at:310058943] 欢迎qyhbot入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 15:15:20 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=310058943)
+2023-04-19 15:15:21 V/Bot.270488994: Group(697785664) <-  qyhbot离开了我们
+2023-04-19 15:38:12 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 永远的离开
+2023-04-19 16:04:38 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681891479820747, message=, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:04:38 E/MAH Access: kotlinx.serialization.UnknownFieldException: An unknown field for index -3
+kotlinx.serialization.UnknownFieldException: An unknown field for index -3
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.EmptyAuthedDTO$$serializer.deserialize(auth.kt:31)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.EmptyAuthedDTO$$serializer.deserialize(auth.kt:31)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-19 16:07:13 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681891634786214, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:07:14 E/MAH Access: kotlinx.serialization.UnknownFieldException: An unknown field for index -3
+kotlinx.serialization.UnknownFieldException: An unknown field for index -3
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.EmptyAuthedDTO$$serializer.deserialize(auth.kt:31)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.dto.EmptyAuthedDTO$$serializer.deserialize(auth.kt:31)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.InfoKt$infoRouter$1$invoke$$inlined$httpAuthedGet$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-19 16:15:18 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892119411843, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:15:59 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892160851907, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:16:56 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892217847518, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:23:04 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892585089452, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:24:42 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892683846603, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:29:58 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681892999982542, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:32:34 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681893155624949, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:35:38 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681893339298524, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 16:37:13 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681893434343709, message=大家好，我是qyhbot。欢迎大家随时撩我~, fromId=310058943, groupId=697785664, groupName=Public Dayz, fromNick=qyhbot, invitorId=null)
+2023-04-19 17:24:24 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:at:270488994] 在线人数
+2023-04-19 17:24:26 V/Bot.270488994: Group(697785664) <- 今日罢工,自行通过服务器右键复制服务器信息查询
+2023-04-19 17:26:58 V/Bot.270488994: Event: MemberLeaveEvent.Kick(member=3390756109, operator=2502510147)
+2023-04-19 17:27:47 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:28:39 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:28:44 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null), reconnect=true)
+2023-04-19 17:30:21 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:30:21 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null))
+2023-04-19 17:30:21 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> das
+2023-04-19 17:30:21 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:at:270488994]
+2023-04-19 17:30:21 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-19 17:30:21 I/Bot.270488994: Login successful.
+2023-04-19 17:30:21 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-19 17:30:21 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-19 17:30:21 I/Bot.270488994: Reconnected successfully in 0.164s.
+2023-04-19 17:30:33 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:30:40 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> ddd
+2023-04-19 17:31:02 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:31:23 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> dd
+2023-04-19 17:31:42 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall]
+2023-04-19 17:33:46 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 要清档吗什么时候
+2023-04-19 17:34:00 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 消息属实快约架啦
+2023-04-19 17:35:08 V/Bot.270488994: [愿上玉京十二楼、<LTR>、(365899064)] <LTR>(2502510147) -> [mirai:atall] 你好
+2023-04-19 17:35:56 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 晚上就来干你们
+2023-04-19 17:36:35 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-19 17:36:35 I/Bot.270488994: Bot is closed manually
+2023-04-19 17:36:35 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-19 17:36:51 I/main: Starting mirai-console...
+2023-04-19 17:36:51 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-19 17:36:51 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-19 17:36:51 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-19 17:36:51 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-19 17:36:52 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-19 17:36:52 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-19 17:36:52 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-19 17:36:52 I/Mirai HTTP API: ********************************************************
+2023-04-19 17:36:52 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-19 17:36:52 I/MahKtorAdapter[http]: Application started in 0.127 seconds.
+2023-04-19 17:36:52 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-19 17:36:52 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-19 17:36:52 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-19 17:36:52 I/Mirai HTTP API: adaptors: [http]
+2023-04-19 17:36:52 I/Mirai HTTP API: ********************************************************
+2023-04-19 17:36:52 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-19 17:36:53 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-19 17:36:53 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-19 17:36:53 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-19 17:36:53 I/Bot.270488994: Login successful.
+2023-04-19 17:37:03 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-19 17:37:09 I/Bot.270488994: Bot login successful.
+2023-04-19 17:37:09 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@4c2ab536
+2023-04-19 17:37:09 I/main: 2 plugin(s) enabled.
+2023-04-19 17:37:09 I/main: mirai-console started successfully.
+2023-04-19 17:37:25 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> [mirai:atall] 你好
+2023-04-19 17:38:10 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 几号清档
+2023-04-19 17:38:36 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我好几天没上线了，你都这样说了
+2023-04-19 17:38:36 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 那晚上都来北城？
+2023-04-19 17:38:36 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 你好
+2023-04-19 17:38:41 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 大乱战
+2023-04-19 17:39:00 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 你好
+2023-04-19 17:39:31 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 你好
+2023-04-19 17:45:31 V/Bot.270488994: Event: BotGroupPermissionChangeEvent(group=Group(365899064), origin=MEMBER, new=ADMINISTRATOR)
+2023-04-19 17:47:49 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 你好
+2023-04-19 17:52:02 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681897923166458, message=, fromId=1693087781, groupId=697785664, groupName=Public Dayz, fromNick=秋, invitorId=null)
+2023-04-19 17:52:02 V/Bot.270488994: Event: MemberJoinEvent.Active(member=1693087781)
+2023-04-19 17:52:04 V/Bot.270488994: Group(697785664) <- [mirai:at:1693087781] 欢迎秋入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 17:53:26 V/Bot.270488994: Group(365899064) <- [mirai:atall] 服务器还有九天清档，快快上线打架咯
+2023-04-19 17:57:14 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[33333], internalIds=[1708600496], from 1610724841 to 697785664 at 1681897122], content=<not yet initialized>][mirai:at:1610724841] 马上就去
+2023-04-19 17:57:18 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 把你们全部干翻
+2023-04-19 17:57:29 V/Bot.270488994: [Public Dayz(697785664)] ベ断桥烟雨ミ(3150218092) -> 加我一个呀
+2023-04-19 17:58:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 今天忘记修复一下机器人的查询在线人数了
+2023-04-19 17:58:08 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 你倒是跟我说几号清档
+2023-04-19 17:58:11 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{D16AEED3-1B82-904E-B062-4F5BE89B1815}.jpg, width=51, height=47, size=9974, type=JPG, isEmoji=true]
+2023-04-19 17:58:19 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我说了啊 五一前
+2023-04-19 17:58:21 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 来北城来北城打我们
+2023-04-19 17:58:23 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 还有九天
+2023-04-19 17:58:27 V/Bot.270488994: Event: MemberCardChangeEvent(origin=秋, new=, member=NormalMember(1693087781))
+2023-04-19 17:58:27 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 要清档了吗
+2023-04-19 17:58:30 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 这就
+2023-04-19 17:58:35 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> [mirai:image:{65150694-7AB6-A0B6-5EF3-F0E034FF8015}.gif, width=272, height=252, size=2893294, type=GIF, isEmoji=true]
+2023-04-19 17:58:40 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 不清档裸吊没办法玩了
+2023-04-19 17:58:54 V/Bot.270488994: [Public Dayz(697785664)] ベ断桥烟雨ミ(3150218092) -> [mirai:at:2502510147] 带带我
+2023-04-19 17:58:57 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 那确实
+2023-04-19 17:58:58 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 来
+2023-04-19 17:59:07 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 晚上一人一把枪
+2023-04-19 17:59:19 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:1693087781] 你是不知道有些人囤了多少东西
+2023-04-19 17:59:36 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 像我们这种孤寡玩家要搜点都很难
+2023-04-19 17:59:38 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 现在服务器一般常驻几个人
+2023-04-19 17:59:40 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{8B6D1E19-FA64-79BA-1BEC-B86295B55CDB}.jpg, width=100, height=100, size=3400, type=JPG, isEmoji=true]
+2023-04-19 18:00:09 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 不好说
+2023-04-19 18:00:40 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 展开说说
+2023-04-19 18:00:41 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 峰值26谷值0
+2023-04-19 18:00:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{7F7541A1-F859-A3AF-BDFB-8A736600BF3B}.jpg, width=94, height=98, size=2564, type=JPG, isEmoji=true]
+2023-04-19 18:01:03 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> [mirai:image:{65B93758-E5A8-1259-4C33-4EE3A336AB79}.jpg, width=120, height=120, size=13460, type=JPG, isEmoji=true]
+2023-04-19 18:01:32 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-19 18:01:53 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> m4都是按油桶计算的屯
+2023-04-19 18:02:45 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{C4AA15EC-DE7A-8D14-D9F5-022DFC27191C}.jpg, width=2436, height=1827, size=1105724, type=JPG, isEmoji=false]
+2023-04-19 18:02:47 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我很友好的
+2023-04-19 18:03:10 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 那还是51以后见吧
+2023-04-19 18:03:18 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> /斜眼笑
+2023-04-19 18:03:19 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 有没有一种可能
+2023-04-19 18:03:24 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 51以后竞争更激烈
+2023-04-19 18:03:27 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [崇拜]请使用最新版手机QQ体验新功能
+2023-04-19 18:03:34 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 各家各户都要屯东西
+2023-04-19 18:03:41 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 但是我现在上去
+2023-04-19 18:03:45 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 裸吊有啥用
+2023-04-19 18:03:51 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> [mirai:image:{4F9B8881-F58C-2FDD-0222-3036FEDDDFE1}.jpg, width=66, height=58, size=1829, type=JPG, isEmoji=true]
+2023-04-19 18:03:54 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 屯了也没用
+2023-04-19 18:03:58 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 也没人打架
+2023-04-19 18:04:04 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:1693087781] 找群主啊
+2023-04-19 18:04:05 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 这就不得不和你聊聊心理学了
+2023-04-19 18:04:11 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 去他家里走一圈
+2023-04-19 18:04:20 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 清档在即 没人会专心打架
+2023-04-19 18:04:26 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 反而能让你爽一把
+2023-04-19 18:04:29 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> [mirai:image:{E7CD6EA1-EB51-2551-9AF1-28A4743FBD59}.jpg, width=147, height=168, size=3727, type=JPG, isEmoji=true]
+2023-04-19 18:04:42 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> /托腮
+2023-04-19 18:04:46 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:1693087781] 来北城找我
+2023-04-19 18:04:50 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:image:{3911BF98-14F5-82B4-C30D-1927AF86931F}.jpg, width=60, height=55, size=1085, type=JPG, isEmoji=true]
+2023-04-19 18:04:53 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 没啥爽的，国服的DAYZ被史迪仔搞成那样
+2023-04-19 18:05:00 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 去外服杀两个人被ban
+2023-04-19 18:05:05 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 要不然就是根本不让进
+2023-04-19 18:05:51 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:image:{F0D40004-54DE-935B-1ED0-D473015DB2B7}.jpg, width=84, height=84, size=1191, type=JPG, isEmoji=true]
+2023-04-19 18:06:03 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 这里是国服的净土
+2023-04-19 18:06:39 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 人人有枪用
+2023-04-19 18:06:50 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我养的僵尸都吃战斧牛排
+2023-04-19 18:09:41 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> [mirai:at:270488994] 转换为波西米亚id：76561199254219828
+2023-04-19 18:10:26 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> 他不鸟我
+2023-04-19 18:10:30 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 转换为波西米亚id:76561199254219828
+2023-04-19 18:10:31 V/Bot.270488994: Group(697785664) <- e70KjONUEmI0cPDJOVkJgdsQV4XvqRizpRhc7OMCVPk=
+2023-04-19 18:10:34 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 英文冒号
+2023-04-19 18:10:39 V/Bot.270488994: [Public Dayz(697785664)] 秋(1693087781) -> OK
+2023-04-19 18:19:15 V/Bot.270488994: Event: MemberJoinEvent.Invite(member=2983870951, invitor=2502510147)
+2023-04-19 18:19:16 V/Bot.270488994: Group(697785664) <- [mirai:at:2983870951] 欢迎Fool入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 18:53:50 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 小王该不会换号进一下群就以为万事大吉吧
+2023-04-19 18:54:08 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> [mirai:image:{45D873EE-E159-C3C0-A152-165EE0EE38D6}.jpg, width=48, height=48, size=965, type=JPG, isEmoji=true]
+2023-04-19 18:55:10 V/Bot.270488994: Event: BotOfflineEvent.Dropped(bot=Bot(270488994), cause=HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null), reconnect=true)
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 都要清档了，我要把我的m4拿出来玩了
+2023-04-19 18:58:34 W/Bot.270488994: Connection lost, reconnecting... (HeartbeatFailedException: 270488994.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=270488994.AliveHeartbeat Scheduler: Timeout receiving action response, cause=null))
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:759894122] 
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 没事  该唠我还是要唠你的
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 来北城
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] 门的那边是自由(942891282) -> 你跑不掉
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 送我一把玩玩
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 你的这个送会不会把我传送到海边
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 怎么会
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我是那种人吗
+2023-04-19 18:58:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{ED5623D3-D62B-A197-8124-CCB9264ADDF4}.jpg, width=150, height=149, size=11173, type=JPG, isEmoji=true]
+2023-04-19 18:58:34 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-19 18:58:34 I/Bot.270488994: Login successful.
+2023-04-19 18:58:34 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-19 18:58:34 V/Bot.270488994: Event: BotReloginEvent(bot=Bot(270488994), cause=null)
+2023-04-19 18:58:34 I/Bot.270488994: Reconnected successfully in 0.212s.
+2023-04-19 19:00:06 V/Bot.270488994: Group(697785664) <- [mirai:atall] 服务器还有9天清档，快快上线打架咯
+2023-04-19 19:00:28 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 是的
+2023-04-19 19:00:43 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 我不搜了
+2023-04-19 19:00:48 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 为什么清档
+2023-04-19 19:01:02 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 直接拿大枪出来干架了
+2023-04-19 19:01:19 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 在哪打架我也去
+2023-04-19 19:01:56 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 北城
+2023-04-19 19:02:04 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 晚上北城集合
+2023-04-19 19:02:40 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 必须狠狠的火拼
+2023-04-19 19:02:45 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 那么多存货
+2023-04-19 19:03:01 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 北城是哪
+2023-04-19 19:03:03 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> /沧桑
+2023-04-19 19:03:10 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我怎么没听过这个叫法
+2023-04-19 19:03:21 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 几点北城
+2023-04-19 19:04:04 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:2502510147] 
+2023-04-19 19:04:10 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 吃完饭就来
+2023-04-19 19:04:12 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你别急
+2023-04-19 19:04:16 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我在线上了
+2023-04-19 19:04:21 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 来了开一枪
+2023-04-19 19:04:21 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 北城是哪[mirai:at:2502510147] 
+2023-04-19 19:04:25 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 不开
+2023-04-19 19:04:27 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 偷
+2023-04-19 19:04:38 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 那你偷不到我
+2023-04-19 19:04:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 是哪
+2023-04-19 19:04:46 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我在屋子厕所呆着
+2023-04-19 19:04:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我也说不清楚
+2023-04-19 19:04:47 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-19 19:04:53 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 门关得严实
+2023-04-19 19:04:59 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 城名字是啥
+2023-04-19 19:04:59 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 除非毒气
+2023-04-19 19:05:01 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 算了
+2023-04-19 19:05:09 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我换一身防护服
+2023-04-19 19:05:10 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-19 19:05:15 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 在厕所挂机
+2023-04-19 19:05:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我不记得 我看的中文地图
+2023-04-19 19:05:25 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我看看
+2023-04-19 19:05:26 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 别急
+2023-04-19 19:05:58 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{42404EFE-1790-129C-FD8B-0549DA758FAE}.jpg, width=1615, height=1021, size=735946, type=JPG, isEmoji=false]
+2023-04-19 19:05:59 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 这个
+2023-04-19 19:06:25 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:2934576547] 
+2023-04-19 19:06:32 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 好的
+2023-04-19 19:07:04 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 这鬼地方从来没去过…
+2023-04-19 19:07:11 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我都是在大机场呆着
+2023-04-19 19:07:23 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 好像四千米左右
+2023-04-19 19:07:30 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 跑图按着w
+2023-04-19 19:07:36 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 玩十分钟手机就到了
+2023-04-19 19:07:39 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我看看能不能找到路吧
+2023-04-19 19:08:26 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 服里六个人
+2023-04-19 19:08:35 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:759894122] 
+2023-04-19 19:08:40 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 你来北城了吗
+2023-04-19 19:19:29 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [mirai:at:86887878] 我还没下班
+2023-04-19 19:20:46 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 好吧
+2023-04-19 19:26:53 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681903614830167, message=大家好，我是壹拾贰。来自江苏连云港的处女座男一枚~, fromId=798887778, groupId=697785664, groupName=Public Dayz, fromNick=壹拾贰, invitorId=null)
+2023-04-19 19:26:54 V/Bot.270488994: Event: MemberJoinEvent.Active(member=798887778)
+2023-04-19 19:26:54 V/Bot.270488994: Event: MemberCardChangeEvent(origin=壹拾贰, new=, member=NormalMember(798887778))
+2023-04-19 19:26:54 V/Bot.270488994: [Public Dayz(697785664)] 壹拾贰(798887778) -> 大家好，我是壹拾贰。来自江苏连云港的处女座男一枚~
+2023-04-19 19:26:55 V/Bot.270488994: Group(697785664) <- [mirai:at:798887778] 欢迎壹拾贰入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 19:30:18 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 🎉
+2023-04-19 19:32:39 V/Bot.270488994: [Public Dayz(697785664)] 壹拾贰(798887778) -> 有组队模组吗
+2023-04-19 19:33:05 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 这次清档之后会加
+2023-04-19 19:33:47 V/Bot.270488994: [Public Dayz(697785664)] 壹拾贰(798887778) -> 啥时候清啊   那现在的模组都是啥
+2023-04-19 19:47:19 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 密码锁
+2023-04-19 19:47:53 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 建家用的
+2023-04-19 19:52:54 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:270488994] 在线人数
+2023-04-19 19:52:56 V/Bot.270488994: Group(697785664) <- 今日罢工,自行通过服务器右键复制服务器信息查询
+2023-04-19 20:00:07 V/Bot.270488994: Group(697785664) <- [mirai:atall] 服务器还有9天清档，快快上线打架咯
+2023-04-19 20:00:24 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:at:1610724841] 在线人数
+2023-04-19 20:01:00 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 加了组队模组那还是仿官吗…
+2023-04-19 20:01:10 V/Bot.270488994: [Public Dayz(697785664)] salvation—Carol(1772880278) -> 管你什么事[mirai:at:270488994] 
+2023-04-19 20:01:12 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 像我这种独狼更无处生存了
+2023-04-19 20:01:23 V/Bot.270488994: [Public Dayz(697785664)] salvation—Carol(1772880278) -> [mirai:image:{A2AE72CA-7FC6-4F07-B835-DAA3B93AC86C}.gif, width=20, height=20, size=1383, type=GIF, isEmoji=true]
+2023-04-19 20:01:29 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 快上线
+2023-04-19 20:01:37 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 来北城爆我装备
+2023-04-19 20:01:46 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{6458B4A4-5267-6BC5-ED38-BD24B4E230E3}.jpg, width=111, height=120, size=5279, type=JPG, isEmoji=true]
+2023-04-19 20:02:48 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 老登爆点金币
+2023-04-19 20:03:46 V/Bot.270488994: [Public Dayz(697785664)] 坤(963607316) -> 来北城
+2023-04-19 20:04:15 V/Bot.270488994: [Public Dayz(697785664)] 坤(963607316) -> 为啥没枪声啊
+2023-04-19 20:04:22 V/Bot.270488994: [Public Dayz(697785664)] 坤(963607316) -> 都不露是吧
+2023-04-19 20:04:24 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我刚刚打了好久僵尸
+2023-04-19 20:04:32 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 都没人露的吗
+2023-04-19 20:05:38 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 要加什么模组吗是
+2023-04-19 20:05:47 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 有没有投票啥的
+2023-04-19 20:06:33 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 简单的加个地图最好了 不建议组队系统
+2023-04-19 20:06:36 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 本来人就少
+2023-04-19 20:07:09 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 有地图就没味道了。
+2023-04-19 20:07:16 V/Bot.270488994: [Public Dayz(697785664)] 坤(963607316) -> 不建议加地图
+2023-04-19 20:07:49 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681906070912602, message=, fromId=472979704, groupId=697785664, groupName=Public Dayz, fromNick=雾, invitorId=null)
+2023-04-19 20:07:50 V/Bot.270488994: Event: MemberJoinEvent.Active(member=472979704)
+2023-04-19 20:07:52 V/Bot.270488994: Group(697785664) <- [mirai:at:472979704] 欢迎雾入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 20:08:32 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 那就啥都别加 原汁原味
+2023-04-19 20:08:48 V/Bot.270488994: Event: MemberCardChangeEvent(origin=雾, new=, member=NormalMember(472979704))
+2023-04-19 20:08:48 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 有人吗
+2023-04-19 20:08:48 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 说来北城的
+2023-04-19 20:08:51 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 怎么都骗人
+2023-04-19 20:08:54 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 北城一个人没有
+2023-04-19 20:09:14 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 服务器人多吗
+2023-04-19 20:09:43 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:at:270488994] 在线人数
+2023-04-19 20:09:45 V/Bot.270488994: Group(697785664) <- 今日罢工,自行通过服务器右键复制服务器信息查询
+2023-04-19 20:09:48 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 都躲起来了等着阴人 肯定看不到人啊/笑哭
+2023-04-19 20:09:52 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 90/100
+2023-04-19 20:09:53 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 人多
+2023-04-19 20:09:55 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 90个
+2023-04-19 20:09:57 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 这么多
+2023-04-19 20:10:00 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我听到了
+2023-04-19 20:10:02 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 快上线
+2023-04-19 20:10:10 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 我草 刚进去不得被干死
+2023-04-19 20:10:12 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 都来
+2023-04-19 20:10:23 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 他们可能都在北城
+2023-04-19 20:12:30 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 妈的
+2023-04-19 20:12:34 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> [mirai:image:{CC86BE73-0E71-5916-5074-6A7191113102}.jpg, width=1080, height=2340, size=1394049, type=JPG, isEmoji=false]
+2023-04-19 20:12:34 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 死了
+2023-04-19 20:12:37 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 谁的油桶
+2023-04-19 20:20:14 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 服务器怎么找
+2023-04-19 20:20:54 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 服务器IP 114.239.11.69 端口22302
+2023-04-19 20:21:25 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 这样吗
+2023-04-19 20:21:26 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> [mirai:image:{FDA5EDBE-EF5D-CCE7-7F81-23C3F946DA56}.png, width=642, height=305, size=195955, type=PNG, isEmoji=false]
+2023-04-19 20:21:33 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 不是
+2023-04-19 20:21:39 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 右下角
+2023-04-19 20:21:41 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 直连
+2023-04-19 20:21:51 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 输入ip和端口
+2023-04-19 20:22:07 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 好
+2023-04-19 20:22:38 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 先申请白名单不然进不去
+2023-04-19 20:23:11 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 发17id吗
+2023-04-19 20:23:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> @雾 欢迎雾入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 20:23:51 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 看这个
+2023-04-19 20:24:33 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:at:270488994] 
+2023-04-19 20:24:43 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 稍等奥 群主
+2023-04-19 20:26:08 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 所以北城有人吗
+2023-04-19 20:26:15 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 路上
+2023-04-19 20:28:13 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> [mirai:at:270488994] 转换为波西米亚 76561199166052007
+2023-04-19 20:31:34 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{8A390543-9A95-A641-6A50-FE8A3E4526B0}.jpg, width=350, height=350, size=23636, type=JPG, isEmoji=false]
+2023-04-19 20:33:29 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681907610524180, message=大家好，我是。。来自河南郑州的狮子座男一枚~, fromId=434417464, groupId=697785664, groupName=Public Dayz, fromNick=。, invitorId=null)
+2023-04-19 20:33:30 V/Bot.270488994: Event: MemberJoinEvent.Active(member=434417464)
+2023-04-19 20:33:30 V/Bot.270488994: Event: MemberCardChangeEvent(origin=。, new=, member=NormalMember(434417464))
+2023-04-19 20:33:30 V/Bot.270488994: [Public Dayz(697785664)] 。(434417464) -> 大家好，我是。。来自河南郑州的狮子座男一枚~
+2023-04-19 20:33:31 V/Bot.270488994: Group(697785664) <- [mirai:at:434417464] 欢迎。入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 20:38:06 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:at:434417464] 你赶紧给我申请白名单！
+2023-04-19 20:45:23 V/Bot.270488994: [Public Dayz(697785664)] 。(434417464) -> …
+2023-04-19 20:45:27 V/Bot.270488994: [Public Dayz(697785664)] 。(434417464) -> 操
+2023-04-19 20:45:33 V/Bot.270488994: [Public Dayz(697785664)] 。(434417464) -> 哪都有你
+2023-04-19 20:46:55 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> [mirai:at:434417464] 上号跟他们去打架
+2023-04-19 20:47:02 V/Bot.270488994: [Public Dayz(697785664)] 奶凶(1732132466) -> [mirai:at:2650925937]  我能吗
+2023-04-19 20:47:11 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 你是挂
+2023-04-19 20:47:12 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 你不能
+2023-04-19 20:47:19 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 你打架太厉害了
+2023-04-19 20:47:25 V/Bot.270488994: [Public Dayz(697785664)] 奶凶(1732132466) -> 爬
+2023-04-19 20:47:50 V/Bot.270488994: [Public Dayz(697785664)] 。(434417464) -> [mirai:at:270488994] 转换为波西米亚id:76561199234309600
+2023-04-19 20:47:51 V/Bot.270488994: Group(697785664) <- zKf2hrjmmR7REMEFOOZZZ312IDmzv8VECXYv3TsVYmA=
+2023-04-19 20:54:49 V/Bot.270488994: [Public Dayz(697785664)] 摸鱼管理员果冻(2650925937) -> 服务器IP 114.239.11.69 端口22302
+2023-04-19 20:56:50 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681909011954006, message=大家好，我是哇。来自北京朝阳的水瓶座男一枚~, fromId=45451675, groupId=697785664, groupName=Public Dayz, fromNick=哇, invitorId=null)
+2023-04-19 20:56:51 V/Bot.270488994: Event: MemberJoinEvent.Active(member=45451675)
+2023-04-19 20:56:52 V/Bot.270488994: Event: MemberCardChangeEvent(origin=哇, new=, member=NormalMember(45451675))
+2023-04-19 20:56:52 V/Bot.270488994: [Public Dayz(697785664)] 哇(45451675) -> 大家好，我是哇。来自北京朝阳的水瓶座男一枚~
+2023-04-19 20:56:53 V/Bot.270488994: Group(697785664) <- [mirai:at:45451675] 欢迎哇入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 20:58:07 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 北城没人 溜了
+2023-04-19 20:58:42 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 马上到了
+2023-04-19 20:58:54 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:image:{171B1264-A94F-9A95-2C5D-50446D61D1E8}.jpg, width=1920, height=1080, size=251888, type=PNG, isEmoji=false]
+2023-04-19 20:59:08 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 一车人
+2023-04-19 20:59:11 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我更得溜了
+2023-04-19 21:00:07 V/Bot.270488994: Group(697785664) <- [mirai:atall] 服务器还有9天清档，快快上线打架咯
+2023-04-19 21:01:18 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:2502510147] 这不是so上去那条路吗
+2023-04-19 21:01:32 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [比心]请使用最新版手机QQ体验新功能
+2023-04-19 21:02:19 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 前面警察局拐弯堵你咯
+2023-04-19 21:02:53 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:2934576547] 有一个人一直在开枪啊怎么会没人捏
+2023-04-19 21:04:20 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我只看到有个人刚才躲在自己家楼顶 现在不在了
+2023-04-19 21:04:31 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 整栋楼都用伪装网套起来了
+2023-04-19 21:04:41 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 打死了也拿不到尸体 没意义
+2023-04-19 21:05:01 V/Bot.270488994: [Public Dayz(697785664)] 哇(45451675) -> 管理在么？
+2023-04-19 21:05:27 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 在的
+2023-04-19 21:05:52 V/Bot.270488994: [Public Dayz(697785664)] 哇(45451675) -> 进服都需要什么？我发给你
+2023-04-19 21:06:59 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[33552], internalIds=[1716336256], from 270488994 to 697785664 at 1681909014], content=<not yet initialized>][mirai:at:270488994] 看这个
+2023-04-19 21:08:10 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 是的，他们不出门，躲楼里死了也舔不到装备
+2023-04-19 21:08:12 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> /狂笑
+2023-04-19 21:08:30 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 所以我溜了
+2023-04-19 21:08:37 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=45451675)
+2023-04-19 21:08:38 V/Bot.270488994: Group(697785664) <-  哇离开了我们
+2023-04-19 21:08:43 V/Bot.270488994: [Public Dayz(697785664)] 雾(472979704) -> 你们都在打架 我还在跟丧尸硬碰硬
+2023-04-19 21:08:43 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我也一直在架他
+2023-04-19 21:08:47 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 我就一个独狼 死了啥都没了
+2023-04-19 21:08:56 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 别走啊
+2023-04-19 21:09:12 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 这又有家又有队友还这么玩/吃瓜
+2023-04-19 21:09:38 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我是独狼
+2023-04-19 21:11:37 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 去大机场溜达溜达
+2023-04-19 21:13:25 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 到咯
+2023-04-19 21:16:09 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681910171138580, message=来自贴吧推荐！, fromId=1657139163, groupId=697785664, groupName=Public Dayz, fromNick=без мечты, invitorId=null)
+2023-04-19 21:16:10 V/Bot.270488994: Event: MemberJoinEvent.Active(member=1657139163)
+2023-04-19 21:16:10 V/Bot.270488994: Event: MemberCardChangeEvent(origin=без мечты, new=, member=NormalMember(1657139163))
+2023-04-19 21:16:10 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 来自贴吧推荐！
+2023-04-19 21:16:11 V/Bot.270488994: Group(697785664) <- [mirai:at:1657139163] 欢迎без мечты入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 21:18:09 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 问问，车窗裂开可以修不
+2023-04-19 21:18:22 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 不可以
+2023-04-19 21:19:01 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 那铁锈可以除吗👀
+2023-04-19 21:20:08 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 你们在哪个城
+2023-04-19 21:20:16 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 北城是哪个..
+2023-04-19 21:20:39 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 万人坑下面
+2023-04-19 21:22:29 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你们家没人？
+2023-04-19 21:22:33 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [疑问]
+2023-04-19 21:22:50 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我就一个人
+2023-04-19 21:23:08 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 骗我们来是吧
+2023-04-19 21:24:17 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我不是在吗/大怨种
+2023-04-19 21:25:06 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 出来受死
+2023-04-19 21:26:16 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我们就两个人
+2023-04-19 21:26:22 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 感觉外面全是人
+2023-04-19 21:26:25 V/Bot.270488994: [Public Dayz(697785664)] LaoFang(754836920) -> 我们也是
+2023-04-19 21:26:30 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{113B013C-1AB0-550A-3DCF-7A174BEBBA41}.jpg, width=180, height=198, size=2757, type=JPG, isEmoji=true]
+2023-04-19 21:28:10 V/Bot.270488994: [Public Dayz(697785664)] LaoFang(754836920) -> 出不来
+2023-04-19 21:28:16 V/Bot.270488994: [Public Dayz(697785664)] LaoFang(754836920) -> 出来受死
+2023-04-19 21:30:57 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 谁打我的
+2023-04-19 21:31:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 吓死我了
+2023-04-19 21:32:53 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 服主开直播
+2023-04-19 21:32:56 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 观战一下
+2023-04-19 21:34:16 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> https://live.bilibili.com/7601274
+2023-04-19 21:34:31 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> ok
+2023-04-19 21:35:36 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 打绿蛋是你是吧
+2023-04-19 21:35:45 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 还有个黄登山包贼显眼
+2023-04-19 21:35:47 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 跑来跑去
+2023-04-19 21:38:42 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 今天差点死在了西北机场航站楼
+2023-04-19 21:38:50 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 太猛了那的僵尸
+2023-04-19 21:40:02 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 把你队友叫来打啊
+2023-04-19 21:43:25 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 无队友
+2023-04-19 21:55:43 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 突击盔m79就是群主
+2023-04-19 21:55:51 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 逮他
+2023-04-19 21:58:03 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 刚刚谁死了
+2023-04-19 22:00:08 V/Bot.270488994: Group(697785664) <- [mirai:atall] 服务器还有9天清档，快快上线打架咯
+2023-04-19 22:00:19 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=755313072)
+2023-04-19 22:00:20 V/Bot.270488994: Group(697785664) <-  kingcat离开了我们
+2023-04-19 22:00:33 V/Bot.270488994: [Public Dayz(697785664)] TB(2543996591) -> 清档？
+2023-04-19 22:03:52 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 是的
+2023-04-19 22:12:38 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1681913559595159, message=大家好，我是冬月廿九。摩羯座男一枚~, fromId=524352002, groupId=697785664, groupName=Public Dayz, fromNick=冬月廿九, invitorId=null)
+2023-04-19 22:12:38 V/Bot.270488994: Event: MemberJoinEvent.Active(member=524352002)
+2023-04-19 22:12:38 V/Bot.270488994: Event: MemberCardChangeEvent(origin=冬月廿九, new=, member=NormalMember(524352002))
+2023-04-19 22:12:38 V/Bot.270488994: [Public Dayz(697785664)] 冬月廿九(524352002) -> 大家好，我是冬月廿九。摩羯座男一枚~
+2023-04-19 22:12:39 V/Bot.270488994: Group(697785664) <- [mirai:at:524352002] 欢迎冬月廿九入群! 白名单申请看公告，把资料发给群主。资料格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-19 22:12:40 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 怎么这么安静
+2023-04-19 22:14:04 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你们不出来
+2023-04-19 22:14:13 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 溜了
+2023-04-19 22:14:20 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 去z城了
+2023-04-19 22:14:33 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 我没在里面
+2023-04-19 22:19:35 V/Bot.270488994: [Public Dayz(697785664)] 冬月廿九(524352002) -> 大家好
+2023-04-19 22:20:07 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> 北城没动静了吗那我也走了
+2023-04-19 22:20:12 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:image:{6458B4A4-5267-6BC5-ED38-BD24B4E230E3}.jpg, width=111, height=120, size=5279, type=JPG, isEmoji=true]
+2023-04-19 22:22:42 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 刚刚北城谁被打死了
+2023-04-19 22:22:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 你队友没上
+2023-04-19 22:22:50 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 杀了个人就走了
+2023-04-19 22:22:58 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:quote:[mirai:source:ids=[33629], internalIds=[0], from 524352002 to 697785664 at 1681913977], content=大家好][mirai:at:524352002] halo啊
+2023-04-19 22:24:39 V/Bot.270488994: [Public Dayz(697785664)] 冬月廿九(524352002) -> [mirai:image:{70063034-6A41-7078-1A56-E8F1D0506060}.jpg, width=81, height=69, size=3341, type=PNG, isEmoji=true]
+2023-04-19 22:42:29 V/Bot.270488994: Event: FriendNickChangedEvent(friend=Friend(2602663646), from=🧸, to=程航)
+2023-04-19 22:42:36 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2602663646))
+2023-04-19 22:43:54 V/Bot.270488994: Event: FriendNickChangedEvent(friend=Friend(2602663646), from=程航, to=🧸)
+2023-04-19 23:01:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 走了 逛了一大圈
+2023-04-19 23:01:59 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 就一直听到枪声
+2023-04-19 23:02:08 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 冲过去又跑了 难受
+2023-04-19 23:04:05 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 我们一开始找你们位置了
+2023-04-19 23:04:13 V/Bot.270488994: [Public Dayz(697785664)] 峰峰(56777041) -> 太远了，子弹贼飘
+2023-04-19 23:08:14 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 我们一直在开枪给你们引路
+2023-04-19 23:08:40 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 一开始在城里 后面去了平原
+2023-04-19 23:34:42 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(478662001))
+2023-04-19 23:38:06 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(478662001))
+2023-04-19 23:50:03 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 你们在哪打架啊
+2023-04-19 23:50:12 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 我来辣~

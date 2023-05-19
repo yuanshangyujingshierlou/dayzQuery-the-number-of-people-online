@@ -1,0 +1,1390 @@
+2023-04-24 00:22:16 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1324910183))
+2023-04-24 00:29:48 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682267388388945, message=, fromId=724474791, groupId=697785664, groupName=Public Dayz, fromNick=雅音宫羽乄, invitorId=null)
+2023-04-24 00:29:49 V/Bot.270488994: Event: MemberJoinEvent.Active(member=724474791)
+2023-04-24 00:29:50 V/Bot.270488994: Group(697785664) <- [mirai:at:724474791] 欢迎雅音宫羽乄入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-24 00:30:05 V/Bot.270488994: [Public Dayz(697785664)] 嗯(1448959116) -> [mirai:at:270488994] 在线人数
+2023-04-24 00:30:06 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，00点25分在线人数：7
+2023-04-24 00:31:56 V/Bot.270488994: Event: MemberCardChangeEvent(origin=雅音宫羽乄, new=, member=NormalMember(724474791))
+2023-04-24 00:31:56 V/Bot.270488994: [Public Dayz(697785664)] 雅音宫羽乄(724474791) -> 大佬们好
+2023-04-24 00:55:36 V/Bot.270488994: Event: MemberCardChangeEvent(origin=, new=Forever-Yayin, member=NormalMember(724474791))
+2023-04-24 00:55:36 V/Bot.270488994: [Public Dayz(697785664)] Forever-Yayin(724474791) -> [mirai:at:270488994] 在线人数
+2023-04-24 01:03:47 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 要艾特的
+2023-04-24 01:04:09 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-24 01:04:10 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，00点55分在线人数：4
+2023-04-24 02:20:39 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> [mirai:image:{E844D345-EB04-6F1B-8BCE-21BEB8B3FCF5}.png, width=1122, height=792, size=223365, type=PNG, isEmoji=false]
+2023-04-24 02:20:42 V/Bot.270488994: [Public Dayz(697785664)] 童.(919969931) -> [mirai:image:{6FB55A9A-1C0F-15CB-E4A5-74BD2848CC7D}.jpg, width=200, height=200, size=12070, type=JPG, isEmoji=true]
+2023-04-24 03:39:02 V/Bot.270488994: [Public Dayz(697785664)] Forever-Yayin(724474791) -> 请问这个服有地图吗？
+2023-04-24 07:30:51 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 现在没有
+2023-04-24 08:30:55 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 建个门死活找不到金属线
+2023-04-24 08:38:25 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 你可以来北城
+2023-04-24 08:38:36 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 我给你十包钉子
+2023-04-24 08:46:45 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 都不用上课吗
+2023-04-24 08:46:47 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> /拍头
+2023-04-24 08:46:51 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 还是不用上班
+2023-04-24 08:46:59 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> md白天肝夜里肝
+2023-04-24 08:48:34 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=2585245072)
+2023-04-24 09:32:36 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:86887878] 没有我在官服 这个服我等重制服务器再来玩
+2023-04-24 09:33:07 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 昨天把别人家占了只留了一个出口
+2023-04-24 09:33:18 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 它在找材料 门口放着车零件全拆了
+2023-04-24 09:33:25 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 家里50个木箱
+2023-04-24 09:33:32 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 8个油桶
+2023-04-24 09:33:34 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 现在都是我的
+2023-04-24 09:34:40 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [偷笑]
+2023-04-24 09:34:43 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 哈哈
+2023-04-24 09:35:14 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 你这样等下退服了那个人
+2023-04-24 09:41:37 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 那个人应该是半路被我杀了
+2023-04-24 09:41:45 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 更难受了
+2023-04-24 09:41:50 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 还回来舔包那个
+2023-04-24 09:42:00 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我c城过去的
+2023-04-24 09:42:07 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 它过来c城搜
+2023-04-24 09:43:10 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 那个人是真的倒霉 我一个手枪五颗子弹
+2023-04-24 09:43:23 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我下线前在房子门口
+2023-04-24 09:43:28 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我上线拿货搜完
+2023-04-24 09:43:30 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 刚出门
+2023-04-24 09:43:38 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我一上线看见一个人背对着我
+2023-04-24 09:45:51 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> hhhh
+2023-04-24 09:45:53 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 直接暴毙
+2023-04-24 09:48:26 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [mirai:image:{6143EE83-86AD-1215-BF1B-D5681AE1D023}.jpg, width=1600, height=719, size=164198, type=JPG, isEmoji=false]
+2023-04-24 09:48:31 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 以前去抄家
+2023-04-24 09:48:54 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 杀了好几个在家上线回防的
+2023-04-24 09:49:04 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我把他家所有的枪都拖地上打爆了
+2023-04-24 09:49:18 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 净干损事
+2023-04-24 09:52:30 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2639224478] 建家有什么需要注意的吗话说
+2023-04-24 09:52:57 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 找那种只有一个出入口
+2023-04-24 09:53:09 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 我不太在行，那种一个出入口的好些
+2023-04-24 09:53:13 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 一个口子建七八个门
+2023-04-24 09:53:16 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:image:{FB3DA44F-22F9-1A60-CED2-87E547F5A064}.jpg, width=80, height=80, size=1032, type=JPG, isEmoji=true]
+2023-04-24 09:53:21 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 那种没有红柜台的医院楼不错
+2023-04-24 09:53:35 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 上下建门就行
+2023-04-24 09:53:51 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 以前玩的服务器有捕兽夹
+2023-04-24 09:54:07 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> 楼顶我们放了五六个夹子
+2023-04-24 09:54:27 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682301267787852, message=大家好，我是又是三年五载。, fromId=602733050, groupId=697785664, groupName=Public Dayz, fromNick=又是三年五载, invitorId=null)
+2023-04-24 09:54:28 V/Bot.270488994: Event: MemberJoinEvent.Active(member=602733050)
+2023-04-24 09:54:28 V/Bot.270488994: Event: MemberCardChangeEvent(origin=又是三年五载, new=, member=NormalMember(602733050))
+2023-04-24 09:54:28 V/Bot.270488994: [Public Dayz(697785664)] 又是三年五载(602733050) -> 大家好，我是又是三年五载。
+2023-04-24 09:54:29 V/Bot.270488994: Group(697785664) <- [mirai:at:602733050] 欢迎又是三年五载入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-24 10:13:25 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:quote:[mirai:source:ids=[35963], internalIds=[0], from 86887878 to 697785664 at 1682301194], content=<not yet initialized>][mirai:at:86887878] 每个门都要上锁不是直接裂开
+2023-04-24 10:13:49 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 所以你往城区建
+2023-04-24 10:13:52 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 最方便
+2023-04-24 10:14:02 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 很容易摸锁
+2023-04-24 10:14:05 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我建家那个是废弃大楼
+2023-04-24 10:14:11 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:image:{E6C2417D-42B5-FDD9-F019-C07DCB7E4F01}.jpg, width=1126, height=2436, size=236102, type=JPG, isEmoji=false]
+2023-04-24 10:14:34 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我把一个门建一面墙
+2023-04-24 10:14:35 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 不好摸材料你这个
+2023-04-24 10:14:40 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 一个门建成门
+2023-04-24 10:14:52 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 确实 比较偏僻 有个车就完美了
+2023-04-24 10:14:55 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 一道门很容易拆进去
+2023-04-24 10:15:03 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 拆半扇就能钻了
+2023-04-24 10:15:17 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 哇
+2023-04-24 10:15:29 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 没事服务器要重制了
+2023-04-24 10:15:33 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 重制我就跑过来
+2023-04-24 10:15:36 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 官服什么都去死
+2023-04-24 10:15:48 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 遇见车全是被拆轮胎零件全拆
+2023-04-24 10:16:03 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 玩不了一点只能说
+2023-04-24 10:19:46 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:86887878] 然后是不是每扇门都装一个锁
+2023-04-24 10:22:53 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 对
+2023-04-24 10:25:31 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 离谱
+2023-04-24 10:25:43 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 什么建筑可以塞7个门以上
+2023-04-24 10:25:45 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我在想
+2023-04-24 10:32:37 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=3329858836)
+2023-04-24 10:32:38 V/Bot.270488994: Group(697785664) <-  芝士狐狸离开了我们
+2023-04-24 10:40:07 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 有自由建造就可以重叠
+2023-04-24 10:41:07 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2502510147] 自由建造是什么
+2023-04-24 10:41:18 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2502510147] 然后堵门的那个柱子 能不能被拆掉！
+2023-04-24 10:43:43 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没试过
+2023-04-24 10:43:45 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 不懂
+2023-04-24 10:44:00 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 应该不能拆吧 管他的
+2023-04-24 10:44:09 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 按道理来说应该只有正面可以拆
+2023-04-24 10:44:17 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 侧着塞满了 确实没办法拆
+2023-04-24 10:44:23 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我在考虑到时候去哪里造家
+2023-04-24 10:44:34 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2502510147] 有没有开自由建造服里
+2023-04-24 10:45:58 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 有的
+2023-04-24 10:46:01 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 造什么家
+2023-04-24 10:46:30 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 造家只会被抄
+2023-04-24 10:49:51 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 不造家我车停哪里
+2023-04-24 10:50:00 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 多出来的物资丢哪！
+2023-04-24 10:52:21 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 藏起来
+2023-04-24 10:52:35 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 造个箱子埋到地底
+2023-04-24 10:54:13 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 没事我叠上叠七个车
+2023-04-24 10:54:16 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 七把锁
+2023-04-24 10:54:22 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 七个门
+2023-04-24 11:06:18 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 不要紧，我搜个几千发子弹备着等你
+2023-04-24 11:06:30 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [mirai:at:1939079536] 兄弟，你喜欢5.56还是7.62/吃瓜
+2023-04-24 11:09:06 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:quote:[mirai:source:ids=[36016], internalIds=[0], from 759894122 to 697785664 at 1682305590], content=<not yet initialized>][mirai:at:759894122] 没必要哥
+2023-04-24 11:09:24 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 不要为难我连损坏斧头都塞箱子里的屯鼠
+2023-04-24 11:09:26 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [菜汪]请使用最新版手机QQ体验新功能
+2023-04-24 11:09:47 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> /吃瓜那也不要紧的
+2023-04-24 11:10:06 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 那不行我躲深山里
+2023-04-24 11:10:49 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 我拆家从来不看别人家里面有啥，就是什么都没有我也会花上千发子弹抄，而且拆完还在里面装个几颗绊雷/吃瓜
+2023-04-24 11:13:15 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 残忍我才
+2023-04-24 11:40:34 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> [mirai:quote:[mirai:source:ids=[36018], internalIds=[738755584], from 1939079536 to 697785664 at 1682305764], content=<not yet initialized>][mirai:at:1939079536] 来z城，黑势力保护萌新范围
+2023-04-24 11:41:04 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> 还有悍马资助
+2023-04-24 11:41:19 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=844872000)
+2023-04-24 11:45:16 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 就说怎么人人都走大路呢
+2023-04-24 11:45:29 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 就我一个在野外活成野人啦
+2023-04-24 11:45:34 V/Bot.270488994: [Public Dayz(697785664)] без мечты(1657139163) -> 就我一个在野外活成野人
+2023-04-24 11:55:48 V/Bot.270488994: [Public Dayz(697785664)] 浦原喜助(2639224478) -> [偷笑]
+2023-04-24 12:09:39 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:3195472056] 重制服务器给我一辆卡车就好
+2023-04-24 12:09:47 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我来z城住！
+2023-04-24 12:10:06 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> 要吗，现在就送你
+2023-04-24 12:10:10 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> [mirai:image:{4B25938C-5EC9-4399-D609-E0CDFAC95276}.jpg, width=160, height=154, size=5298, type=JPG, isEmoji=true]
+2023-04-24 12:10:24 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> 重置就换服了
+2023-04-24 12:10:31 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> 没人打架不好玩
+2023-04-24 12:12:22 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:3195472056] 不要！ 都要重制了！
+2023-04-24 12:12:34 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:quote:[mirai:source:ids=[36035], internalIds=[0], from 3195472056 to 697785664 at 1682309432], content=<not yet initialized>][mirai:at:3195472056] 萌新只想苟活
+2023-04-24 12:16:31 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-24 12:16:33 V/Bot.270488994: Group(697785664) <- 获取在线人数失败，稍后重试！
+2023-04-24 12:17:33 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:270488994] 在线人数
+2023-04-24 12:17:34 V/Bot.270488994: Group(697785664) <- 获取在线人数失败，稍后重试！
+2023-04-24 12:19:20 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 是不是重启了
+2023-04-24 12:21:31 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> [mirai:quote:[mirai:source:ids=[36037], internalIds=[546767816], from 1939079536 to 697785664 at 1682309555], content=<not yet initialized>][mirai:at:1939079536] 捡了枪就是打架，存那么多东西没啥用，杀人舔包才快乐
+2023-04-24 12:21:33 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 重制了吗！
+2023-04-24 12:21:52 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:quote:[mirai:source:ids=[36043], internalIds=[2035453393], from 3195472056 to 697785664 at 1682310091], content=<not yet initialized>][mirai:at:3195472056] 我玩久一点应该才开始喜欢杀人
+2023-04-24 12:26:54 V/Bot.270488994: [Public Dayz(697785664)] Nigen(3195472056) -> 4000小时总结，提前开始杀人才能体验乐趣
+2023-04-24 12:36:21 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> [mirai:quote:[mirai:source:ids=[36037], internalIds=[546767816], from 1939079536 to 697785664 at 1682309555], content=<not yet initialized>][mirai:at:1939079536] 活着太简单了
+2023-04-24 12:39:18 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [菜汪]请使用最新版手机QQ体验新功能
+2023-04-24 13:20:33 V/Bot.270488994: [Public Dayz(697785664)] 十一(793958379) -> 兄弟们问下
+2023-04-24 13:20:42 V/Bot.270488994: [Public Dayz(697785664)] 十一(793958379) -> 手雷怎么丢啊
+2023-04-24 13:22:51 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 拿在手里按左键拔掉插销
+2023-04-24 13:23:09 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 按G开启投掷模式 然后长安左键可以蓄力
+2023-04-24 13:23:18 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 蓄力越久丢的越远
+2023-04-24 13:24:57 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 长按g/汪汪
+2023-04-24 13:48:03 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> [mirai:at:270488994] 在线人数
+2023-04-24 13:48:04 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，13点43分在线人数：10
+2023-04-24 14:26:02 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 箱子埋在地底下多久消失啊
+2023-04-24 14:26:17 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 箱子多久刷没就是多久
+2023-04-24 14:26:53 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 你再说废话吗
+2023-04-24 14:27:19 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> [mirai:quote:[mirai:source:ids=[36057], internalIds=[729110194], from 775481796 to 697785664 at 1682317562], content=<not yet initialized>][mirai:at:775481796] 15天不摸他自动刷掉
+2023-04-24 14:28:28 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{365616BD-8C09-81B6-275A-6120E0B0A555}.gif, width=200, height=200, size=42709, type=GIF, isEmoji=false]
+2023-04-24 14:56:19 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2785272339))
+2023-04-24 15:22:02 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=1371632798)
+2023-04-24 15:22:03 V/Bot.270488994: Group(697785664) <-  Lecter离开了我们
+2023-04-24 15:37:43 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> [mirai:at:270488994] 在线人数
+2023-04-24 15:37:44 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，15点36分在线人数：7
+2023-04-24 15:40:50 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [mirai:image:{7FBD8163-B544-C528-72F3-4609247A7EE7}.jpg, width=4032, height=2268, size=2018244, type=JPG, isEmoji=false]
+2023-04-24 15:40:52 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> 去机场打架了
+2023-04-24 15:57:26 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{AEDA9996-C221-AEC8-9A06-8558EE73E695}.jpg, width=4624, height=3472, size=7963417, type=JPG, isEmoji=false]
+2023-04-24 15:57:28 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 来咯来咯~
+2023-04-24 15:58:19 V/Bot.270488994: [Public Dayz(697785664)] aynami1314(2352325006) -> [mirai:image:{90C9A957-A85F-DE8C-8537-2ABDEDCFBA39}.jpg, width=300, height=298, size=8317, type=JPG, isEmoji=true]
+2023-04-24 15:59:12 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{5AF8FA2A-865C-7E1D-12DF-857309AE9DCB}.gif, width=360, height=360, size=1697152, type=GIF, isEmoji=true]
+2023-04-24 16:11:09 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 谁扔的烟雾弹
+2023-04-24 16:11:27 V/Bot.270488994: [Public Dayz(697785664)] Joey(2691681493) -> 在机场明目张胆的钓鱼
+2023-04-24 16:13:28 V/Bot.270488994: Event: MemberJoinRequestEvent(bot=Bot(270488994), eventId=1682324009316887, message=大家好，我是陈凌峰。水瓶座男一枚~, fromId=1371632798, groupId=697785664, groupName=Public Dayz, fromNick=Lecter, invitorId=null)
+2023-04-24 16:13:29 V/Bot.270488994: Event: MemberJoinEvent.Active(member=1371632798)
+2023-04-24 16:13:30 V/Bot.270488994: Event: MemberCardChangeEvent(origin=Lecter, new=, member=NormalMember(1371632798))
+2023-04-24 16:13:30 V/Bot.270488994: [Public Dayz(697785664)] Lecter(1371632798) -> 大家好，我是陈凌峰。水瓶座男一枚~
+2023-04-24 16:13:31 V/Bot.270488994: Group(697785664) <- [mirai:at:1371632798] 欢迎Lecter入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n波西米亚id:xxxxxxxxx\n游戏昵称:xxx。\n波西米亚id获取方式：群里AT机器人发送命令：转换为波西米亚id:此处填写你的steam17位id。\n以上面这个格式发送给群主\nsteamid获取方式看公告\n进服务器方法http://dayzguide.qiyonghan.icu/
+2023-04-24 16:37:13 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:2691681493] 机场飙车哦
+2023-04-24 16:37:17 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 来不来
+2023-04-24 16:38:27 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 16:38:58 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 16:39:03 V/Bot.270488994: [Public Dayz(697785664)] zisssss(2934576547) -> 在线人数
+2023-04-24 16:39:35 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> [mirai:file:下载.mp4, id=/a36e3c8b-94bb-4764-b191-1964d5a4c276, internalId=102, size=3200918]
+2023-04-24 16:39:39 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-24 16:40:03 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> [mirai:file:下载.mp4, id=/a36e3c8b-94bb-4764-b191-1964d5a4c276, internalId=102, size=3200918]
+2023-04-24 16:42:51 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> [mirai:file:zhixianganniu.png, id=/ff5398d0-e27b-11ed-8000-525400a4467f, internalId=102, size=9379]
+2023-04-24 17:07:02 V/Bot.270488994: [Public Dayz(697785664)] Asen  (370356879) -> 晚上肥肥装备 约架机场快递
+2023-04-24 17:07:57 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{F478FE96-75F7-E0C0-F54B-B3CD93695D2C}.jpg, width=170, height=200, size=7369, type=JPG, isEmoji=false]
+2023-04-24 17:08:54 V/Bot.270488994: [Public Dayz(697785664)] Asen  (370356879) -> 再不打架  装备都烂家里了
+2023-04-24 17:09:27 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 就是啊
+2023-04-24 17:09:38 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 我都在机场蹲了几晚咯
+2023-04-24 17:09:42 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 都没人来
+2023-04-24 17:10:16 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 我来
+2023-04-24 17:10:25 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 复仇
+2023-04-24 17:10:26 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 多简单
+2023-04-24 17:11:01 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 多来点人
+2023-04-24 17:11:38 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 杀你一个人足够了
+2023-04-24 17:11:44 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 都把家底都拿出来打咯，不然准备烂咯
+2023-04-24 17:11:47 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 你多叫点人
+2023-04-24 17:12:32 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> 我就两个人
+2023-04-24 17:12:54 V/Bot.270488994: [Public Dayz(697785664)] Fool(2983870951) -> 等会反正就给队友俩枪，我都不用来杀了
+2023-04-24 17:13:33 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{E7275DE1-3EBC-8ADF-66A7-C93C170EC826}.gif, width=300, height=300, size=41320, type=GIF, isEmoji=false]
+2023-04-24 17:14:55 V/Bot.270488994: [Public Dayz(697785664)] Asen  (370356879) -> 约架约架
+2023-04-24 17:19:39 V/Bot.270488994: [Public Dayz(697785664)] cccchen(964571021) -> 真的肥
+2023-04-24 17:19:52 V/Bot.270488994: [Public Dayz(697785664)] cccchen(964571021) -> 专打你[mirai:at:370356879] 
+2023-04-24 17:30:42 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:30:43 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:31:35 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> multipart/form-data
+2023-04-24 17:31:38 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:31:39 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:32:27 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:32:28 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:34:32 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:34:34 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:36:17 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:36:18 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:41:26 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:41:27 E/MAH Access: io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:106)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$intercept$1.invokeSuspend(HttpRouterAccessHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:43:58 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:43:59 E/MAH Access: io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:106)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$intercept$1.invokeSuspend(HttpRouterAccessHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:44:09 V/Bot.270488994: [Public Dayz(697785664)] 起来了(1584793211) -> 怎么你们那么富啊
+2023-04-24 17:45:07 V/Bot.270488994: [Public Dayz(697785664)] 扫黑YYT(1610724841) -> [mirai:at:1584793211] 你要什么
+2023-04-24 17:45:16 V/Bot.270488994: Event: BotOfflineEvent.Active(bot=Bot(270488994), cause=null, reconnect=false)
+2023-04-24 17:45:16 I/Bot.270488994: Bot is closed manually
+2023-04-24 17:45:16 I/Bot.270488994: Bot cancelled: Job was cancelled
+2023-04-24 17:45:53 I/main: Starting mirai-console...
+2023-04-24 17:45:53 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-24 17:45:53 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-24 17:45:53 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-24 17:45:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-24 17:45:54 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-24 17:45:54 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-24 17:45:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-24 17:45:54 I/Mirai HTTP API: ********************************************************
+2023-04-24 17:45:54 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-24 17:45:54 I/MahKtorAdapter[http]: Application started in 0.12 seconds.
+2023-04-24 17:45:54 I/MahKtorAdapter[http]: Responding at http://192.168.50.198:8080
+2023-04-24 17:45:54 I/http adapter: >>> [http adapter] is listening at http://192.168.50.198:8080
+2023-04-24 17:45:54 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-24 17:45:54 I/Mirai HTTP API: adaptors: [http]
+2023-04-24 17:45:54 I/Mirai HTTP API: ********************************************************
+2023-04-24 17:45:54 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-24 17:45:54 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-24 17:45:55 I/Bot.270488994: Loaded account secrets from local cache.
+2023-04-24 17:45:56 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-04-24 17:45:56 I/Bot.270488994: Login successful.
+2023-04-24 17:46:06 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-04-24 17:46:06 I/Bot.270488994: Bot login successful.
+2023-04-24 17:46:06 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@3b770d07
+2023-04-24 17:46:06 I/main: 2 plugin(s) enabled.
+2023-04-24 17:46:06 I/main: mirai-console started successfully.
+2023-04-24 17:46:28 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 17:46:32 E/MAH Access: io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:106)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 17:48:59 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> [mirai:at:270488994] 在线人数
+2023-04-24 17:49:00 V/Bot.270488994: Group(365899064) <- 服务器状态：在线，17点30分在线人数：7
+2023-04-24 17:54:08 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:image:{563BEABA-B502-A657-1A1F-6979963E7761}.jpg, width=98, height=102, size=2805, type=JPG, isEmoji=true]
+2023-04-24 18:06:30 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:06:32 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 18:06:56 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:06:56 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 18:07:44 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:07:46 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 18:08:55 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:09:35 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:16:23 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:16:24 V/Bot.270488994: Group(365899064) <- 世界上没有美女
+2023-04-24 18:16:58 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:17:02 V/Bot.270488994: Group(365899064) <- 世界上没有美女
+2023-04-24 18:18:06 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:18:08 V/Bot.270488994: Group(365899064) <- 世界上没有美女
+2023-04-24 18:18:29 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:19:31 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:20:43 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:21:32 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:22:24 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:28:23 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:28:24 E/MAH Access: io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+io.ktor.server.request.RequestAlreadyConsumedException: Request body has already been consumed (received).
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:106)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$intercept$1.invokeSuspend(HttpRouterAccessHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 18:28:58 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 18:28:59 E/MAH Access: java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+java.io.IOException: Failed to parse multipart: Content-Type's boundary parameter is missing
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseBoundaryInternal(Multipart.kt:465)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.MultipartKt.parseMultipart(Multipart.kt:262)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:30)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.http.cio.CIOMultipartDataBase.<init>(CIOMultipartDataBase.kt:22)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.multiPartData(DefaultTransformJvm.kt:40)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformJvmKt.defaultPlatformTransformations(DefaultTransformJvm.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invokeSuspend(DefaultTransform.kt:63)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultTransformKt$installDefaultTransformations$2.invoke(DefaultTransform.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.request.ApplicationReceiveFunctionsKt.receiveNullable(ApplicationReceiveFunctions.kt:103)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invokeSuspend(dsl.kt:200)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.FileKt$fileRouter$1$invoke$$inlined$httpAuthedMultiPart$1$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invokeSuspend(HttpRouterAccessHandler.kt:90)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$Feature$install$1.invoke(HttpRouterAccessHandler.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.CIOApplicationEngine$handleRequest$2.invokeSuspend(CIOApplicationEngine.kt:189)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 18:31:55 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 19:00:01 E/MAH Access: java.net.ConnectException: Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/java.net.URL.openStream(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt$imageLikeToMessage$3.invokeSuspend(convertor.kt:162)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt$imageLikeToMessage$3.invoke(convertor.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt$imageLikeToMessage$3.invoke(convertor.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:169)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt.imageLikeToMessage(convertor.kt:119)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt.toMessage(convertor.kt:74)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.convertor.ConvertorKt.toMessageChain(convertor.kt:57)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.internal.action.MessageKt.onSendGroupMessage(message.kt:126)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$respondDTOStrategy$3.invokeSuspend(dsl.kt:198)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$respondDTOStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$respondDTOStrategy$3.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$httpAuthedPost$2$1.invokeSuspend(dsl.kt:207)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$httpAuthedPost$2$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.router.MessageKt$messageRouter$1$invoke$$inlined$httpAuthedPost$2$1.invoke(dsl.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invokeSuspend(Route.kt:116)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Route$buildPipeline$1$1.invoke(Route.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:478)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.debug.ContextUtilsKt.initContextInDebugMode(ContextUtils.kt:17)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.executeResult(Routing.kt:174)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing.interceptor(Routing.kt:49)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:124)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invokeSuspend(Authorization.kt:41)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.auth.Authorization$install$1.invoke(Authorization.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.intercept(HttpRouterAccessHandler.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler.access$intercept(HttpRouterAccessHandler.kt:24)
+	at mirai-api-http-2.9.1.mirai2.jar//net.mamoe.mirai.api.http.adapter.http.feature.handler.HttpRouterAccessHandler$intercept$1.invokeSuspend(HttpRouterAccessHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 19:16:54 V/Bot.270488994: [Public Dayz(697785664)] xiongjie(759894122) -> [mirai:at:1584793211] 藏富于民/吃瓜一句重置服务器，大家都把家底露出来了
+2023-04-24 19:40:49 V/Bot.270488994: [Public Dayz(697785664)] pan(775481796) -> [mirai:at:270488994] 在线人数
+2023-04-24 19:40:50 V/Bot.270488994: Group(697785664) <- 服务器状态：在线，19点40分在线人数：9
+2023-04-24 19:53:14 V/Bot.270488994: [Public Dayz(697785664)] Mr.L(314963767) -> [mirai:image:{D68BE719-61D0-DACD-F856-55B282846E10}.jpg, width=1080, height=1920, size=496962, type=JPG, isEmoji=false]
+2023-04-24 19:53:25 V/Bot.270488994: [Public Dayz(697785664)] Mr.L(314963767) -> 大佬们，这种轮胎能拆吗
+2023-04-24 19:54:56 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 能
+2023-04-24 19:55:32 V/Bot.270488994: [Public Dayz(697785664)] Mr.L(314963767) -> 但是我拆不了啊
+2023-04-24 19:55:38 V/Bot.270488994: [Public Dayz(697785664)] Mr.L(314963767) -> 要用什么工具吗？
+2023-04-24 19:55:48 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 空手
+2023-04-24 19:55:51 V/Bot.270488994: [Public Dayz(697785664)] ☁(1065913433) -> 靠近
+2023-04-24 19:56:48 V/Bot.270488994: [Public Dayz(697785664)] Mr.L(314963767) -> 哦哦，好的，直接F是吧
+2023-04-24 20:20:31 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 20:21:01 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:314963767] 
+2023-04-24 20:21:06 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 打开背包
+2023-04-24 20:21:20 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 然后左上角轮胎拖到手上
+2023-04-24 20:32:15 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 20:42:35 V/Bot.270488994: [Public Dayz(697785664)] 楠慕(2838404090) -> 关服了吗
+2023-04-24 20:43:06 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 20:44:10 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1648039436))
+2023-04-24 20:58:19 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1535878308))
+2023-04-24 20:58:29 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1535878308))
+2023-04-24 20:58:47 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1535878308))
+2023-04-24 20:59:21 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(1535878308))
+2023-04-24 21:42:38 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 没
+2023-04-24 22:25:21 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=577014660)
+2023-04-24 22:26:41 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 22:26:42 E/MAH Access: java.lang.IllegalStateException: Failed to create folder './meinv': -303 文件夹名称错误.
+java.lang.IllegalStateException: Failed to create folder './meinv': -303 文件夹名称错误.
+	at net.mamoe.mirai.internal.contact.file.CommonAbsoluteFolderImpl.createFolder$suspendImpl(AbsoluteFolderImpl.kt:330)
+	at net.mamoe.mirai.internal.contact.file.CommonAbsoluteFolderImpl$createFolder$1.invokeSuspend(AbsoluteFolderImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 22:26:57 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 22:27:02 E/MAH Access: java.lang.IllegalStateException: Failed to create folder './meinv': -303 文件夹名称错误.
+java.lang.IllegalStateException: Failed to create folder './meinv': -303 文件夹名称错误.
+	at net.mamoe.mirai.internal.contact.file.CommonAbsoluteFolderImpl.createFolder$suspendImpl(AbsoluteFolderImpl.kt:330)
+	at net.mamoe.mirai.internal.contact.file.CommonAbsoluteFolderImpl$createFolder$1.invokeSuspend(AbsoluteFolderImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-04-24 22:28:14 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 22:30:18 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2502510147] 啥时候重置
+2023-04-24 22:30:20 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 等不及了
+2023-04-24 22:30:23 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [菜汪]请使用最新版手机QQ体验新功能
+2023-04-24 22:32:49 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 后天
+2023-04-24 22:32:50 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 哥们
+2023-04-24 22:32:51 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 别急
+2023-04-24 22:36:15 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 很急
+2023-04-24 22:36:28 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 我官服跑了十万八千里剪坠机死了
+2023-04-24 22:36:39 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 直接要来这个服玩！
+2023-04-24 22:37:00 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 真离谱官服没20个人 右下角跑到左下角每一辆车
+2023-04-24 22:37:46 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 22:39:18 V/Bot.270488994: [Public Dayz(697785664)] cccchen(964571021) -> 都藏起来了
+2023-04-24 22:39:45 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 坠机旁边为什么20多只僵尸
+2023-04-24 22:39:50 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 还没房子躲
+2023-04-24 22:40:03 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 蹲着过去一个一个斩杀被搞死
+2023-04-24 22:40:06 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [变形]请使用最新版手机QQ体验新功能
+2023-04-24 22:44:47 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:2502510147] 咱们就是说后天晚上8.30我能玩上吗
+2023-04-24 23:05:56 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> [mirai:at:1939079536] 
+2023-04-24 23:06:05 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 随身一把小手枪
+2023-04-24 23:06:13 V/Bot.270488994: [Public Dayz(697785664)] BigNB(86887878) -> 摸宝很方便
+2023-04-24 23:08:56 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 23:09:22 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 23:11:30 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 23:13:03 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> [mirai:at:86887878] 我带了 但是没带消音器
+2023-04-24 23:13:31 V/Bot.270488994: [Public Dayz(697785664)] s13(1939079536) -> 疯狂吸引丧尸
+2023-04-24 23:19:09 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2324293526))
+2023-04-24 23:25:16 V/Bot.270488994: Event: FriendAvatarChangedEvent(friend=Friend(2324293526))
+2023-04-24 23:26:28 V/Bot.270488994: Event: MemberLeaveEvent.Quit(member=724474791)
+2023-04-24 23:39:23 V/Bot.270488994: [testbot(365899064)] <LTR>(2502510147) -> 美女
+2023-04-24 23:39:29 V/Bot.270488994: Group(365899064) <- [mirai:file:1682350765.mp4, id=/f31879c7-5ce4-4d13-9f58-d741ac965d7f, internalId=102, size=3359053]
+2023-04-24 23:47:02 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:file:test.zip, id=/417ecc76-e2b7-11ed-9ded-5254002fac13, internalId=102, size=153]
+2023-04-24 23:48:28 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> 美女
+2023-04-24 23:52:04 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> test
+2023-04-24 23:52:23 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> test
+2023-04-24 23:52:46 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> test
+2023-04-24 23:53:00 V/Bot.270488994: Group(697785664) <- [mirai:file:1682351568.mp4, id=/ee413512-dcdf-42e6-84e6-322f38a1e6cb, internalId=102, size=10787170]
+2023-04-24 23:57:44 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:file:test.zip, id=/c0979f6e-e2b8-11ed-8000-525400a4467f, internalId=102, size=153]
+2023-04-24 23:58:17 V/Bot.270488994: [Public Dayz(697785664)] qiyonghan(2502510147) -> [mirai:file:test.zip, id=/d4074432-e2b8-11ed-8009-525400ec8750, internalId=102, size=153]

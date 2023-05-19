@@ -1,0 +1,771 @@
+2023-04-12 17:09:07 I/main: Starting mirai-console...
+2023-04-12 17:09:07 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:09:07 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:09:07 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:09:07 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:09:50 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:09:50 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:09:51 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:09:51 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-04-12 17:09:51 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:09:51 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-12 17:09:51 I/MahKtorAdapter[http]: Application started in 0.111 seconds.
+2023-04-12 17:09:51 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-04-12 17:09:51 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-04-12 17:09:51 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYYwbPNDr3
+2023-04-12 17:09:51 I/Mirai HTTP API: adaptors: [http]
+2023-04-12 17:09:51 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:09:51 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:09:51 I/main: 2 plugin(s) enabled.
+2023-04-12 17:09:51 I/main: mirai-console started successfully.
+2023-04-12 17:11:10 I/Bot.3390756109: Calculating type 2 PoW, it can take some time....
+2023-04-12 17:11:10 I/Bot.3390756109: Got PoW result, cost: 23 ms
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2023-04-12 17:11:10 W/Bot.3390756109: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-04-12 17:11:10 W/Bot.3390756109: [SliderCaptcha] The service of `TxCaptchaHelper` might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-04-12 17:11:10 W/Bot.3390756109: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-04-12 17:11:10 I/Bot.3390756109: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3390756109&sid=2531464673815328173&cap_cd=J2c4-4bKcB6L8xZ_ySB5PxtZgssFsrY6hO4F99-cw37IoHRj9HoVxw**&clientype=1&apptype=2
+2023-04-12 17:11:50 I/Bot.3390756109: [SliderCaptcha] 正在提交中...
+2023-04-12 17:11:50 I/Bot.3390756109: [SliderCaptcha] Submitting...
+2023-04-12 17:11:51 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-12 17:11:51 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:450)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]
+
+2023-04-12 17:12:01 I/Bot.3390756109: Calculating type 2 PoW, it can take some time....
+2023-04-12 17:12:01 I/Bot.3390756109: Got PoW result, cost: 40 ms
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2023-04-12 17:12:01 W/Bot.3390756109: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-04-12 17:12:01 W/Bot.3390756109: [SliderCaptcha] The service of `TxCaptchaHelper` might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-04-12 17:12:01 W/Bot.3390756109: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-04-12 17:12:01 I/Bot.3390756109: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3390756109&sid=3366850329876788705&cap_cd=OUiImOWHfB7Fo0FVR05hBkLDNEUw-VJo1Uf7v5hYG12WEIlIspodZA**&clientype=1&apptype=2
+2023-04-12 17:12:44 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-12 17:12:44 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: org.jline.reader.UserInterruptException
+		at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:716)
+		at net.mamoe.mirai.console.terminal.JLineInputDaemon.run(JLineInputDaemon.kt:78)
+		at java.base/java.lang.Thread.run(Unknown Source)
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: org.jline.reader.UserInterruptException]
+
+2023-04-12 17:12:53 I/main: Starting mirai-console...
+2023-04-12 17:12:53 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:12:53 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:12:53 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:12:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:12:54 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:12:54 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:12:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:12:54 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-04-12 17:12:54 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:12:54 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-12 17:12:54 I/MahKtorAdapter[http]: Application started in 0.119 seconds.
+2023-04-12 17:12:54 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-04-12 17:12:54 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYYwbPNDr3
+2023-04-12 17:12:54 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-04-12 17:12:54 I/Mirai HTTP API: adaptors: [http]
+2023-04-12 17:12:54 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:12:54 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:12:54 I/main: 2 plugin(s) enabled.
+2023-04-12 17:12:54 I/main: mirai-console started successfully.
+2023-04-12 17:13:11 W/console: 未知指令: / login 3390756109 123zxc.., 输入 ? 获取帮助
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2023-04-12 17:13:32 W/Bot.3390756109: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-04-12 17:13:32 W/Bot.3390756109: [SliderCaptcha] The service of `TxCaptchaHelper` might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-04-12 17:13:32 W/Bot.3390756109: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-04-12 17:13:32 I/Bot.3390756109: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3390756109&sid=2996383398864778811&cap_cd=3ghBZPGhoSy89U5rbQ93qT2hIZ1maYKdlYO7-bxhqSunmPuALfUsYw**&clientype=1&apptype=2
+2023-04-12 17:15:16 I/main: Starting mirai-console...
+2023-04-12 17:15:16 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:15:17 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:15:17 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:15:17 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:15:17 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:15:17 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:15:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:15:17 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-04-12 17:15:17 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:15:17 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-04-12 17:15:17 I/MahKtorAdapter[http]: Application started in 0.117 seconds.
+2023-04-12 17:15:17 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-04-12 17:15:17 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-04-12 17:15:17 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYYwbPNDr3
+2023-04-12 17:15:17 I/Mirai HTTP API: adaptors: [http]
+2023-04-12 17:15:17 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:15:17 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:15:18 I/main: 2 plugin(s) enabled.
+2023-04-12 17:15:18 I/main: mirai-console started successfully.
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2023-04-12 17:15:28 W/Bot.3390756109: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-04-12 17:15:28 W/Bot.3390756109: [SliderCaptcha] The service of `TxCaptchaHelper` might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-04-12 17:15:28 W/Bot.3390756109: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-04-12 17:15:28 I/Bot.3390756109: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3390756109&sid=275335198088263343&cap_cd=XvU1AilOCzq-5Fq9VW5WmcOVHAfihXYJD7T8yzfMDFmR8lTsb8VNEw**&clientype=1&apptype=2
+2023-04-12 17:17:43 I/Bot.3390756109: [SliderCaptcha] 正在提交中...
+2023-04-12 17:17:43 I/Bot.3390756109: [SliderCaptcha] Submitting...
+2023-04-12 17:17:43 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-12 17:17:43 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:450)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]
+
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] 需要滑动验证码, 请按照以下链接的步骤完成滑动验证码, 然后输入获取到的 ticket
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] Slider captcha required. Please solve the captcha with following link. Type ticket here after completion.
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] @see https://github.com/project-mirai/mirai-login-solver-selenium
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] @see https://docs.mirai.mamoe.net/mirai-login-solver-selenium/
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] 或者输入 TxCaptchaHelper 来使用 TxCaptchaHelper 完成滑动验证码
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] Or type `TxCaptchaHelper` to resolve slider captcha with TxCaptchaHelper.apk
+2023-04-12 17:17:51 W/Bot.3390756109: [SliderCaptcha] TxCaptchaHelper 的在线服务疑似被屏蔽，可能无法使用。TxCaptchaHelper 现已无法满足登录QQ机器人，请在以下链接下载全新的验证器
+2023-04-12 17:17:51 W/Bot.3390756109: [SliderCaptcha] The service of `TxCaptchaHelper` might be blocked. We recommend you to download the new login solver plugin in below link.
+2023-04-12 17:17:51 W/Bot.3390756109: [SliderCaptcha] @see https://github.com/KasukuSakura/mirai-login-solver-sakura
+2023-04-12 17:17:51 I/Bot.3390756109: [SliderCaptcha] Captcha link: https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3390756109&sid=3070988647243609919&cap_cd=VbDh0ZWVThq9gR5TSMkhKijZ3LRIr2bDNexP-EKkglFH0naEO_sKMA**&clientype=1&apptype=2
+2023-04-12 17:19:16 I/Bot.3390756109: [SliderCaptcha] 正在提交中...
+2023-04-12 17:19:16 I/Bot.3390756109: [SliderCaptcha] Submitting...
+2023-04-12 17:19:16 I/Bot.3390756109: Bot cancelled: Bot closed
+2023-04-12 17:19:16 E/console: net.mamoe.mirai.internal.network.auth.ProducerFailureException
+net.mamoe.mirai.internal.network.auth.ProducerFailureException
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.receiveOrNull(CoroutineOnDemandValueScope.kt:152)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.acquireAuth(AuthControl.kt:98)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:219)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:450)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+	Suppressed: net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3390756109), code=237, title=安全提醒, message=当前网络不稳定，登录失败。推荐使用常用设备或通过手机号登录。, errorInfo=)]
+
+2023-04-12 17:19:26 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\ADMINI~1\AppData\Local\Temp\2\mirai-qrcode-3390756109-168129116616671296431400265632.png
+2023-04-12 17:19:26 I/QRLoginSolver: 等待扫描二维码中
+2023-04-12 17:19:41 I/QRLoginSolver: 扫描完成，请在手机 QQ 确认登录
+2023-04-12 17:19:51 I/QRLoginSolver: 已确认登录
+2023-04-12 17:19:51 I/Bot.3390756109: Login successful
+2023-04-12 17:19:51 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 17:19:51 I/Bot.3390756109: Login successful.
+2023-04-12 17:19:52 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 17:19:52 I/Bot.3390756109: Bot login successful.
+2023-04-12 17:19:57 V/Bot.3390756109: Event: OtherClientOfflineEvent(client=OtherClient(bot=3390756109,deviceName=iPhone11,2,platform=MOBILE))
+2023-04-12 17:25:01 V/Bot.3390756109: Event: OtherClientOfflineEvent(client=OtherClient(bot=3390756109,deviceName=HWMozart,platform=WINDOWS))
+2023-04-12 17:32:10 I/main: Starting mirai-console...
+2023-04-12 17:32:10 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:32:10 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:32:10 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:32:10 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:32:10 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:32:10 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:32:10 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:32:11 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:32:11 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 17:32:11 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 17:32:11 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 17:32:11 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:32:11 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:32:11 I/main: 2 plugin(s) enabled.
+2023-04-12 17:32:11 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 17:32:11 I/main: mirai-console started successfully.
+2023-04-12 17:32:21 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-12 17:32:21 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-12 17:32:21 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@69a33757, Dispatchers.Default]
+2023-04-12 17:33:27 I/main: Starting mirai-console...
+2023-04-12 17:33:35 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:33:35 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:33:35 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:33:35 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:33:36 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:33:36 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:33:36 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:33:36 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:33:36 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 17:33:36 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 17:33:36 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 17:33:36 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:33:36 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:33:36 I/main: 2 plugin(s) enabled.
+2023-04-12 17:33:36 I/main: mirai-console started successfully.
+2023-04-12 17:33:36 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 17:33:46 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-12 17:33:46 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-12 17:33:46 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@4907cced, Dispatchers.Default]
+2023-04-12 17:33:52 W/console: 参数不匹配, 你是否想执行: 
+/qrAutoLogin add <account>    # 添加(扫码登录)自动登录
+/qrAutoLogin clear    # 清除(扫码登录)自动登录的所有配置
+/qrAutoLogin list    # 查看(扫码登录)自动登录账号列表
+/qrAutoLogin remove <account>    # 删除一个(扫码登录)自动登录账号
+/qrAutoLogin removeConfig <account> <configKey>    # 删除一个账号(扫码登录)自动登录的一个配置项
+/qrAutoLogin setConfig <account> <configKey> <value>    # 设置一个账号(扫码登录)自动登录的一个配置项
+2023-04-12 17:34:19 I/main: Starting mirai-console...
+2023-04-12 17:34:19 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:34:19 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:34:19 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:34:19 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:34:20 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:34:20 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:34:20 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:34:20 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:34:20 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 17:34:20 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 17:34:20 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 17:34:20 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:34:20 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:34:20 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 17:34:20 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 17:34:21 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 17:34:21 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 17:34:21 I/Bot.3390756109: Login successful.
+2023-04-12 17:34:21 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 17:34:21 I/Bot.3390756109: Bot login successful.
+2023-04-12 17:34:21 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@d16209e
+2023-04-12 17:34:21 I/main: 2 plugin(s) enabled.
+2023-04-12 17:34:21 I/main: mirai-console started successfully.
+2023-04-12 17:34:30 W/stderr: Exception in thread "DefaultDispatcher-worker-3" java.net.SocketTimeoutException: connect timed out
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-12 17:34:30 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-12 17:34:30 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@344a5ecd, Dispatchers.Default]
+2023-04-12 17:35:03 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-12 17:39:01 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-12 17:39:33 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-12 17:39:33 I/Bot.3390756109: Bot is closed manually
+2023-04-12 17:39:33 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-12 17:42:09 I/main: Starting mirai-console...
+2023-04-12 17:42:10 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 17:42:10 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 17:42:10 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 17:42:10 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 17:42:11 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 17:42:11 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 17:42:11 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 17:42:11 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:42:11 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 17:42:11 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 17:42:11 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 17:42:11 I/Mirai HTTP API: ********************************************************
+2023-04-12 17:42:11 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 17:42:11 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 17:42:11 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 17:42:11 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:12 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 17:42:12 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 17:42:13 I/Bot.3390756109: Login successful.
+2023-04-12 17:42:13 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 17:42:13 I/Bot.3390756109: Bot login successful.
+2023-04-12 17:42:13 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@30fbc23
+2023-04-12 17:42:13 I/main: 2 plugin(s) enabled.
+2023-04-12 17:42:13 I/main: mirai-console started successfully.
+2023-04-12 17:42:17 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:22 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:27 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:32 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:37 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:42 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:47 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:52 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:42:58 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:43:03 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:44:25 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-12 17:44:32 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:18080/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 17:52:34 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-12 17:52:34 I/Bot.3390756109: Bot is closed manually
+2023-04-12 17:52:34 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-12 18:00:37 I/main: Starting mirai-console...
+2023-04-12 18:00:38 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 18:00:38 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 18:00:38 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 18:00:38 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 18:00:39 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 18:00:39 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 18:00:39 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 18:00:39 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:00:39 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 18:00:39 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 18:00:39 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 18:00:39 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:00:39 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 18:00:39 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 18:00:39 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 18:00:39 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 18:00:40 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 18:00:40 I/Bot.3390756109: Login successful.
+2023-04-12 18:00:40 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 18:00:40 I/Bot.3390756109: Bot login successful.
+2023-04-12 18:00:40 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@7bb4ed71
+2023-04-12 18:00:40 I/main: 2 plugin(s) enabled.
+2023-04-12 18:00:40 I/main: mirai-console started successfully.
+2023-04-12 18:00:49 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-12 18:00:49 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-12 18:00:49 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@8fa2908, Dispatchers.Default]
+2023-04-12 18:04:32 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-12 18:04:32 I/Bot.3390756109: Bot is closed manually
+2023-04-12 18:04:32 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-12 18:07:25 I/main: Starting mirai-console...
+2023-04-12 18:07:25 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 18:07:25 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 18:07:25 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 18:07:25 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 18:07:25 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 18:07:26 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 18:07:26 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 18:07:26 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:07:26 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 18:07:26 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 18:07:26 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 18:07:26 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:07:26 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 18:07:26 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 18:07:26 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 18:07:26 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:26 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 18:07:27 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 18:07:27 I/Bot.3390756109: Login successful.
+2023-04-12 18:07:27 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 18:07:27 I/Bot.3390756109: Bot login successful.
+2023-04-12 18:07:27 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@76596288
+2023-04-12 18:07:27 I/main: 2 plugin(s) enabled.
+2023-04-12 18:07:27 I/main: mirai-console started successfully.
+2023-04-12 18:07:31 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:36 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:41 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:46 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:51 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:07:56 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:08:01 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:08:06 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:08:49 W/console: 未知指令: /  stop, 输入 ? 获取帮助
+2023-04-12 18:08:51 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:08:52 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-12 18:08:52 I/Bot.3390756109: Bot is closed manually
+2023-04-12 18:09:17 I/main: Starting mirai-console...
+2023-04-12 18:09:17 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 18:09:17 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 18:09:17 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 18:09:17 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 18:09:18 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 18:09:18 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 18:09:18 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 18:09:18 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:09:18 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 18:09:18 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 18:09:18 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 18:09:18 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:09:18 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 18:09:18 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 18:09:18 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 18:09:19 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 18:09:19 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 18:09:19 I/Bot.3390756109: Login successful.
+2023-04-12 18:09:19 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 18:09:20 I/Bot.3390756109: Bot login successful.
+2023-04-12 18:09:20 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@45e7bb79
+2023-04-12 18:09:20 I/main: 2 plugin(s) enabled.
+2023-04-12 18:09:20 I/main: mirai-console started successfully.
+2023-04-12 18:09:28 W/stderr: Exception in thread "DefaultDispatcher-worker-1" java.net.SocketTimeoutException: connect timed out
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2023-04-12 18:19:24 V/Bot.3390756109: Event: BotOfflineEvent.Dropped(bot=Bot(3390756109), cause=HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms), reconnect=true)
+2023-04-12 18:19:05 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.net.Socket.connect(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.platform.Platform.connectSocket(Platform.kt:128)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.kt:295)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealConnection.connect(RealConnection.kt:207)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findConnection(ExchangeFinder.kt:226)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(ExchangeFinder.kt:106)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ExchangeFinder.find(ExchangeFinder.kt:74)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.initExchange$okhttp(RealCall.kt:255)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:32)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201)
+2023-04-12 18:23:18 W/stderr: 	at mirai-api-http-2.9.1.mirai2.jar[shared]//okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:517)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	at java.base/java.lang.Thread.run(Unknown Source)
+2023-04-12 18:23:18 W/stderr: 	Suppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [StandaloneCoroutine{Cancelling}@3677880, Dispatchers.Default]
+2023-04-12 18:23:18 W/Bot.3390756109: Connection lost, reconnecting... (HeartbeatFailedException: 3390756109.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3390756109.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms))
+2023-04-12 18:23:18 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 18:23:18 I/Bot.3390756109: Login successful.
+2023-04-12 18:23:18 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 18:23:18 V/Bot.3390756109: Event: BotReloginEvent(bot=Bot(3390756109), cause=null)
+2023-04-12 18:23:18 I/Bot.3390756109: Reconnected successfully in 0.146s.
+2023-04-12 18:23:19 V/Bot.3390756109: Event: BotOfflineEvent.Active(bot=Bot(3390756109), cause=null, reconnect=false)
+2023-04-12 18:23:19 I/Bot.3390756109: Bot cancelled: Job was cancelled
+2023-04-12 18:23:26 I/main: Starting mirai-console...
+2023-04-12 18:23:26 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-04-12 18:23:26 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-04-12 18:23:26 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-04-12 18:23:26 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-04-12 18:23:26 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-04-12 18:23:26 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-04-12 18:23:27 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-04-12 18:23:27 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:23:27 I/reverse-ws adapter: >>> [reverse-ws adapter] is running
+2023-04-12 18:23:27 I/Mirai HTTP API: Http api server is running with verifyKey: 1234567890
+2023-04-12 18:23:27 I/Mirai HTTP API: adaptors: [reverse-ws]
+2023-04-12 18:23:27 I/Mirai HTTP API: ********************************************************
+2023-04-12 18:23:27 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-04-12 18:23:28 W/io.ktor.util.random: NativePRNGNonBlocking is not found, fallback to default
+2023-04-12 18:23:28 I/QRLogin: Auto-login 3390756109, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-04-12 18:23:28 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:28 I/Bot.3390756109: Loaded account secrets from local cache.
+2023-04-12 18:23:28 I/Bot.3390756109: Saved account secrets to local cache for fast login.
+2023-04-12 18:23:28 I/Bot.3390756109: Login successful.
+2023-04-12 18:23:29 V/Bot.3390756109: Event: BotOnlineEvent(bot=Bot(3390756109))
+2023-04-12 18:23:29 I/Bot.3390756109: Bot login successful.
+2023-04-12 18:23:29 V/Bot.3390756109: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@2c34402
+2023-04-12 18:23:29 I/main: 2 plugin(s) enabled.
+2023-04-12 18:23:29 I/main: mirai-console started successfully.
+2023-04-12 18:23:33 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:38 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:43 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:48 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:53 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:23:58 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:03 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:08 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:13 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:18 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:23 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:28 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:33 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:38 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:43 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:48 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:53 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:24:58 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:03 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:08 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:25 V/Bot.3390756109: <LTR>(2502510147) -> 你好
+2023-04-12 18:25:35 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:40 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:45 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:50 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.
+2023-04-12 18:25:55 W/reverse-ws adapter: [reverse-ws] Connection to 127.0.0.1:8554/ interrupted. Trying reconnect in 5000 ms.

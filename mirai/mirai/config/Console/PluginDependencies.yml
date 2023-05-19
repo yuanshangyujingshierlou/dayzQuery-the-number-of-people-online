@@ -1,0 +1,4 @@
+# 远程仓库, 如无必要无需修改
+repoLoc: 
+  - 'https://maven.aliyun.com/repository/central'
+  - 'https://repo1.maven.org/maven2/'
