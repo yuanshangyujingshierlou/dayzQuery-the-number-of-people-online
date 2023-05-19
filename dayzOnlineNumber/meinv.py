@@ -5,10 +5,13 @@ import shutil
 
 url = 'https://tucdn.wpon.cn/api-girl/index.php?wpon=json'
 meinv_number = 100
+
+
 # 请求随机美女链接
 def get_meinv_url():
     r = requests.get(url)
     return r.json()['mp4']
+
 
 # 下载美女视频
 def download_meinv():
@@ -24,7 +27,7 @@ def download_meinv():
         if len(meinvlist) >= meinv_number:
             # 删除最早的一个文件
             os.remove('./meinv/{}.mp4'.format(meinvlist[0].split('\n')[0]))
-                    
+
         mnurl = get_meinv_url()
         r = requests.get('https:' + mnurl)
         # 随机生成文件名

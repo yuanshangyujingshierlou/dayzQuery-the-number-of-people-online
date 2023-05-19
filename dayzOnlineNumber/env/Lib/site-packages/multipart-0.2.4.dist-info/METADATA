@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: multipart
+Version: 0.2.4
+Summary: Parser for multipart/form-data.
+Home-page: http://github.com/defnull/multipart
+Author: Marcel Hellkamp
+Author-email: marc@gsites.de
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Classifier: Programming Language :: Python :: 3
+
+
+Parser for multipart/form-data
+==============================
+
+This module provides a parser for the multipart/form-data format. It can read
+from a file, a socket or a WSGI environment. The parser can be used to replace
+cgi.FieldStorage to work around its limitations.
+
+

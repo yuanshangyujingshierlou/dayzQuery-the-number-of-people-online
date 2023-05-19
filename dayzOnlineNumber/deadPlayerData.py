@@ -1,6 +1,7 @@
 import threading
 import time
 
+
 class DataRecorder:
     def __init__(self):
         self.data = {}
@@ -17,7 +18,7 @@ class DataRecorder:
         with self.lock:
             if key in self.data:
                 del self.data[key]
-    
+
     # 查询数据是否存在
     def has_data(self, key):
         with self.lock:
