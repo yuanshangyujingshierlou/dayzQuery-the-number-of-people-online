@@ -432,8 +432,7 @@ def main():
                 print('获取消息队列头部消息失败', '错误代码:', fetchMessageObj['code'])
 
         # 每秒检测一次本地的dayz服务器日志
-        deadMessage = loadDayzLog.read_adm_log_txt(
-            '{}Profiles/0/DayZServer_x64.ADM'.format(configData.data['dayz_path']))
+        deadMessage = loadDayzLog.read_adm_log_txt('{}/Profiles/0/DayZServer_x64.ADM'.format(configData.data['dayz_path']))
         # 判断是否有死亡消息
         if deadMessage:
             post_sendMessage(configData.data['qq_group'], deadMessage)
