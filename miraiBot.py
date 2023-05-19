@@ -9,18 +9,11 @@ import time
 import schedule
 import miraiCsv
 import test
-import testHash
 import loadDayzLog
+import configData
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-qq_group = 697785664
-qq_number = 270488994
-server_url = "http://qiyonghan.icu:18081/"
-server_query_ip = "49.89.241.84"
-session_key = ""
-whitelist_path = "D:/dayz/DayZServer/whitelist.txt"
-# 记录开服日期，判断今天是开服第几天
-server_start_time = "2023-04-25 00:00:00"
+session_key = ''
 
 def get(url, api, data=None):
     url = url + api
@@ -61,9 +54,9 @@ def post_verify():
         # 获取认证接口
         api = "verify"
         # 填写verifyKey
-        data = {"verifyKey": 1234567890}
+        data = {"verifyKey": configData.data['verifyKey']}
         # 获取认证接口
-        obj = json.loads(post(server_url, api, data))
+        obj = json.loads(post(configData.data['server_url'], api, data))
         if obj["code"] == 0:
             # 保存sessionKey到本地csv文件
             miraiCsv.save_mirai_csv(obj["session"])
@@ -84,8 +77,8 @@ def post_verify():
 bind_fail_count = 0
 def post_bind():
     api = "bind"
-    data = {"sessionKey": session_key, "qq": qq_number}
-    obj = json.loads(post(server_url, api, data, "application/json"))
+    data = {"sessionKey": session_key, "qq": configData.data['qq_number']}
+    obj = json.loads(post(configData.data['server_url'], api, data, "application/json"))
     global bind_fail_count
     bind_fail_count += 1 
     if obj["code"] != 0:
@@ -98,7 +91,7 @@ def post_bind():
 def get_sessionInfo():
     api = "sessionInfo"
     data = {"sessionKey": session_key}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         # session_key = obj["data"]["sessionKey"]
         print("获取会话信息失败", "错误代码:", obj["code"])
@@ -109,7 +102,7 @@ def get_sessionInfo():
 def get_message():
     api = "countMessage"
     data = {"sessionKey": session_key}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("查看消息队列失败", "错误代码:", obj["code"])
     return obj
@@ -119,7 +112,7 @@ def get_message():
 def get_messageById(messageId):
     api = "messageFromId"
     data = {"sessionKey": session_key, "messageId": messageId, "target": 0}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("通过messageId获取消息失败", "错误代码:", obj["code"])
     return obj
@@ -129,7 +122,7 @@ def get_messageById(messageId):
 def get_fetchMessage(num=10):
     api = "fetchMessage"
     data = {"sessionKey": session_key, "count": num}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("获取消息队列头部消息失败", "错误代码:", obj["code"])
     return obj
@@ -142,7 +135,7 @@ def get_messageFilter(data):
     # 判断消息类型
     if obj['type'] == 'GroupMessage': # 群消息
         # 判断是否是指定群
-        if obj['sender']['group']['id'] == qq_group:
+        if obj['sender']['group']['id'] == configData.data['qq_group']:
             # 判断是否是AT
             messageChain = obj['messageChain'] # 消息链
             quoteId = 0
@@ -152,7 +145,7 @@ def get_messageFilter(data):
                     quoteId = i['id']
                 if i['type'] == 'At' :
                     # 判断是否是AT机器人
-                    if i['target'] == qq_number:
+                    if i['target'] == configData.data['qq_number']:
                         boo = True
                         continue
                 if boo: # 是AT机器人
@@ -160,86 +153,97 @@ def get_messageFilter(data):
                     if obj['sender']['permission'] == 'ADMINISTRATOR' or obj['sender']['permission'] == 'OWNER':
                         # 判断是否是管理员指令
                         if i['type'] == 'Plain' and i['text'].find("添加白名单:") != -1:
-                            global whitelist_path
                             # 获取玩家steamid
                             steamid = i['text'].split(':')[1]
                             # 判断steamid长度是否为17位
                             if len(steamid) == 17:
                                 # 添加白名单
-                                msg = loadDayzLog.add_white_list(whitelist_path, steamid)
+                                msg = loadDayzLog.add_white_list("{}/whitelist.txt".format(configData.data['dayz_path']), steamid)
                                 # 回复消息
-                                post_sendMessage(qq_group, msg, quote=quoteId)
+                                post_sendMessage(configData.data['qq_group'], msg, quote=quoteId)
                             else:
                                 # 回复消息
-                                post_sendMessage(qq_group, 'steamid长度不正确', quote=quoteId)
-                            break
-                            
+                                post_sendMessage(configData.data['qq_group'], 'steamid长度不正确', quote=quoteId)
+                            break     
                     # 判断是否是指定消息
-                    if i['type'] == 'Plain' and i['text'] == ' 在线人数':
-                        global server_query_ip
-                        getServerText = test.get_server(server_query_ip)
-                        if getServerText:
+                    if i['type'] == 'Plain':
+                        if i['text'] == ' 在线人数':
+                            getServerText = test.get_server()
+                            if getServerText:
+                                # 回复消息
+                                post_sendMessage(configData.data['qq_group'], getServerText, quote=quoteId)
+                            break
+                        elif i['text'] == ' 我在哪': 
+                            # 获取玩家昵称
+                            playerName = obj['sender']['memberName']
+                            posText = loadDayzLog.get_player_position(playerName)
+                            if posText[1] == '':
+                                post_sendMessage(configData.data['qq_group'], posText[0])
+                            else:
+                                pos = [posText[0].split(',')[0], posText[0].split(',')[1]]
+                                posHour = posText[1].split(':')[0]
+                                posMin = posText[1].split(':')[1]
+                                posTime = posHour + '时' + posMin + '分'
+                                post_sendMessage(configData.data['qq_group'], '{}\n位置：(x:{},y:{})\n时间：{}'.format(playerName, pos[0], pos[1], posTime), quote=quoteId)
+                            break
+                        elif configData.data['question_answer'] == 1:
+                            keyList = list(configData.data.keys())
+                            for q in keyList:
+                                if (q.find('question_') != -1) and (q.find('answer') == -1):
+                                    answerNumber = q.split('_')[1]
+                                    # 判断是否包含关键字
+                                    if i['text'].find(configData.data[q]) != -1:
+                                        # 回复消息
+                                        post_sendMessage(configData.data['qq_group'], configData.data['answer_{}'.format(answerNumber)], quote=quoteId)
+                                        break
+                        else : # 不是任何命令
                             # 回复消息
-                            post_sendMessage(qq_group, getServerText, quote=quoteId)
-                        break
-                    elif i['type'] == 'Plain' and i['text'] == ' 我在哪': 
-                        # 获取玩家昵称
-                        playerName = obj['sender']['memberName']
-                        posText = loadDayzLog.get_player_position(playerName)
-                        if posText[1] == '':
-                            post_sendMessage(qq_group, posText[0])
-                        else:
-                            pos = [posText[0].split(',')[0], posText[0].split(',')[1]]
-                            posHour = posText[1].split(':')[0]
-                            posMin = posText[1].split(':')[1]
-                            posTime = posHour + '时' + posMin + '分'
-                            post_sendMessage(qq_group, '{}\n位置：(x:{},y:{})\n时间：{}'.format(playerName, pos[0], pos[1], posTime), quote=quoteId)
-                        break
-                    elif i['type'] == 'Plain' and i['text'] == ' 如何进服务器':
-                        post_sendMessage(qq_group, "进服务器方法http://dayzguide.qiyonghan.icu/", quote=quoteId)
-                        break
-                    elif i['type'] == 'Plain' and i['text'] == ' 查询命令':
-                        # 回复消息
-                        post_sendMessage(qq_group, '1.在线人数\n2.我在哪\n3.如何进服务器\n', quote=quoteId)
-                        break
-                    else : # 不是任何命令
-                        # 回复消息
-                        post_sendMessage(qq_group, '输入的命令有误,你可以跟我说查询命令,我会告诉你所有的命令', quote=quoteId)
+                            post_sendMessage(configData.data['qq_group'], '输入的命令有误,你可以跟我说查询命令,我会告诉你所有的命令', quote=quoteId)
                 else :# 不是AT机器人 抓取关键字
-                    if i['type'] == 'Plain' and ('进不去' in i['text'] or '连不上' in i['text'] or "ip" in i['text'] or "IP" in i['text']):
-                        # 回复消息
-                        post_sendMessage(qq_group, '进不去就取消收藏,重新直连一次,或者去社区搜索群名。\n直连IP为dayz.qiyonghan.icu,端口为22302')
+                    if i['type'] == 'Plain':
+                        # 判断是否开启了关键字回复
+                        if configData.data['keyword_reply'] == 1:
+                            # 获取关键字回复key
+                            keyList = list(configData.data.keys())
+                            for q in keyList:
+                                if (q.find('keyword_') != -1) and (q.find('reply') == -1):
+                                    replyNum = q.split('_')[1]
+                                    # 判断是否包含关键字
+                                    if i['text'].find(configData.data[q]) != -1:
+                                        # 回复消息
+                                        post_sendMessage(configData.data['qq_group'], configData.data['reply_{}'.format(replyNum)], quote=quoteId)
+                                        break
     # 新人入群事件
     elif obj['type'] == 'MemberJoinEvent':
         # 判断是否是指定群
-        if obj['member']['group']['id'] == qq_group:
+        if obj['member']['group']['id'] == configData.data['qq_group']:
             target_qq = obj['member']['id']
             target_name = obj['member']['memberName']
             # 回复消息
-            post_sendMessage(qq_group, ' 欢迎{}入群! 白名单申请看公告，把steam资料设置全部公开。格式:\nqq:xxxxxxx\nsteamid:xxxxxxxxxxxxxxxx\n游戏昵称:xxx。\n以上面这个格式发送给管理员，管理员审核后会添加的\nsteamid获取方式:\nhttps://www.bilibili.com/video/BV14a411W7gU/\n进服务器方法\nhttp://dayzguide.qiyonghan.icu/'.format(target_name), 'At', target_qq)
+            post_sendMessage(configData.data['qq_group'], configData.data['join_group_message'].format(target_name), 'At', target_qq)
     # 退群事件
     elif obj['type'] == 'MemberLeaveEventQuit':
         # 判断是否是指定群
-        if obj['member']['group']['id'] == qq_group:
+        if obj['member']['group']['id'] == configData.data['qq_group']:
             target_qq = obj['member']['id']
             target_name = obj['member']['memberName']
             # 回复消息
-            post_sendMessage(qq_group, ' {}离开了我们'.format(target_name))
+            post_sendMessage(configData.data['qq_group'], configData.data['leave_group_message'].format(target_name))
     # 申请入群事件
     elif obj['type'] == 'MemberJoinRequestEvent':
         # 判断是否是指定群
-        if obj['groupId'] == qq_group:
+        if obj['groupId'] == configData.data['qq_group']:
             # 获取事件id和申请人qq
             post_handleJoinRequest_eventId = obj['eventId']
             post_handleJoinRequest_qq = obj['fromId']
             # 查询申请人资料
             getMemberInfo = get_qqInfo(post_handleJoinRequest_qq)
             # 等级大于等于20
-            if getMemberInfo['level'] >= 20:
+            if getMemberInfo['level'] >= configData.data['join_group_level']:
                 # 同意申请
-                post_handleJoinRequest(post_handleJoinRequest_eventId, post_handleJoinRequest_qq, qq_group, 0, '')
+                post_handleJoinRequest(post_handleJoinRequest_eventId, post_handleJoinRequest_qq, configData.data['qq_group'], 0, '')
             else:
-                post_handleJoinRequest(post_handleJoinRequest_eventId, post_handleJoinRequest_qq, qq_group, 1, '检测到你的等级小于20，无法加入本群')
+                post_handleJoinRequest(post_handleJoinRequest_eventId, post_handleJoinRequest_qq, configData.data['qq_group'], 1, '检测到你的等级小于{}，无法加入本群'.format(configData.data['join_group_level']))
 
 
 
@@ -248,7 +252,7 @@ def get_messageFilter(data):
 def get_event():
     api = "fetchLatestEvent"
     data = {"sessionKey": session_key}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("事件处理失败", "错误代码:", obj["code"])
     return obj
@@ -264,7 +268,7 @@ def post_uploadGroupFile(group_number, path, file):
         return
     api = "file/upload"
     multipart_encode = MultipartEncoder(fields={'sessionKey': session_key, 'type': 'group', "target": '{}'.format(group_number), "path": "/video", "file": (os.path.basename(file), open(file, 'rb'), 'multipart/form-data')})
-    obj = json.loads(post(server_url, api, multipart_encode, type=multipart_encode.content_type))
+    obj = json.loads(post(configData.data['server_url'], api, multipart_encode, type=multipart_encode.content_type))
     if obj["code"] != 0:
         print("群文件上传失败", "错误代码:", obj["code"])
     return obj
@@ -290,7 +294,7 @@ def post_sendMessage(group, text, text_type="Plain", target=0, quote=0):
         data = {"sessionKey": session_key, "target": group, "messageChain": messageChain}
     else:
         data = {"sessionKey": session_key, "target": group, "messageChain": messageChain, "quote": quote}
-    obj = json.loads(post(server_url, api, data))
+    obj = json.loads(post(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print(obj)
         print("发送消息失败", "错误代码:", obj["code"])
@@ -301,7 +305,7 @@ def post_sendMessage(group, text, text_type="Plain", target=0, quote=0):
 def get_qqInfo(qq):
     api = "userProfile"
     data = {"sessionKey": session_key, "target": qq}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     # 判断obj内是否有level
     if 'level' in obj:
         # 是正确拿到了资料
@@ -321,7 +325,7 @@ def get_qqInfo(qq):
 def post_handleJoinRequest(eventId, fromId, groupId, operate, message=""):
     api = "resp/memberJoinRequestEvent"
     data = {"sessionKey": session_key, "eventId": eventId, "fromId": fromId, "groupId": groupId, "operate": operate, "message": message}
-    obj = json.loads(post(server_url, api, data))
+    obj = json.loads(post(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("处理入群申请失败", "错误代码:", obj["code"])
     return obj
@@ -331,7 +335,7 @@ def post_handleJoinRequest(eventId, fromId, groupId, operate, message=""):
 def get_groupFileList(group):
     api = "file/list"
     data = {"sessionKey": session_key, "id": "", "group": group}
-    obj = json.loads(get(server_url, api, data))
+    obj = json.loads(get(configData.data['server_url'], api, data))
     if obj["code"] != 0:
         print("查看群文件列表失败", "错误代码:", obj["code"])
     return obj
@@ -348,37 +352,39 @@ def post_atAll():
     # 判断是否是开服第一天
     if day == 0:
         # 发送@全体消息
-        post_sendMessage(qq_group, text='http://qiyonghan.icu:40080/images/dayzstrat.jpg', text_type='Image')
-        post_sendMessage(qq_group, text='今天开服，速速上线,{}'.format(test.get_server(server_query_ip)), text_type='AtAll')
+        post_sendMessage(configData.data['qq_group'], text='http://qiyonghan.icu:40080/images/dayzstrat.jpg', text_type='Image')
+        post_sendMessage(configData.data['qq_group'], text='今天开服，速速上线,{}'.format(test.get_server()), text_type='AtAll')
     else:
         # 发送@全体消息
-        post_sendMessage(qq_group, text='今天是开服第{}天,{},兄弟们开冲'.format(day, test.get_server(server_query_ip)), text_type='AtAll')
-        post_sendMessage(qq_group, text='http://qiyonghan.icu:40080/images/dayzstrat.jpg', text_type='Image')
+        post_sendMessage(configData.data['qq_group'], text='今天是开服第{}天,{},兄弟们开冲'.format(day, test.get_server()), text_type='AtAll')
+        post_sendMessage(configData.data['qq_group'], text='http://qiyonghan.icu:40080/images/dayzstrat.jpg', text_type='Image')
 
 
 # @全体成员参与活动
 def post_atAllActivity():
     # 发送@全体消息
-    post_sendMessage(qq_group, text='开服活动！\n赢取奖励，从此快人一步！除了倒数第一，每人送三个个密码锁！\n其余奖励看公告，九点钟开始，报名联系@小王', text_type='AtAll')
+    post_sendMessage(configData.data['qq_group'], text='开服活动！\n赢取奖励，从此快人一步！除了倒数第一，每人送三个个密码锁！\n其余奖励看公告，九点钟开始，报名联系@小王', text_type='AtAll')
 
 
 # 发送每日新闻
 def post_news():
     img = test.get_news()
-    post_sendMessage(qq_group, text=img, text_type='Image')
+    post_sendMessage(configData.data['qq_group'], text=img, text_type='Image')
 
 
 # 发送服务器规则
 def post_rule():
-    text='服务器规则\n(一)建造规则:\n1:海边城市内禁止三人以上队伍建家，三人以上必须去内陆建家，海边一千五百米都算是海边城市。\n2:一个队伍只允许在一处建筑建造基地，建造基地只能在自己所属基地添加建筑，不能堵周围通道和建筑。\n3:不允许在饮水点，军营，重要物资点建造建筑或封锁通道。大型资源点禁止建家。\n4.不允许在路上建家，发现违规可以联系群主删除违规建筑\n(二)突袭规则:\n1:拆家突袭时间为每周五19:00-周日22:00，以及所有的国家法定节假日。如果正在突袭过程中的一方进入对方基地，以最后突袭时间为准。\n2:拆除基地后，请带走自己需要的资源，如有不需要的资源，不允许恶意毁坏或者扬空他人基地物资。\n3:禁止拆除基地后从他人基地下线。如果上线后发现自己所处位置被建造成基地，请联系管理员拉出，禁止进行破坏。\n4:禁止使用一切卡BUG手段拆家或进入他人基地偷东西;不得利用自由建造机制无限叠瞭望塔进入他人基地。(可以造到官方设置的高度)\n5:小队与小队之间禁止合家，结盟拆家，以及超过五人的结盟战斗且通过人数建立不平衡优势的行为。\n6:在完全占领他人基地之前，禁止给他人基地上锁，换锁或者加门。\n(三)录屏规则:\n1:杀人必须录屏，需要录制最短五分钟的视频，从击杀那一刻往前推，五分钟的视频，录屏是回放式录制，不会影响正常游戏体验，杀完人按快捷键保存即可。谁杀人谁录制，不允许一队只有一人开录制，必须人人打开，谁杀谁录。\n2：拆家必须提前打开录制，录完整个拆家视频，从进去到出来的那一刻。\n3：被其他玩家击杀后，可以在半小时内要求群主帮忙查录屏，超出半小时则无法要求击杀者提供视频。\n4：如果击杀者在被要求拿出录屏的时候无法给出，会被记录没有录屏。每个人有两次机会因为各种因素导致的给不出录屏，第三次给不出会直接永久ban掉。\n录屏教程：\n如果你是Nvidia显卡用户，可以使用英伟达自带的驱动录制，录制方法如视频教程:https://www.bilibili.com/video/BV1zS4y1G7QA/\n如果你是其他显卡，可以使用OBS软件进行录制，录制方法教程如视频：https://www.bilibili.com/video/BV1QQ4y1h7Ru/\n(四）其他规则:\n1:禁止利用游戏机制中的漏洞来获得不公平的优势，在夜晚使用NVIDIA滤镜效果等。\n2:禁止任何性质的人身虐待、淫秽、骚扰、威胁、仇恨、种族歧视、同性歧视或诽谤言论;群内故意制造争端引起争吵也是不允许的。\n3:请勿在游戏群中点名违规者或作弊者，如果问题请私聊管理员处理。\n加入Public dayz服务器，即表示您同意我们的规则，规则将不定期更新。违反以上规定者视严重程度处3-7天甚至永久封禁。\n如果您退出了QQ群聊，即代表您放弃了白名单使用权。为防止作弊和违规行为的脱管，我们会对您的白名单进行收回。最后更新于:2023年4月27日'
-    post_sendMessage(qq_group, text=text)
+    text=configData.data['time_message']
+    post_sendMessage(configData.data['qq_group'], text=text)
 
 # 入口函数
 def main():
+    # 读取配置文件 初始化配置数据
+    configData.read_config()
     # 获取认证接口
     post_verify()
     # 每隔三小时发一次公告
-    schedule.every(4).hours.do(post_rule)
+    schedule.every(configData.data['time_message_interval']).hours.do(post_rule)
     # 每晚@全体成员
     # schedule.every().day.at("19:30").do(post_atAll)
     schedule.every().day.at("20:30").do(post_atAll)
@@ -400,10 +406,10 @@ def main():
                 print('获取消息队列头部消息失败', '错误代码:', fetchMessageObj['code'])
 
         # 每秒检测一次本地的dayz服务器日志
-        deadMessage = loadDayzLog.read_adm_log_txt('D:/dayz/DayZServer/Profiles/0/DayZServer_x64.ADM')
+        deadMessage = loadDayzLog.read_adm_log_txt('{}Profiles/0/DayZServer_x64.ADM'.format(configData.data['dayz_path']))
         # 判断是否有死亡消息
         if deadMessage :
-            post_sendMessage(qq_group, deadMessage)
+            post_sendMessage(configData.data['qq_group'], deadMessage)
         time.sleep(1)
 
 

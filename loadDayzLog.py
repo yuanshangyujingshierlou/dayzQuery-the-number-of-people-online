@@ -4,9 +4,10 @@ from datetime import datetime,timedelta
 import shutil
 import testHash
 import psutil
+import configData
 import deadPlayerData
 # 服务器日志文件夹路径
-dayz_server_log_dir_path = 'D:/dayz/DayZServer/Profiles/0'
+# dayz_server_log_dir_path = '{}/Profiles/0'.format(configData.data['dayz_path'])
 
 # 读取服务器的adm文件 返回在线玩家人数和时间
 def read_dayz_log_txt(path):
@@ -65,7 +66,7 @@ def copy_and_rename_file(src_path, dst_path):
 # 获取离当前时间最近的在线玩家人数 返回在线人数和时间
 def get_latest_player_count():
 # 保存离当前时间最近的时间戳和在线玩家人数
-    text = read_dayz_log_txt('D:/dayz/DayZServer/Profiles/0/DayZServer_x64.ADM')
+    text = read_dayz_log_txt('{}/Profiles/0/DayZServer_x64.ADM'.format(configData.data['dayz_path']))
     if text == '':
         return "", ""
     nearest_player_count = int(text.split('log:')[1].split(' ')[1])
@@ -74,7 +75,7 @@ def get_latest_player_count():
 
 # 获取要查询的玩家的最近的一条坐标信息 传入日志最近的一条 返回坐标信息和时间
 def get_player_position(player_name):
-    text = read_player_location('D:/dayz/DayZServer/Profiles/0/DayZServer_x64.ADM', player_name)
+    text = read_player_location('{}/Profiles/0/DayZServer_x64.ADM'.format(configData.data['dayz_path']), player_name)
     if text == '未查询到你的信息，请确保你已经在线，并且群昵称是你的游戏昵称！':
         return text, ""
     nearest_player_position = text.split('pos=<')[1].split('>)')[0]
@@ -102,7 +103,7 @@ def change_server_player_count(player_count:int):
     # 修改成string
     player_count = str(player_count)
     # 修改本地的txt文件
-    write_dayz_log_txt('D:/dayz/DayZServer/dzfake.txt', player_count)
+    write_dayz_log_txt('{}/dzfake.txt'.format(configData.data['dayz_path']), player_count)
 
 
 # 把死亡的玩家信息记录下来

@@ -7,10 +7,10 @@ import querySteam
 
 # 查询服务器在线人数和状态
 # 暂存这次获取的随机数值 因为日志不一定更新
-def get_server(ip):
+def get_server():
     is_online = loadDayzLog.is_process_running("DayZServer_x64.exe")
     if is_online:
-        playInfo = querySteam.get_server(ip)
+        playInfo = querySteam.get_server()
         if playInfo == {}:
             return "请求错误，请稍后重试"
         # 人数波动 在夜里1点之后加虚假人数 1-3 第二天早上8点之前不加虚假人数 8点之后加虚假人数 5-8随机
