@@ -3,7 +3,7 @@ import time
 import requests
 import shutil
 
-url = 'https://v.api.aa1.cn/api/api-girl-11-02/index.php?type=json'
+url = 'https://tucdn.wpon.cn/api-girl/index.php?wpon=json'
 meinv_number = 100
 # 请求随机美女链接
 def get_meinv_url():
@@ -33,8 +33,7 @@ def download_meinv():
             f.write(r.content)
         # 下载成功一次记录一次
         with open('meinv.cfg', 'a') as f:
-            f.readline
             f.write(filename + '\n')
-        return 'C:/test/dayz_miraiBot/meinv/{}.mp4'.format(filename)
+        return 'D:/dayz/dayz_miraiBot/meinv/{}.mp4'.format(filename)
     except Exception as e:
         return None
