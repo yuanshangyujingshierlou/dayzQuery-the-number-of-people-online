@@ -187,9 +187,7 @@ def get_messageFilter(data):
                                 posHour = posText[1].split(':')[0]
                                 posMin = posText[1].split(':')[1]
                                 posTime = posHour + '时' + posMin + '分'
-                                post_sendMessage(configData.data['qq_group'],
-                                                 '{}\n位置：(x:{},y:{})\n时间：{}'.format(playerName, pos[0], pos[1],
-                                                                                        posTime), quote=quoteId)
+                                post_sendMessage(configData.data['qq_group'],'{}\n位置：(x:{},y:{})\n时间：{}'.format(playerName, pos[0], pos[1],posTime), quote=quoteId)
                             break
                         elif configData.data['question_answer'] == 1:
                             keyList = list(configData.data.keys())
@@ -199,14 +197,9 @@ def get_messageFilter(data):
                                     # 判断是否包含关键字
                                     if i['text'].find(configData.data[q]) != -1:
                                         # 回复消息
-                                        post_sendMessage(configData.data['qq_group'],
-                                                         configData.data['answer_{}'.format(answerNumber)],
-                                                         quote=quoteId)
-                                        break
-                        else:  # 不是任何命令
-                            # 回复消息
-                            post_sendMessage(configData.data['qq_group'],
-                                             '输入的命令有误,你可以跟我说查询命令,我会告诉你所有的命令', quote=quoteId)
+                                        post_sendMessage(configData.data['qq_group'],configData.data['answer_{}'.format(answerNumber)],quote=quoteId)
+                                        return
+                        post_sendMessage(configData.data['qq_group'],'输入的命令有误,你可以跟我说查询命令,我会告诉你所有的命令', quote=quoteId)
                 else:  # 不是AT机器人 抓取关键字
                     if i['type'] == 'Plain':
                         # 判断是否开启了关键字回复
