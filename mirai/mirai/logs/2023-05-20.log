@@ -1,0 +1,523 @@
+2023-05-20 17:16:44 I/main: Starting mirai-console...
+2023-05-20 17:16:44 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 17:16:44 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 17:16:44 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 17:16:44 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 17:16:45 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 17:16:45 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 17:16:45 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 17:16:45 I/Mirai HTTP API: ********************************************************
+2023-05-20 17:16:45 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 17:16:45 I/MahKtorAdapter[http]: Application started in 0.111 seconds.
+2023-05-20 17:16:45 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 17:16:45 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 17:16:45 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 17:16:45 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-05-20 17:16:46 I/Bot.270488994: Loaded account secrets from local cache.
+2023-05-20 17:16:47 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-05-20 17:16:47 I/Bot.270488994: Login successful.
+2023-05-20 18:23:28 I/main: Starting mirai-console...
+2023-05-20 18:23:28 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:23:28 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:23:28 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:23:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:23:29 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:23:29 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:23:29 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:23:29 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:23:29 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:23:29 I/MahKtorAdapter[http]: Application started in 0.096 seconds.
+2023-05-20 18:23:29 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:23:29 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:23:29 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:23:29 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-05-20 18:23:30 I/Bot.270488994: Loaded account secrets from local cache.
+2023-05-20 18:23:30 I/Bot.270488994: Saved account secrets to local cache for fast login.
+2023-05-20 18:23:30 I/Bot.270488994: Login successful.
+2023-05-20 18:23:40 V/Bot.270488994: Event: BotOnlineEvent(bot=Bot(270488994))
+2023-05-20 18:23:40 I/Bot.270488994: Bot login successful.
+2023-05-20 18:23:40 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Success@5a4c98d7
+2023-05-20 18:23:40 I/main: 1 plugin(s) enabled.
+2023-05-20 18:23:40 I/main: mirai-console started successfully.
+2023-05-20 18:37:28 I/main: Starting mirai-console...
+2023-05-20 18:37:28 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:37:28 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:37:28 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:37:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:37:28 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:37:28 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:37:29 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:37:29 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:37:29 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:37:29 I/MahKtorAdapter[http]: Application started in 0.098 seconds.
+2023-05-20 18:37:29 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:29 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:29 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:37:29 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-05-20 18:37:30 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\25025\AppData\Local\Temp\mirai-qrcode-270488994-168457905014467372366544583849.png
+2023-05-20 18:37:30 I/QRLoginSolver: 等待扫描二维码中
+2023-05-20 18:37:32 I/QRLoginSolver: 用户主动取消登录
+2023-05-20 18:37:32 E/QRLogin: java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@7806d028) was already resumed
+java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@7806d028) was already resumed
+	at net.mamoe.mirai.internal.network.auth.LatchImpl.resumeWith(Latch.kt:46)
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.expectMore(CoroutineOnDemandValueScope.kt:189)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.actMethodFailed(AuthControl.kt:109)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:254)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:32 I/Bot.270488994: Bot cancelled: Bot closed
+2023-05-20 18:37:32 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Failure@d969452
+2023-05-20 18:37:32 I/main: 1 plugin(s) enabled.
+2023-05-20 18:37:32 I/main: mirai-console started successfully.
+2023-05-20 18:37:53 I/main: Starting mirai-console...
+2023-05-20 18:37:53 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:37:53 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:37:53 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:37:53 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:37:54 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:37:54 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:37:54 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:37:54 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:37:54 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:37:55 I/MahKtorAdapter[http]: Application started in 0.099 seconds.
+2023-05-20 18:37:55 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:55 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:55 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:37:55 I/QRLogin: Auto-login 270488994, protocol: ANDROID_WATCH, heartbeatStrategy: STAT_HB
+2023-05-20 18:37:56 I/QRLoginSolver: 将会在弹出窗口显示二维码图片，请在相似网络环境下使用手机QQ扫码登录。若看不清图片，请查看文件 C:\Users\25025\AppData\Local\Temp\mirai-qrcode-270488994-168457907613528328920999172170.png
+2023-05-20 18:37:56 I/QRLoginSolver: 等待扫描二维码中
+2023-05-20 18:37:57 I/QRLoginSolver: 用户主动取消登录
+2023-05-20 18:37:57 E/QRLogin: java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@1d69cc54) was already resumed
+java.lang.IllegalStateException: LatchImpl(CompletableDeferredImpl{Cancelled}@1d69cc54) was already resumed
+	at net.mamoe.mirai.internal.network.auth.LatchImpl.resumeWith(Latch.kt:46)
+	at net.mamoe.mirai.internal.network.auth.CoroutineOnDemandValueScope.expectMore(CoroutineOnDemandValueScope.kt:189)
+	at net.mamoe.mirai.internal.network.auth.AuthControl.actMethodFailed(AuthControl.kt:109)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:254)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:37:57 I/Bot.270488994: Bot cancelled: Bot closed
+2023-05-20 18:37:57 V/Bot.270488994: Event: net.mamoe.mirai.console.events.AutoLoginEvent$Failure@56e5c8fb
+2023-05-20 18:37:57 I/main: 1 plugin(s) enabled.
+2023-05-20 18:37:57 I/main: mirai-console started successfully.
+2023-05-20 18:38:17 I/main: Starting mirai-console...
+2023-05-20 18:38:17 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:38:17 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:38:17 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:38:17 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:38:18 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:38:18 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:38:18 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:38:18 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:38:18 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:38:18 I/MahKtorAdapter[http]: Application started in 0.095 seconds.
+2023-05-20 18:38:18 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:38:18 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:38:18 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:38:18 I/main: 1 plugin(s) enabled.
+2023-05-20 18:38:18 I/main: mirai-console started successfully.
+2023-05-20 18:38:46 I/main: Starting mirai-console...
+2023-05-20 18:38:46 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:38:46 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:38:46 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:38:46 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:38:46 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:38:46 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:38:47 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:38:47 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:38:47 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:38:47 I/MahKtorAdapter[http]: Application started in 0.097 seconds.
+2023-05-20 18:38:47 E/mirai-api-http: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine is cancelling; job=LazyStandaloneCoroutine{Cancelling}@19662208
+Caused by: java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:38:47 E/MahKtorAdapter[http]: java.net.BindException: Cannot assign requested address: bind
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.ConnectUtilsJvmKt.bind(ConnectUtilsJvm.kt:35)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:45)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind(TcpSocketBuilder.kt:29)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.network.sockets.TcpSocketBuilder.bind$default(TcpSocketBuilder.kt:25)
+	at mirai-api-http-2.9.1.mirai2.jar[shared]//io.ktor.server.cio.backend.HttpServerKt$httpServer$acceptJob$1.invokeSuspend(HttpServer.kt:48)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+
+2023-05-20 18:38:47 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:38:47 I/main: 1 plugin(s) enabled.
+2023-05-20 18:38:47 I/main: mirai-console started successfully.
+2023-05-20 18:39:09 I/main: Starting mirai-console...
+2023-05-20 18:39:09 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:39:09 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:39:09 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:39:09 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:39:10 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:39:10 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:39:10 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:39:10 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-05-20 18:39:10 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:39:10 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:39:10 I/MahKtorAdapter[http]: Application started in 0.092 seconds.
+2023-05-20 18:39:10 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-05-20 18:39:10 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-05-20 18:39:10 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYKODqTaOs
+2023-05-20 18:39:10 I/Mirai HTTP API: adaptors: [http]
+2023-05-20 18:39:10 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:39:10 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:39:10 I/main: 2 plugin(s) enabled.
+2023-05-20 18:39:10 I/main: mirai-console started successfully.
+2023-05-20 18:39:23 I/main: Starting mirai-console...
+2023-05-20 18:39:23 I/main: 
+
+=================================[ Mirai console 2.15.0-M1 ]==================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-05-20 18:39:23 I/main: Backend: version 2.15.0-M1, built on 2023-03-21 22:16:35.
+2023-05-20 18:39:23 I/main: Frontend Terminal: version 2.15.0-M1, provided by Mamoe Technologies
+2023-05-20 18:39:23 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-05-20 18:39:24 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-05-20 18:39:24 I/plugin: Successfully loaded plugin QRLogin v0.1.2
+2023-05-20 18:39:24 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-05-20 18:39:24 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-05-20 18:39:24 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:39:24 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-05-20 18:39:24 I/MahKtorAdapter[http]: Application started in 0.09 seconds.
+2023-05-20 18:39:24 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-05-20 18:39:24 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-05-20 18:39:24 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYKODqTaOs
+2023-05-20 18:39:24 I/Mirai HTTP API: adaptors: [http]
+2023-05-20 18:39:24 I/Mirai HTTP API: ********************************************************
+2023-05-20 18:39:24 W/QRLogin: 本插件仅在 2.15.0 或以上工作，且在正式版或先行发布版(RC)中可能无法使用
+2023-05-20 18:39:24 I/main: 2 plugin(s) enabled.
+2023-05-20 18:39:24 I/main: mirai-console started successfully.
