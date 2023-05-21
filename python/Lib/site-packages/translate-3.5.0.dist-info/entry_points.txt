@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        translate-cli=translate.__main__:cli
+    

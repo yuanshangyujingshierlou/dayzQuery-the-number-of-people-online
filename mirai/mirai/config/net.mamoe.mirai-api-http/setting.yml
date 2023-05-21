@@ -15,7 +15,7 @@ adapterSettings:
   http:
       ## http server 监听的本地地址
       ## 一般为 localhost 即可, 如果多网卡等情况，自定设置
-      host: 192.168.50.198
+      host: 127.0.0.1
 
       ## http server 监听的端口
       ## 与 websocket server 可以重复, 由于协议与路径不同, 不会产生冲突
