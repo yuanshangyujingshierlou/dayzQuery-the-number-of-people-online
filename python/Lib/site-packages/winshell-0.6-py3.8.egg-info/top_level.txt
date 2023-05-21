@@ -1,2 +1,0 @@
-__winshell_version__
-winshell
